@@ -21,7 +21,7 @@ The SINT v2.2 framework is a methodology for structured analysis of complex task
 - `README.md` — Project overview and citation guidelines  
 - `LICENSE` — MIT License file  
 
-> **Note:** This is the initial pre-release with core documentation. Full paper PDFs (Russian and English versions), LaTeX sources, and example files (prompts, SINT-Code samples) will be added in upcoming releases. Intermediate compilation files are not included to maintain repository simplicity.
+> **Note:** This is the initial pre-release with core documentation. Full paper PDFs (Russian and English versions), and example files (prompts, SINT-Code samples) will be added in upcoming releases. Intermediate compilation files are not included to maintain repository simplicity.
 
 ---
 
