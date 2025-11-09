@@ -1,0 +1,18 @@
+# Исключить всё, кроме нужных файлов
+* export-ignore
+
+# Включить только нужные файлы
+SINT_EN.pdf export-ignore
+!SINT_EN.pdf
+SINT_RU.pdf export-ignore
+!SINT_RU.pdf
+SINT_EN.tex export-ignore
+!SINT_EN.tex
+SINT_RU.tex export-ignore
+!SINT_RU.tex
+refs.bib export-ignore
+!refs.bib
+LICENSE export-ignore
+!LICENSE
+README.md export-ignore
+!README.md
