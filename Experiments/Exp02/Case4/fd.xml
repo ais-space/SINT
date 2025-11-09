@@ -1,0 +1,14 @@
+<SINT_Prompt_Task>
+<Objective>Use Generator+Critic to produce a robust application security review protocol tailored to LLM-based systems processing PII and proprietary data.</Objective>
+<Context>
+1. Threat models: prompt injection, data exfiltration, misuse.
+2. Logging/redaction, access control, human override, auditability.
+3. English-only; PCG + ratings.
+4. Gates, test cases, rollback must be explicit.
+5. Dual Output + Verification required.
+</Context>
+<Consultants><Agent id="G" focus="AppSec Architecture"/><Agent id="C" focus="Compliance and Risk"/></Consultants>
+<Methodology>Generator + External Critic (N=2) with feedback and mandatory corrections.</Methodology>
+<Finalization_Protocol>Numeric ratings; feedback cycles; strict XML; PCG + MSV; dual output; document gates/rollback.</Finalization_Protocol>
+<Verification>Checks and meta as standard.</Verification>
+</SINT_Prompt_Task>

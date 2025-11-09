@@ -1,0 +1,59 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) PCG required; INVALID if not referenced to Objective/Context; self-correct next.
+3) No citation of pre-baked heuristics; prioritize synthesis.
+4) Dual Output + Verification Report are mandatory.
+5) MSV: stop on contradictions/impossibilities.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Design a debate to integrate contributor growth, long-term funding, and stability guarantees into a cohesive sustainability roadmap for an open-source ML core library.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Governance and BC stability; 2. Contributor growth and DX; 3. Funding tiers and grants; 4. LTS/RFC options; 5. PCG, Dual Output, ratings required.]]></key_facts>
+<source_data><![CDATA[Project policies, RFC processes, sponsor expectations, maintenance reports.]]></source_data>
+</Context>
+<Methodology>
+Debates (N=3) with Step 3B (Consensus). Integrate and prioritize without criticism.
+</Methodology>
+<Consultants>
+<Agent id="A1" focus="Governance and Policy"/>
+<Agent id="A2" focus="Developer Ecosystem"/>
+<Agent id="A3" focus="Financial Sustainability"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: MSV validation.
+Step 1: Initial positions (2 sentences).
+Step 2: Divergence Ratings; if any < 3 -> 3A else 3B.
+Step 3B: Integration and prioritization only; PCG enforced.
+Step 4: Directly proceed to Step 5 in consensus scenario.
+Step 4.5: Extract PCG-valid prioritized actions with attributes source and consultant.
+Step 5: Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200"/>
+<three_bullets/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Provide integrated, prioritized roadmap with measurable targets and BC guarantees.
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-2</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

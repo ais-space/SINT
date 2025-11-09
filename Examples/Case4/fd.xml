@@ -1,0 +1,152 @@
+<SINT_Prompt_Task>
+<Objective>Evaluate the epistemic validity and reliability of scientific consensus as a knowledge-production mechanism through dual-perspective independent generation followed by rigorous external Socratic critique, producing an integrated epistemic framework with measurable validity conditions</Objective>
+<Language>english</Language>
+<Dynamics vs_enabled="true" mode="two_generators_external_critic" no_mutual_interaction="true" min_positions_per_generator="3"/>
+<Context>
+<Fact id="1">Scientific consensus definitions range from overwhelming expert agreement (97%+ on anthropogenic climate change) to working agreements with substantial dissent (nutrition science, early-stage pandemic response)</Fact>
+<Fact id="2">Historical cases of premature consensus later overturned include continental drift rejection pre-1960s, ulcer bacterial causation pre-1980s, and heliocentric resistance demonstrating consensus fallibility</Fact>
+<Fact id="3">Sociological research documents consensus formation mechanisms including bandwagon effects, funding incentive alignment, and institutional prestige hierarchies beyond pure empirical convergence</Fact>
+<Fact id="4">Philosophical debates span empiricist accounts (consensus tracks truth through evidence accumulation) versus social constructivist accounts (consensus constitutes accepted truth through community agreement)</Fact>
+<Fact id="5">Contemporary challenges to scientific authority include motivated skepticism and expertise devaluation affecting public trust in consensus-based knowledge claims</Fact>
+</Context>
+<Consultants count="2">
+<Agent id="A1" role="Expert Generator - Empirical Robustness Theorist">
+<Focus>Scientific consensus validity through empirical evidence accumulation, reproducibility, predictive success, and methodological quality as consensus drivers</Focus>
+<GenerationRequirements>Independently generate minimum 3 distinct positions on consensus epistemic validity emphasizing empirical grounding. NO interaction with A2, NO mutual criticism, NO debate</GenerationRequirements>
+<ExpectedPositions>
+<Position type="strong_empiricist_thesis">Consensus reliably tracks objective truth when grounded in converging independent lines of evidence</Position>
+<Position type="qualified_empiricism">Consensus validity contingent on methodological quality and replication rates</Position>
+<Position type="domain_specific_empiricism">Consensus reliability varies by field characteristics (physics high reliability, nutrition science lower)</Position>
+</ExpectedPositions>
+<Style>empirical-analyst: Focus on evidence convergence, reproducibility metrics, predictive accuracy. Use phrases like "Multiple independent lines of evidence converge on..." and "Replication rates determine consensus robustness"</Style>
+<AnalyticalTools>Case study analysis (historical consensus successes/failures), reproducibility studies, predictive validation metrics, domain-specific methodological assessments</AnalyticalTools>
+<OutputRequirements>Each position must include: explicit thesis (max 2 sentences), supporting arguments grounded in Context facts (3-5 evidence points), numerical confidence rating (1-10), case study illustration</OutputRequirements>
+</Agent>
+<Agent id="A2" role="Expert Generator - Social-Pragmatic Constructivist">
+<Focus>Scientific consensus validity through social negotiation, pragmatic utility, institutional dynamics, and community coherence as consensus drivers</Focus>
+<GenerationRequirements>Independently generate minimum 3 distinct positions on consensus epistemic validity emphasizing social-pragmatic factors. NO interaction with A1, NO mutual criticism, NO debate</GenerationRequirements>
+<ExpectedPositions>
+<Position type="strong_constructivism">Consensus reflects social agreement rather than mind-independent truth, validity derived from community coherence</Position>
+<Position type="pragmatic_instrumentalism">Consensus validity measured by practical utility and problem-solving capacity rather than truth-correspondence</Position>
+<Position type="critical_realism_synthesis">Consensus combines empirical constraint with social construction, validity assessed through sustained success across contexts</Position>
+</ExpectedPositions>
+<Style>social-pragmatist: Focus on community dynamics, practical utility, institutional factors. Use phrases like "Consensus validity emerges from sustained pragmatic success" and "Social processes mediate empirical constraints"</Style>
+<AnalyticalTools>Sociology of science analysis, pragmatic success metrics, institutional dynamics assessment, community coherence evaluation, historical case analysis</AnalyticalTools>
+<OutputRequirements>Each position must include: explicit thesis (max 2 sentences), supporting arguments grounded in Context facts (3-5 evidence points), numerical confidence rating (1-10), case study illustration</OutputRequirements>
+</Agent>
+</Consultants>
+<Methodology mode="two_generators_external_critic" agent_count="2">
+<Rationale>Objective requires evaluation of fundamentally opposing epistemological frameworks (empiricism vs. constructivism) but aims for systematic audit and integration rather than adversarial debate. N=2 generators produce independent analyses without mutual interaction, followed by External Critic performing neutral assessment and synthesis pathway identification</Rationale>
+<GenerationStructure no_mutual_interaction="true">
+<Phase id="1" type="independent_generation">
+<Description>A1 and A2 generate positions in parallel without awareness of each other's output. No debate, no mutual ratings, no cross-criticism</Description>
+<A1_Generation>Produce minimum 3 positions on consensus epistemic validity from empiricist perspective, each with thesis, evidence, confidence rating (1-10), case study</A1_Generation>
+<A2_Generation>Produce minimum 3 positions on consensus epistemic validity from constructivist perspective, each with thesis, evidence, confidence rating (1-10), case study</A2_Generation>
+<ProbabilityIntegration vs_enabled="true">Each position includes subjective probability estimate (0-1) for validity with justification (e.g., "p=0.4, typical for strong empiricism but vulnerable to historical counterexamples from fact_2")</ProbabilityIntegration>
+</Phase>
+<Phase id="2" type="external_critique">
+<Description>After independent generation complete, activate External Critic as separate analytical module (not third agent) performing neutral systematic audit of both A1 and A2 positions</Description>
+<CriticRole>Socratic-auditor: Neutral referee asking probing questions, identifying logical gaps, checking PCG compliance, detecting biases, proposing synthesis pathways. NOT mediating debate (no debate occurred)</CriticRole>
+<CriticStyle>neutral-auditor: Emulate Socratic referee with questions like "What grounds this in fact_N?" and "Counterfactual: if assumption X fails, how does position Y hold?" Adapt to english language</CriticStyle>
+<CriticTasks>
+<Task type="socratic_questioning">Generate probing questions for each of 6+ positions targeting logical gaps and empirical weaknesses</Task>
+<Task type="pcg_compliance_audit">Verify each position references Context facts, identify ungrounded claims</Task>
+<Task type="dimensional_rating">Rate each position on PCG Compliance (1-10), Logical Coherence (1-10), Empirical Support (1-10)</Task>
+<Task type="strength_identification">Identify strongest position from each generator (rate 8+/10 overall)</Task>
+<Task type="weakness_identification">Identify weakest claims requiring revision (rate 1-4/10 on specific dimension)</Task>
+<Task type="synthesis_recommendations">Propose 1-2 integration pathways combining A1 empirical strengths with A2 social-process insights</Task>
+</CriticTasks>
+</Phase>
+<Phase id="3" type="synthesis_integration">
+<Description>Generate final integrated epistemic framework based on External Critic recommendations, synthesizing strongest elements from both generators</Description>
+<IntegrationRequirements>Combine empiricist and constructivist insights, specify measurable consensus validity conditions, address practical implications for science communication</IntegrationRequirements>
+</Phase>
+</GenerationStructure>
+<TerminationCriterion>Process completes after External Critic audit and synthesis integration. No iterative rounds. Single-pass: Generation → Critique → Synthesis</TerminationCriterion>
+</Methodology>
+<AnalyticalRequirements>
+<Requirement id="R1" type="independent_generation_specifications">
+<Description>A1 and A2 each produce minimum 3 distinct positions (total 6+) with standardized components</Description>
+<Components>
+<Component name="Explicit Thesis">Maximum 2 sentences stating core claim about consensus epistemic validity</Component>
+<Component name="Supporting Arguments">3-5 specific evidence points grounded in Context facts</Component>
+<Component name="Confidence Rating">Numerical rating 1-10 for position validity</Component>
+<Component name="Probability Estimate">Subjective probability 0-1 with justification (e.g., "p=0.3, grounded in fact_2 but atypical")</Component>
+<Component name="Case Study">Historical or contemporary scientific consensus example illustrating position</Component>
+</Components>
+</Requirement>
+<Requirement id="R2" type="external_critique_protocol">
+<Description>Systematic audit of all generated positions through Socratic questioning and multi-dimensional assessment</Description>
+<SocraticQuestions>
+<QuestionSet target="A1_empirical_positions">
+<Question>What specific empirical grounding from Context facts supports the claim that consensus tracks truth in domain X?</Question>
+<Question>Counterfactual test: If historical cases of overturned consensus (continental drift, ulcer causation) are typical rather than exceptional, how does this affect strong empiricist thesis validity?</Question>
+<Question>PCG check: Does the claim about reproducibility rates reference actual metrics, or is this an undeclared assumption?</Question>
+</QuestionSet>
+<QuestionSet target="A2_constructivist_positions">
+<Question>How does pragmatic instrumentalism position handle cases where consensus proves pragmatically successful (GPS requiring relativity) - does this success constitute evidence for truth-tracking?</Question>
+<Question>Bias detection: Does strong constructivism position conflate epistemic validity with social process description?</Question>
+<Question>Integration question: Can critical realism synthesis specify measurable criteria for distinguishing empirical constraint from social construction components?</Question>
+</QuestionSet>
+</SocraticQuestions>
+<DimensionalRatings>
+<Dimension name="PCG Compliance" scale="1-10">Grounding in Context facts, no invented evidence</Dimension>
+<Dimension name="Logical Coherence" scale="1-10">Internal consistency, counterfactual robustness</Dimension>
+<Dimension name="Empirical Support" scale="1-10">Specific evidence citation quality</Dimension>
+</DimensionalRatings>
+</Requirement>
+<Requirement id="R3" type="feedback_loop_documentation">
+<Description>Comprehensive documentation of critique-driven refinement process</Description>
+<FeedbackComponents>
+<Component name="Revision Targets">Positions rated 1-4/10 on specific dimensions requiring strengthening</Component>
+<Component name="Integration Opportunities">Cross-comparison identifying complementarities between A1 and A2 insights</Component>
+<Component name="Synthesis Pathways">1-2 proposed frameworks combining strongest elements from both generators</Component>
+</FeedbackComponents>
+</Requirement>
+</AnalyticalRequirements>
+<FinalizationProtocol>
+<OutputFormat root_tag="OutputFormat" strict_prohibition="NEVER wrap final public output in SINT_Prompt tag">
+<ExecutiveSummary max_length="one_line_plus_three_bullets" language="english">
+<Constraint>Reflect key epistemic framework conclusion integrating empiricist and constructivist insights</Constraint>
+</ExecutiveSummary>
+<SynthesizedConclusion length="3000-4500_words" language="english" style="objective_analytical">
+<MandatoryComponents>
+<Component name="full_position_archive">All 6+ generated positions from A1 and A2 with theses, evidence, confidence ratings, probability estimates, case studies</Component>
+<Component name="external_critic_audit">Complete audit report with Socratic questions for each position, PCG checks, dimensional ratings (PCG Compliance, Logical Coherence, Empirical Support)</Component>
+<Component name="strength_weakness_analysis">Identification of strongest positions (8+/10) and weakest claims (1-4/10) from each generator</Component>
+<Component name="integrated_epistemic_framework">Synthesis of empiricist and constructivist insights combining strongest elements from both perspectives</Component>
+<Component name="consensus_validity_conditions">Measurable criteria specifying when scientific consensus has epistemic authority</Component>
+<Component name="meta_epistemological_conclusion">Assessment of consensus as knowledge-production mechanism with scope and limitations</Component>
+<Component name="practical_implications">Applications for science communication, public trust, and expertise authority</Component>
+<Component name="feedback_loop_documentation">Complete record showing critic-driven refinement recommendations and synthesis pathway development</Component>
+</MandatoryComponents>
+</SynthesizedConclusion>
+<ExternalCritiqueLog verbose="true" narrative_style="socratic_analytical" language="english">
+<Description>Full External Critic audit with Socratic questions, dimensional ratings, strength/weakness identification, synthesis recommendations. NOT debate mediation (no debate occurred)</Description>
+<LogStructure>Include Critic questions in engaging Socratic form (e.g., "External Critic: Position A1.1 is strong on fact_2 convergence (PCG 9/10), but vulnerable to counterfactual: what if continental drift pattern is typical? Logical Coherence 6/10. Position A2.2 offers pragmatic success criterion (Logical Coherence 8/10) but needs empirical grounding specification. Integration pathway: combine A1 evidence convergence with A2 pragmatic validation...")</LogStructure>
+</ExternalCritiqueLog>
+<ProbabilityDistribution vs_enabled="true">
+<Description>Include probability estimates for each position with variance analysis</Description>
+<VSMetrics>
+<Metric name="Probability Sum">Should approximate 1.0 across related positions</Metric>
+<Metric name="Variance">Should exceed 0.2 demonstrating diversity</Metric>
+<Metric name="Low-p Integration">At least 1 low-probability idea (p less than 0.3) integrated into synthesis for novelty</Metric>
+</VSMetrics>
+</ProbabilityDistribution>
+</OutputFormat>
+<VerificationReport>
+<Check id="pcg_compliance" result="mandatory">Verify all positions reference Context facts, no invented evidence in A1/A2 generations</Check>
+<Check id="xml_validity" result="mandatory">Confirm well-formed XML structure throughout output</Check>
+<Check id="language_consistency" result="mandatory" note="All output in english without mixing, Socratic questions adapted appropriately"/>
+<Check id="independence_verification" result="mandatory">Confirm A1 and A2 generated without mutual interaction, no cross-criticism or debate occurred</Check>
+<Check id="critic_neutrality" result="mandatory">Verify External Critic maintains neutral auditor role, not advocating for either position</Check>
+<Check id="vs_diversity" result="mandatory" note="If vs_enabled=true: Probs sum approximately 1.0, variance exceeds 0.2, and at least 1 low-p idea (p less than 0.3) integrated into synthesis"/>
+<Check id="synthesis_authenticity" result="mandatory">Confirm final framework genuinely integrates empiricist and constructivist insights, not dominated by single perspective</Check>
+</VerificationReport>
+</FinalizationProtocol>
+<ExpectedOutcome>
+<PrimaryDeliverable>Comprehensive epistemic analysis document (3000-4500 words) containing full independent position generation from A1 and A2 (6+ positions with confidence ratings and probability estimates), detailed External Critic audit with Socratic questions and dimensional ratings, integrated epistemic framework synthesizing empiricist and constructivist insights, measurable consensus validity conditions, and practical implications for scientific authority</PrimaryDeliverable>
+<SecondaryDeliverable>Complete feedback loop documentation showing External Critic audit process, strength/weakness identification, synthesis pathway recommendations, and probability distribution analysis demonstrating diversity</SecondaryDeliverable>
+<SuccessCriteria>Framework demonstrates genuine integration of opposing epistemological perspectives (not single viewpoint dominance), provides measurable validity criteria, maintains External Critic neutrality throughout audit, achieves VS diversity metrics (variance exceeds 0.2, low-p ideas integrated), grounds all positions in Context facts</SuccessCriteria>
+</ExpectedOutcome>
+</SINT_Prompt_Task>

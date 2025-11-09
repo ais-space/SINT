@@ -1,0 +1,19 @@
+Task ID: 3
+Target Case: Case4
+SINT Mode: Generator+Critic(N=2)
+
+Title: Assessment of Artificial Intelligence's Impact on Employment Markets
+
+Description:
+A critical analysis of AI's impact on employment markets where a technology expert generates projections and scenarios while an economist provides comprehensive feedback and critique.
+The process includes feedback loops and detailed analysis from both perspectives.
+
+Expert Panel:
+- Expert E1: AI/Technology Expert, focusing on technical capabilities and development trends
+- Expert E2: Labor Economist, focusing on economic implications and market dynamics
+
+Analysis Requirements:
+- Generator creates detailed scenarios and projections
+- Critic provides comprehensive feedback and alternative perspectives
+- Multiple feedback loops for refinement
+- Detailed analysis from both expert viewpoints

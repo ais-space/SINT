@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Create routing rules and safety gates for customer support LLMs via Generator+Critic ensuring QoS and safety.</Objective>
+<Context>Tiered models; content filters; human escalation; latency SLOs; cost budgets.</Context>
+<Consultants><Agent id="G" focus="Conversational AI Architecture"/><Agent id="C" focus="Trust & Safety + Finance"/></Consultants>
+<Methodology>Generator + External Critic (N=2) with corrections and rating gates.</Methodology>
+<Finalization_Protocol>Numeric ratings; strict XML; PCG + MSV; Dual Output + Verification; metrics/test hooks/rollback.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

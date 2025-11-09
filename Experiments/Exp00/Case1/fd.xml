@@ -1,0 +1,35 @@
+<SINT_Prompt_Task>
+<Objective>
+Generate a single, detailed, and technically complete Formal Definition (FD) to be used by the SINT Code Generator to create a SINT prompt that will in turn generate 4 different complex analytical tasks. Each of the 4 tasks must require a unique interdisciplinary approach with detailed expert analysis, numerical ratings (1-10), iterative convergence, and comprehensive synthesis.
+</Objective>
+<Context>
+1. The 4 tasks must span fundamentally different domains to demonstrate the breadth of the SINT framework.
+2. Each task must explicitly enforce numerical ratings (1-10), cross-evaluation between experts, and multi-round synthesis.
+3. All outputs must be in English.
+4. The methodology and agent configuration must reflect the nature of each task, ensuring either conflict (Step 3A) or consensus (Step 3B) paths when appropriate.
+5. The Principle of Contextual Grounding (PCG) is mandatory: each thesis must reference Objective/Context.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Experiment Design and Reproducibility">Ensures the tasks elicit measurable, reproducible behaviors across models and runs.</Agent>
+<Agent id="A2" focus="Multi-Agent Debate Dynamics">Optimizes the use of debates, criticism loops, and consensus formation rules.</Agent>
+<Agent id="A3" focus="Evaluation & Metrics">Specifies rating schemes, cross-evaluation protocols, and verification checks.</Agent>
+<Agent id="A4" focus="Domain Coverage Strategy">Ensures diversity of domains and suitability of expert roles per domain.</Agent>
+</Consultants>
+<Methodology>
+Expert Debates (N=4) for the current System Designer step to achieve balanced synthesis across conflicting priorities. The resulting tasks must prescribe specific methodologies per case as follows:
+- Case 2: Debates (N=3) with Conflict Scenario (Step 3A)
+- Case 3: Debates (N=3) with Consensus Scenario (Step 3B)
+- Case 4: Generator + External Critic (N=2)
+- Case 5: Debates (N=4) with Conflict Scenario (Step 3A)
+</Methodology>
+<Finalization_Protocol>
+1. The final FD must be self-contained and traceable to Context (PCG).
+2. Include explicit instructions for ratings, cross-evaluation, and multi-round synthesis.
+3. Require a Dual Output: Executive Summary (one-line + 3 bullets) and a Synthesized Conclusion (XML) plus a Verification Report.
+4. Enforce strict XML-only outputs; no markdown wrappers, no leading spaces, no HTML tags/entities.
+5. If any instruction conflicts or is impossible (MSV), the executor must stop and request clarification.
+</Finalization_Protocol>
+<Verification>
+Include a Verification Report with checks for pcg_compliance, xml_validity, objective_match, and no_undeclared_assumptions; include meta: consensus_score (0-10), iterations_used (0-2), fallback_flag (boolean).
+</Verification>
+</SINT_Prompt_Task>

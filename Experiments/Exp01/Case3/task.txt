@@ -1,0 +1,8 @@
+Title: Hospital Triage Redesign for Surge Events
+Objective: Integrate timeliness, equity, and survival outcomes into a consensus triage redesign for hospital surge conditions.
+Context: ED bottlenecks, ICU capacity, staff shortages, ethical frameworks, data integration.
+Methodology: Debates (N=3) with Step 3B (Consensus); integrate and prioritize without criticism.
+Experts: Emergency Medicine Lead; Health Systems Operations Analyst; Bioethics and Equity Officer.
+Constraints: PCG; ratings and cross-evaluation at Step 2; Dual Output + Verification.
+Expected Outcomes: Prioritized triage protocol changes with measurable targets and monitoring.
+Language: English only.

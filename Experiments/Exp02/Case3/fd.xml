@@ -1,0 +1,16 @@
+<SINT_Prompt_Task>
+<Objective>Integrate ridership recovery, cost control, and reliability into a consensus roadmap for a metropolitan rapid transit network.</Objective>
+<Context>
+1. Peak/off-peak shifts, remote work patterns, maintenance backlog.
+2. Fare policies, accessibility, equity and coverage.
+3. English-only output; PCG + ratings; measurable targets.
+4. Dual Output + Verification Report mandatory.
+5. Prioritized sequencing required.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Transit Operations"/><Agent id="A2" focus="Urban Mobility Planning"/><Agent id="A3" focus="Public Finance"/>
+</Consultants>
+<Methodology>Debates (N=3) with Step 3B (Consensus); integrate and prioritize without criticism.</Methodology>
+<Finalization_Protocol>1. Ratings at Step 2. 2. Strict XML. 3. PCG + MSV. 4. Dual Output + Verification. 5. Targets and sequencing.</Finalization_Protocol>
+<Verification>Checks and meta as standard.</Verification>
+</SINT_Prompt_Task>

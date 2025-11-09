@@ -1,0 +1,116 @@
+# SINT PROMPT: Urban Transportation System Optimization - Generator-Critic Approach
+
+## Task: Urban Transportation System Optimization: Generator-Critic Approach
+
+**Objective:** Analyze urban transportation using a Generator-Critic model with comprehensive feedback loops and iterative refinement.
+
+---
+
+## GENERATOR ROLE: Urban Planner
+
+### Initial Proposal
+Comprehensive public transit network with integrated bike and pedestrian infrastructure
+
+### Proposal Details
+- Expand metro and light rail systems
+- Implement dedicated bus lanes
+- Create connected bike lane networks
+- Improve pedestrian walkways
+- Integrate fare systems across all modalities
+
+### Expected Benefits
+- Reduced traffic congestion
+- Lower emissions
+- Improved accessibility
+- Enhanced quality of life
+
+### Cost Estimate
+High initial investment with long-term economic benefits
+
+---
+
+## CRITIC ROLE: Economic Analyst
+
+### Critical Evaluation
+The generator's proposal has significant financial and practical challenges
+
+### Criticisms
+- High capital costs may exceed municipal budgets
+- Long construction periods causing disruption
+- Uncertain ridership projections
+- Potential for cost overruns
+
+### Alternative Considerations
+- Focus on bus rapid transit as a more affordable alternative
+- Implement in stages based on ridership demand
+- Incorporate public-private partnerships for financing
+
+### Risk Assessment
+- High: Financial feasibility
+- Medium: Construction timeline delays
+- Medium: Political support sustainability
+
+---
+
+## FEEDBACK LOOP PROCESS
+
+### Iteration 1
+- Generator response to criticism: Address financial concerns with phased implementation
+- Critic response: Acknowledge phased approach but emphasize need for performance metrics
+
+### Iteration 2
+- Generator response: Refine proposal with public-private partnerships and performance-based contracts
+- Critic response: Acknowledge improvements but maintain emphasis on comprehensive risk management
+
+### Iteration 3
+- Generator response: Add detailed cost-benefit analysis and performance metrics framework
+- Critic response: Approve the enhanced financial planning and risk management approach
+
+---
+
+## DETAILED ANALYSIS REQUIREMENTS
+
+### SWOT Analysis
+- **Strengths:**
+  - Comprehensive multimodal approach
+  - Integration across transportation types
+  - Long-term vision for sustainable transport
+
+- **Weaknesses:**
+  - High financial requirements
+  - Complex implementation process
+  - Political feasibility challenges
+
+- **Opportunities:**
+  - Environmental benefits and climate goals
+  - Economic development potential
+  - Improved quality of life
+
+- **Threats:**
+  - Budget constraints and funding challenges
+  - Political resistance to change
+  - Construction and disruption impacts
+
+---
+
+## PROCESS REQUIREMENTS
+
+1. **Role Clarity:** Clearly distinguish between Generator (proposing) and Critic (evaluating) roles
+2. **Iterative Refinement:** Three rounds of feedback and response
+3. **Evidence-Based:** Support all positions with data and examples
+4. **Synthesis:** Develop refined outcome that addresses criticisms
+5. **Risk Management:** Include mitigation strategies for identified risks
+
+---
+
+## EXPECTED OUTPUT
+
+Provide a comprehensive analysis of the Generator-Critic process including:
+- Initial proposal from the Generator
+- Critic's evaluation with specific concerns
+- Three iterations of feedback and refinement
+- SWOT analysis of the final proposal
+- Refined outcome with implementation pathway
+- Risk mitigation strategies
+
+**All output must be in English.**

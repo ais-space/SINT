@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Secure prompt management protocol with versioning, access controls, redaction, and audits.</one_line>
+<bullets>
+<item>Immutable versioning and change control workflow.</item>
+<item>Secrets redaction and role-based access.</item>
+<item>Audit trails and rollback triggers.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Versioned prompt registry with signed releases.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">Secret redaction and RBAC with least privilege.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Audit logs with anomaly alerts and rollback.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Grounding present."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Protocol delivered."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

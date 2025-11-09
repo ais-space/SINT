@@ -1,0 +1,8 @@
+Title: Coastal Flood Defense Strategy under Sea-Level Rise
+Objective: Run a conflict debate to balance protection efficacy, environmental impact, and community disruption for coastal defenses.
+Context: Sea-level projections, storm surge statistics, ecosystem services, construction constraints, funding.
+Methodology: Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.
+Experts: Coastal Engineering Lead; Environmental Impact Analyst; Community Resilience and Planning Officer.
+Constraints: PCG; numeric ratings each round; cross-evaluation; Dual Output with Verification.
+Expected Outcomes: Phased defense portfolio with thresholds and monitoring KPIs.
+Language: English only.

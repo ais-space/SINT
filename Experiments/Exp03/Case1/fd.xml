@@ -1,0 +1,36 @@
+<SINT_Prompt_Task>
+<Objective>
+Create a fully specified Formal Definition (FD) for a SINT Code Generator to produce a SINT prompt that will yield 4 distinct complex analytical tasks. Each task must require a unique interdisciplinary setup, numeric ratings (1-10), cross-evaluation, iterative convergence, and Dual Output.
+</Objective>
+<Context>
+1. The 4 tasks must span meaningfully different domains to test breadth.
+2. Each task must enforce ratings, cross-critique, and multi-round synthesis.
+3. English-only output with strict PCG (link to Objective/Context).
+4. Each task must prescribe its own methodology and agent roles tailored to the domain.
+5. Outputs must be XML-only and include a Verification Report.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Variability by Design">Shapes tasks to expose variability while maintaining auditability.</Agent>
+<Agent id="A2" focus="Method–Domain Mapping">Aligns debate/critic pattern to domain tension profile.</Agent>
+<Agent id="A3" focus="Metrics & Thresholds">Specifies rating rubrics and verification checks.</Agent>
+<Agent id="A4" focus="Domain Breadth & Realism">Ensures domain diversity and realistic constraints.</Agent>
+</Consultants>
+<Methodology>
+Use Debates (N=4) in this step. Downstream mandates:
+- Case 2: Debates (N=3) + Step 3A (Conflict)
+- Case 3: Debates (N=3) + Step 3B (Consensus)
+- Case 4: Generator + External Critic (N=2)
+- Case 5: Debates (N=4) + Step 3A (Conflict)
+</Methodology>
+<Finalization_Protocol>
+1. Enforce PCG with INVALID/self-correct rule.
+2. Require ratings, cross-evaluation, and iterative synthesis.
+3. Dual Output: Executive Summary + Synthesized Conclusion (XML) + Verification Report.
+4. Strict XML-only formatting; no leading spaces, no HTML.
+5. MSV: stop on contradictions/impossibility and request clarification.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions;
+meta: consensus_score (0-10), iterations_used (0-2), fallback_flag (boolean).
+</Verification>
+</SINT_Prompt_Task>

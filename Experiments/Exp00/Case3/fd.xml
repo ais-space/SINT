@@ -1,0 +1,30 @@
+<SINT_Prompt_Task>
+<Objective>
+Design a debate to integrate contributor growth, long-term funding, and stability guarantees into a cohesive sustainability roadmap for an open-source ML core library.
+</Objective>
+<Context>
+1. Release cadence, backward compatibility (BC), and governance models impact contributor trust.
+2. Sponsors expect credible planning (LTS branches, RFC processes, roadmaps).
+3. All outputs must be in English and PCG-compliant.
+4. Ratings and cross-evaluation must be present (1-10).
+5. Dual Output and Verification Report are mandatory.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Governance and Policy">Decision processes, RFCs, conflict resolution.</Agent>
+<Agent id="A2" focus="Developer Ecosystem">DX, onboarding, contribution pipelines.</Agent>
+<Agent id="A3" focus="Financial Sustainability">Funding tiers, grants, budget allocation.</Agent>
+</Consultants>
+<Methodology>
+Debates (N=3) with Step 3B (Consensus). No criticism; focus on integration and prioritization.
+</Methodology>
+<Finalization_Protocol>
+1. Enforce ratings and cross-evaluation during Step 2.
+2. Produce prioritized roadmap with measurable targets.
+3. Strict XML-only formatting, no leading spaces or HTML tags/entities.
+4. PCG enforcement and MSV pre-checks.
+5. Dual Output and Verification Report required.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta fields as usual.
+</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Secure prompt management protocol for enterprise LLMs via Generator+Critic covering versioning, access, redaction, and audit.</Objective>
+<Context>Prompt libraries; secrets handling; access control; change control; auditability; English-only; PCG; Dual Output.</Context>
+<Consultants><Agent id="G" focus="Secure Platform Architecture"/><Agent id="C" focus="Compliance & Risk"/></Consultants>
+<Methodology>Generator + External Critic (N=2) with corrections and rating gates.</Methodology>
+<Finalization_Protocol>Numeric ratings; strict XML; PCG + MSV; Dual Output + Verification; metrics/tests/rollback.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

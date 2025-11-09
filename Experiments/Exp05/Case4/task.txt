@@ -1,0 +1,8 @@
+Title: Secure Prompt Management Protocol for Enterprise LLMs
+Objective: Use Generator+Critic to create a secure prompt management protocol (versioning, access, redaction, audit) for enterprise LLMs.
+Context: Prompt libraries, secrets handling, access control, change control, auditability.
+Methodology: Generator + External Critic (N=2) with corrections and rating gates.
+Experts: Secure Platform Architect (Generator); Compliance and Risk Controller (Critic).
+Constraints: PCG; numeric ratings for risk/coverage; Dual Output with Verification.
+Expected Outcomes: Gated protocol with metrics, test hooks, and rollback triggers.
+Language: English only.

@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis; 4) Dual Output + Verification; 5) MSV.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Consensus roadmap for open data governance balancing privacy, utility, and interoperability.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[PII; licensing; APIs/standards; civic innovation; lock-in risks.]]></key_facts>
+<source_data><![CDATA[City data policy; legal guidance; interoperability standards.]]></source_data>
+</Context>
+<Methodology>Debates (N=3) with Step 3B (Consensus).</Methodology>
+<Consultants><Agent id="A1" focus="Data Policy"/><Agent id="A2" focus="Civic Tech"/><Agent id="A3" focus="Legal & Compliance"/></Consultants>
+<SynthesisEngine>0 MSV; 1 positions; 2 ratings; 3B integration; 4→5; 4.5 extract; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Integrated governance policy set with metrics.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

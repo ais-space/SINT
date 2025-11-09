@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Design a cost control protocol for LLM inference preserving QoS/SLOs via Generator+Critic.</Objective>
+<Context>Token budgets; tiered routing; caching; regression guardrails; business SLAs.</Context>
+<Consultants><Agent id="G" focus="Platform Optimization"/><Agent id="C" focus="Finance & Risk"/></Consultants>
+<Methodology>Generator + External Critic (N=2) with corrections and rating gates.</Methodology>
+<Finalization_Protocol>Numeric ratings; strict XML; PCG + MSV; Dual Output + Verification; rollback triggers and test hooks.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

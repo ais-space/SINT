@@ -1,0 +1,62 @@
+<SINT_Execution_Output>
+<Summary>
+FD and SINT prompt synthesized with Scenario 3B (Consensus). Four tasks prepared with explicit methods for Cases 2–5.
+</Summary>
+<GeneratedTasks>
+<Task index="2" case="Case2">
+<title>Coastal Flood Defense Strategy under Sea-Level Rise</title>
+<objective>Run a conflict debate to balance protection efficacy, environmental impact, and community disruption for coastal defenses.</objective>
+<context>Sea-level projections, storm surge statistics, ecosystem services, construction constraints, funding.</context>
+<methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.</methodology>
+<experts>
+- Coastal Engineering Lead
+- Environmental Impact Analyst
+- Community Resilience and Planning Officer
+</experts>
+<constraints>PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Phased defense portfolio with thresholds and monitoring KPIs.</expected_outcomes>
+</Task>
+
+<Task index="3" case="Case3">
+<title>Open Data Governance for a Smart City Platform</title>
+<objective>Integrate privacy, utility, and interoperability into a consensus governance roadmap for city open data.</objective>
+<context>PII handling, licensing, APIs/standards, civic innovation, vendor lock-in risks.</context>
+<methodology>Debates (N=3) with Step 3B (Consensus); integrate and prioritize.</methodology>
+<experts>
+- Chief Data Officer
+- Civic Tech Community Representative
+- Legal and Compliance Counsel
+</experts>
+<constraints>PCG; ratings and cross-evaluation at Step 2; Dual Output + Verification.</constraints>
+<expected_outcomes>Prioritized governance policies with measurable targets and review cadence.</expected_outcomes>
+</Task>
+
+<Task index="4" case="Case4">
+<title>Model Routing and Safety Gates for Customer Support LLMs</title>
+<objective>Use Generator+Critic to create routing rules and safety gates ensuring QoS and safety for customer support LLMs.</objective>
+<context>Tiered models, content filters, escalation to human, latency SLOs, cost budgets.</context>
+<methodology>Generator + External Critic (N=2) with corrections and rating gates.</methodology>
+<experts>
+- Conversational AI Architect (Generator)
+- Trust & Safety and Finance Controller (Critic)
+</experts>
+<constraints>PCG; numeric ratings for risk/coverage; Dual Output + Verification.</constraints>
+<expected_outcomes>Gated routing protocol with metrics, test hooks, and rollback triggers.</expected_outcomes>
+</Task>
+
+<Task index="5" case="Case5">
+<title>Regional Food System Resilience under Supply Shocks</title>
+<objective>Conduct a conflict debate to design interventions enhancing resilience to supply chain disruptions.</objective>
+<context>Storage capacity, diversified sourcing, transportation, perishables, equity in access.</context>
+<methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</methodology>
+<experts>
+- Supply Chain Optimization Specialist
+- Agricultural Economist
+- Public Health and Nutrition Planner
+- Logistics Operations Manager
+</experts>
+<constraints>PCG; ratings and cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Ranked intervention portfolio with triggers and monitoring.</expected_outcomes>
+</Task>
+</GeneratedTasks>
+</SINT_Execution_Output>

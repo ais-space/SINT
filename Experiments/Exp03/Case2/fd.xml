@@ -1,0 +1,14 @@
+<SINT_Prompt_Task>
+<Objective>Balance rapid wildfire detection and low false-alarm risk via conflict debates with numeric ratings and iterative convergence.</Objective>
+<Context>
+1. Sensor fusion cadence (satellite/UAV); 2. Dispatch protocols; 3. Resource constraints; 4. Public safety messaging; 5. English-only + PCG + Dual Output.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Fire Behavior Science"/>
+<Agent id="A2" focus="Remote Sensing & Perception"/>
+<Agent id="A3" focus="Emergency Dispatch & Public Safety"/>
+</Consultants>
+<Methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds, Divergence Ratings and compromise synthesis.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval each round; strict XML; PCG with INVALID/self-correct; MSV; Dual Output + Verification.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

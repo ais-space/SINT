@@ -1,0 +1,7 @@
+Task Title: Healthcare System Reform
+Description: Analyze the strengths and weaknesses of various healthcare systems worldwide (single-payer, multi-payer, private insurance). Use the Debates (N=3) + Consensus (Step 3B) methodology with structured rating system, detailed arguments, and multi-round synthesis.
+Experts:
+- Healthcare Policy Expert
+- Economist
+- Public Health Specialist
+Methodology: Debates (N=3) + Consensus (Step 3B)

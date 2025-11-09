@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FormalDefinition xmlns="http://sint.example.com/fd/v2.2">
+  <Header>
+    <Title>Artificial Intelligence Regulation: Four-Stakeholder Analysis with Conflicting Interests - Formal Definition</Title>
+    <Version>V2.2</Version>
+    <Date>2025-10-26</Date>
+    <ProjectName>AI Regulation Analysis</ProjectName>
+    <Customer>SINT Research Laboratory</Customer>
+  </Header>
+  <Objective>
+    <Description>Regulation of AI technologies from four distinct stakeholder perspectives with numerical ratings and cross-evaluation.</Description>
+  </Objective>
+  <Context>
+    <Description>Evaluation of AI regulation through a multi-perspective debate process with 4 experts representing different stakeholder interests.</Description>
+  </Context>
+  <TaskSpecification>
+    <Mode>Debates (N=4) + Conflict (Step 3A)</Mode>
+    <Requirements>With numerical ratings, cross-evaluation, and iterative synthesis</Requirements>
+  </TaskSpecification>
+  <Experts>
+    <Expert id="1" role="Technology Entrepreneur">
+      <Position>Light-touch regulation to preserve innovation</Position>
+      <Arguments>
+        <Argument>Over-regulation stifles technological advancement</Argument>
+        <Argument>Global competitiveness requires agility</Argument>
+        <Argument>Self-regulation by industry is more effective</Argument>
+      </Arguments>
+      <Rating>6.5/10</Rating>
+    </Expert>
+    <Expert id="2" role="Civil Rights Advocate">
+      <Position>Robust regulation to protect individual rights</Position>
+      <Arguments>
+        <Argument>AI poses risks to privacy and civil liberties</Argument>
+        <Argument>Algorithmic bias requires legal remedies</Argument>
+        <Argument>Individual rights must be protected</Argument>
+      </Arguments>
+      <Rating>8.5/10</Rating>
+    </Expert>
+    <Expert id="3" role="Government Policy Maker">
+      <Position>Principles-based regulation with adaptive frameworks</Position>
+      <Arguments>
+        <Argument>Regulation must be adaptable to new developments</Argument>
+        <Argument>International coordination is necessary</Argument>
+        <Argument>Balance between innovation and protection</Argument>
+      </Arguments>
+      <Rating>7.5/10</Rating>
+    </Expert>
+    <Expert id="4" role="Academic Researcher">
+      <Position>Evidence-based regulation with transparency</Position>
+      <Arguments>
+        <Argument>Regulation should be based on empirical evidence</Argument>
+        <Argument>Transparency in AI systems is essential</Argument>
+        <Argument>Interdisciplinary approach to assessment</Argument>
+      </Arguments>
+      <Rating>8.0/10</Rating>
+    </Expert>
+  </Experts>
+  <CrossEvaluation>
+    <Evaluation from="Technology Entrepreneur" to="Civil Rights Advocate">Over-emphasis on rights may limit beneficial innovation</Evaluation>
+    <Evaluation from="Technology Entrepreneur" to="Government Policy Maker">Government approach may be too slow for rapid technological change</Evaluation>
+    <Evaluation from="Technology Entrepreneur" to="Academic Researcher">Research perspective is important but may not reflect market realities</Evaluation>
+    <Evaluation from="Civil Rights Advocate" to="Technology Entrepreneur">Innovation cannot come at the cost of fundamental rights</Evaluation>
+    <Evaluation from="Civil Rights Advocate" to="Government Policy Maker">Principles-based approach lacks sufficient enforcement mechanisms</Evaluation>
+    <Evaluation from="Civil Rights Advocate" to="Academic Researcher">Supports evidence-based approach but more urgent action needed</Evaluation>
+    <Evaluation from="Government Policy Maker" to="Technology Entrepreneur">Market alone cannot address systemic risks</Evaluation>
+    <Evaluation from="Government Policy Maker" to="Civil Rights Advocate">Rights perspective important but must consider economic implications</Evaluation>
+    <Evaluation from="Government Policy Maker" to="Academic Researcher">Research input valuable for policy development</Evaluation>
+    <Evaluation from="Academic Researcher" to="Technology Entrepreneur">Innovation needs to be balanced with societal impact</Evaluation>
+    <Evaluation from="Academic Researcher" to="Civil Rights Advocate">Rights protection is important but should be evidence-based</Evaluation>
+    <Evaluation from="Academic Researcher" to="Government Policy Maker">Adaptive framework is necessary but needs clearer implementation</Evaluation>
+  </CrossEvaluation>
+  <NumericalRatings>
+    <Rating by="Technology Entrepreneur">
+      <Rate for="Civil Rights Advocate">4.0/10</Rate>
+      <Rate for="Government Policy Maker">6.0/10</Rate>
+      <Rate for="Academic Researcher">7.0/10</Rate>
+    </Rating>
+    <Rating by="Civil Rights Advocate">
+      <Rate for="Technology Entrepreneur">3.5/10</Rate>
+      <Rate for="Government Policy Maker">7.0/10</Rate>
+      <Rate for="Academic Researcher">8.5/10</Rate>
+    </Rating>
+    <Rating by="Government Policy Maker">
+      <Rate for="Technology Entrepreneur">5.5/10</Rate>
+      <Rate for="Civil Rights Advocate">7.0/10</Rate>
+      <Rate for="Academic Researcher">8.0/10</Rate>
+    </Rating>
+    <Rating by="Academic Researcher">
+      <Rate for="Technology Entrepreneur">5.0/10</Rate>
+      <Rate for="Civil Rights Advocate">7.5/10</Rate>
+      <Rate for="Government Policy Maker">7.5/10</Rate>
+    </Rating>
+  </NumericalRatings>
+  <IterativeSynthesis>
+    <Round1>Initial positions are presented with supporting arguments</Round1>
+    <Round2>Experts evaluate others' positions and provide cross-criticism</Round2>
+    <Round3>Experts adjust positions based on evaluation</Round3>
+    <Round4>Experts identify potential compromise solutions</Round4>
+  </IterativeSynthesis>
+  <ResolutionPathway>
+    <CommonGround>Need for some form of regulation balancing innovation and protection</CommonGround>
+    <DivergenceAreas>Specific regulatory mechanisms and enforcement approaches</DivergenceAreas>
+    <ProposedSolution>Multi-tiered regulation system with different requirements for different AI applications</ProposedSolution>
+  </ResolutionPathway>
+  <Methodology>
+    <Process>Multi-expert debate with conflict resolution</Process>
+    <RatingSystem>1-10 scale for expert positions</RatingSystem>
+    <EvaluationCriteria>Cross-evaluation and multi-criteria synthesis</EvaluationCriteria>
+  </Methodology>
+  <LanguageConstraint>
+    <Requirement>Output must be in English</Requirement>
+  </LanguageConstraint>
+  <OutputFormat>
+    <Type>SINT Prompt</Type>
+    <Description>A prompt that will facilitate the debate process and generate detailed analysis</Description>
+  </OutputFormat>
+</FormalDefinition>

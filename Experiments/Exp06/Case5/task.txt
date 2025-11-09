@@ -1,0 +1,9 @@
+Task 4: Comprehensive Study on Urban Planning for Climate Resilience
+
+Description: Debates (N=4) + Conflict (Step 3A) with numerical ratings, cross-evaluation, and iterative synthesis. Experts: Climate Scientist, Urban Planner, Social Policy Expert, Infrastructure Engineer.
+
+Requirements:
+- Four expert perspectives
+- Numerical ratings (1-10)
+- Cross-evaluation between all experts
+- Iterative synthesis process

@@ -1,0 +1,100 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1. Execution of <SynthesisEngine> must be strictly line-by-line.
+2. Principle of Contextual Grounding (PCG): Any new thesis/output must explicitly reference elements in <Context> or <Objective>.
+3. Direct use or citation of ready-made heuristics, theorems, or known solutions is prohibited without explicitly deriving or synthesizing their statements from more fundamental principles.
+4. Priority of synthesis over citation.
+5. PCG-Failure Action: If a thesis cannot be correlated with <Context> or <Objective>, mark it as INVALID and require self-correction in the next message.
+6. Conflict Resolution Rule: If consensus is not reached after 5 rounds, the synthesis must include: (a) synthesis of the majority position; (b) explicit highlighting of the "minority opinion"; (c) statement of the irresolvability of the conflict.
+7. TRACE (Choice Archiving): Mandatory archiving of the selection stage: the final output MUST include the <DebateArchive> tag with the initial proposals of all experts and their primary evaluations.
+8. FORMAT (Output Structure): The final output must use one root container (<TaskSet>, <RiskMatrix>, <FinalPlan>, etc.) in <SynthesizedConclusion>. Inside this root container, it is CATEGORICALLY PROHIBITED to use any tags except direct child elements containing the final product (e.g., <Task ID="T1">, <Risk ID="R1">). The content of these final child elements MUST BE exclusively narrative text (including CDATA). All product metadata (Name, Experts, Requirements) MUST BE EMBEDDED in this Narrative Text and MUST NOT be formatted as separate XML tags except in cases where FZ or <Objective> requires visibility (e.g., verbose='true' from <Dynamics>): Then allow <DebateLog> as a child element with narrative rounds in an engaging form (replies with agent styles, 3+ per agent, preserving PCG in each).
+9. N=2 Specific: For two expert-generators (A1/A2) — no mutual interaction or criticism. External Critic — separate LLM role: neutrally evaluates both positions, starting outputs with "Audit overview:" and referencing PCG for each. Synthesis focuses on balancing two opinions + adjustments.
+10. Language Enforcement: All output, agent/critic replies, narratives in <DebateLog>/<ExternalCritiqueLog>, and synthesis — exclusively in the language from <Language> (default: "English"). Adapt all styles and phrases: English examples (e.g., "Prove me wrong") remain as-is. Mixing languages is prohibited; in case of violation — mark as PCG-FAILURE and self-correct.
+</Protocol>
+<Dynamics iterations_limit="5" consensus_threshold="7" vs_enabled="true" verbose="true"/>
+</Configuration>
+<Objective>
+<![CDATA[Generate 4 fundamentally different complex analytical tasks, each requiring unique interdisciplinary expert analysis with detailed arguments, numerical ratings (1-10 scale), iterative convergence through multiple debate rounds, and comprehensive synthesis. Each task must demonstrate distinct SINT framework capabilities across diverse knowledge domains.]]>
+</Objective>
+<Language>
+<![CDATA[english]]>
+</Language>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Task 1 must demonstrate Case 2 (Debates N=3 + Conflict Step 3A) with detailed expert positions, numerical ratings, cross-criticism, and iterative convergence. 2. Task 2 must demonstrate Case 3 (Debates N=3 + Consensus Step 3B) with structured rating system, detailed arguments, and multi-round synthesis. 3. Task 3 must demonstrate Case 4 (Generator + Critic N=2) with comprehensive feedback loops and detailed analysis. 4. Task 4 must demonstrate Case 5 (Debates N=4 + Conflict Step 3A) focused on AGI existential risk assessment, challenging extreme alarmism while analyzing alignment problems and instrumental convergence against counterarguments about biological aggression absence and engineered safeguards. 5. All tasks must apply Principle of Contextual Grounding (PCG), require separate full SINT applications, include multiple criticism rounds, iterative convergence, and comprehensive synthesis with numerical ratings and cross-evaluations.]]></key_facts>
+<source_data><![CDATA[SINT Research Laboratory request for demonstration of framework capabilities across Case 2, Case 3, Case 4, and Case 5 configurations with emphasis on diverse knowledge domains and rigorous analytical protocols.]]></source_data>
+</Context>
+<Methodology>
+Expert Debates (N=3) with Consensus orientation (Step 3B as default path), given the objective requires interdisciplinary synthesis of multiple factors: task diversity, SINT mode demonstration, analytical depth, and domain coverage across three expert perspectives to generate four fundamentally different complex tasks.
+</Methodology>
+<Consultants>
+<Agent id="A1" role="Meta-Framework Architect" focus="Designing the overarching structure for generating 4 diverse analytical tasks that maximize SINT framework demonstration across fundamentally different domains with appropriate expert configurations and debate protocols" style="systematic-synthesizer: methodical approach to task generation ensuring maximum diversity and framework coverage"/>
+<Agent id="A2" role="Domain Diversity Specialist" focus="Ensuring the 4 generated tasks cover maximally different knowledge areas (e.g., geopolitics, ethics, technology, existential philosophy) with non-overlapping methodologies and expert types" style="lateral-thinker: emphasis on interdisciplinary boundaries and thematic orthogonality"/>
+<Agent id="A3" role="Analytical Rigor Enforcer" focus="Guaranteeing each of the 4 tasks includes detailed numerical rating systems (1-10), comprehensive cross-evaluation mechanisms, iterative debate protocols with minimum 3 rounds, and robust synthesis requirements" style="precision-auditor: focus on methodological completeness and measurable analytical depth"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: Validation Phase (MSV).
+If vs_enabled='true': Add 3+ ideas to the position with <Probability> (subjective 0-1, grounded in <Context>: "p=0.4, as fact 1 strengthens but bias reduces"). For External Critic (N=2): Evaluate probs and sample compromise (e.g., "Select p<0.3 from A1 + p>0.5 from A2").
+If N=2 (from <Methodology>): Activate External Critic Flow: Ignore mutual ratings (Step 2) and Step 3A/B. Instead: Step 1 — A1 and A2 independently formulate positions (max 2 sentences + min 3 ideas each, no interaction). Step 1.5 — External Critic: One-sided evaluation (Socratic-style, PCG-grounded: "For A1: Grounding check to fact_N? Bias in assumption? For A2: Counterfactual risks?"). Step 2 — Synthesize compromises from External Critic into <KeyFinding>. Proceed to Step 4.5 without iterations.
+Executor (LLM) must perform a logical pre-filter of <Objective> and <Methodology> for internal contradictions or unfeasible instructions. Upon detecting conflict - halt process and request clarification.
+Step 1: Initialization Phase.
+Each Consultant formulates their main position (max 2 sentences) on <Objective> within their <Focus>. All formulations, ideas, and replies — strictly in <Language> (default: English), with style adaptations.
+Step 2: Divergence and Conflict Assessment Phase.
+Each Consultant assigns Complementarity Rating (1-10) to all positions.
+Conflict Assessment: If at least one agent assigned Complementarity Rating < 3 (Defective/Dangerous) to opponents' positions, transition to Step 3A (Criticism Phase). Otherwise, transition to Step 3B (Integration Phase - Default Path).
+Step 3A: Criticism Phase (Conflict Scenario).
+All consultants provide collective criticism. Each Consultant: 1) Highlights the best thesis. 2) Points out the vulnerable thesis. 3) Proposes compromise (max 2 sentences). All theses must comply with PCG.
+Step 3B: Integration Phase (Consensus Scenario).
+Consultants do not criticize. Each Consultant integrates relevant theses (Rating >= 3), prioritizing by importance to <Objective>. All theses must comply with PCG.
+Step 4: Iterative Convergence/Final Synthesis.
+If N=2: Skip Iterative Convergence; direct to Extraction (from A1 + A2 positions + External Critic evaluation).
+If selected Scenario 3A (Conflict): Conduct maximum 5 debate rounds (adaptively from <Dynamics>). Before each round, LLM must generate a brief Summary of Progress for context preservation. Each round: Generate narrative agent replies (min 3/agent, with vivid rhetoric per <Style>, e.g., A1: "Catastrophe inevitable—your optimism is the real misalignment!"). Agent/External Critic replies — in <Language>, with rhetoric in style (e.g., A1 in English Yudkowsky: "Catastrophe inevitable—your optimism is the real misalignment!"). Upon failure (Consensus < 7/10) form fallback partial_consensus. If verbose='true', output rounds in <DebateLog> for visibility.
+If selected Scenario 3B (Consensus): Proceed directly to Step 5.
+Step 4.5: Extraction and Structuring.
+Extract only PCG-valid compromise theses with rating >= 7/10 and structure into groups (<KeyFinding>, <RiskAssessment>). Use attributes source="fact_N" consultant="Agent_ID" for traceability. If vs_enabled='true': Extract theses with prob >=0.2; attribute source="fact_N" prob="avg from agents". Embed prob in <KeyFinding> for traceability.
+Step 5: Finalization Phase.
+Finalize: form public output (Executive Summary) + Synthesized Conclusion (XML) + Verification Report. Output must start strictly with <OutputFormat> tag and end with </OutputFormat>.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200" lang="english"/>
+<three_bullets lang="english"/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Synthesis performed under Scenario: [Conflict/Consensus]. Language: english.
+<DebateLog optional="if verbose=true in <Dynamics>">
+<ProbDist optional="if vs_enabled=true">
+<![CDATA[Idea distribution in english: A1 — Idea X (p=0.4: typical, grounded in fact_2); Idea Y (p=0.2: creative outlier). A2 — ... Sampled synthesis: Selected low-p for diversity.]]>
+</ProbDist>
+[Rounds as <Round id="1"><SummaryOfProgress>Brief progress.</SummaryOfProgress><AgentResponses>A1 (systematic-synthesizer): "..." A2: ... </AgentResponses></Round> for rounds; replies engaging, rhetorical, PCG-grounded.]
+</DebateLog>
+<DebateArchive>
+[DebateArchive content per TRACE.]
+</DebateArchive>
+<TaskSet>
+[Task id="T1" content with narrative text only per FORMAT rule 8]
+[Task id="T2" content with narrative text only per FORMAT rule 8]
+[Task id="T3" content with narrative text only per FORMAT rule 8]
+[Task id="T4" content with narrative text only per FORMAT rule 8]
+</TaskSet>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<check id="task_format" result="pass|fail" note="Check that <Task> contains only narrative text, without FZ XML tags (FORMAT)."/>
+<check id="debate_visibility" result="pass|fail" note="Full rounds with rhetorical styles logged if verbose=true."/>
+<check id="language_consistency" result="pass|fail" note="Check: entire output in english without mixing (styles adapted in replies)."/>
+<check id="vs_diversity" result="pass|fail" note="If vs_enabled=true: Probs sum ~1.0, variance >0.2, and >=1 low-p idea (<0.3) integrated into synthesis."/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-5</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

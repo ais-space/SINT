@@ -1,0 +1,8 @@
+Title: Security Review Protocol for LLM Applications Handling Sensitive Data
+Objective: Use Generator+Critic to produce a robust application security review protocol tailored to LLM-based systems processing PII and proprietary data.
+Context: Threat models (prompt injection, data exfiltration), logging and redaction, access control, human-in-the-loop overrides, auditability.
+Methodology: Generator + External Critic (N=2) with explicit feedback loops; mandatory corrections until constraints satisfied or limit reached.
+Experts: Application Security Architect (Generator); Compliance and Risk Officer (Critic).
+Constraints: PCG required; numeric ratings (1-10) for risk and coverage; Dual Output with Verification Report.
+Expected Outcomes: Stepwise review protocol with gates, controls, test cases, red-team hooks, and rollback triggers.
+Language: English only.

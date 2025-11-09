@@ -1,0 +1,10 @@
+Task ID: 3
+Title: AI Governance and Ethical Implementation
+Type: Generator+Critic(N=2)
+Description: Develop governance frameworks for AI implementation in healthcare with a generator proposing solutions and an external critic providing comprehensive feedback and analysis.
+
+Objective: Create ethical guidelines for AI implementation in healthcare diagnostics and treatment recommendations.
+Context: AI in healthcare promises improved outcomes but raises concerns about bias, transparency, and human oversight.
+Consultants: AI Ethics Specialist (Generator), Healthcare Regulatory Expert (Critic)
+Methodology: Generator + External Critic (N=2) with comprehensive feedback loops
+The generator proposes governance frameworks, the critic evaluates them for practicality and compliance.

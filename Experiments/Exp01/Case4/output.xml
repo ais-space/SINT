@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Feature-store governance with lineage/access/drift/retention gates and rollback.</one_line>
+<bullets>
+<item>End-to-end lineage and immutable audits.</item>
+<item>RBAC with least privilege and time-bound elevation.</item>
+<item>Drift flags with incident response and rollback triggers.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Mandatory lineage recording and schema-change RFCs.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">RBAC with break-glass approval and audit trails.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Drift thresholds with rollback and incident playbooks.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Context-bound."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Governance goals satisfied."/>
+<check id="no_undeclared_assumptions" result="pass" note="Explicit assumptions."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

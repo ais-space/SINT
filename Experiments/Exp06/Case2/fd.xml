@@ -1,0 +1,21 @@
+<SINT_Prompt_Task>
+<Objective>
+Evaluate renewable energy transition strategies for industrial manufacturing, using the SINT framework with Expert Debates (N=3) + Consensus (Step 3B) methodology.
+</Objective>
+<Context>
+The evaluation must consider environmental impact, economic feasibility, and policy implications. Experts: Environmental Scientist, Industrial Economist, Energy Policy Expert. The process must include structured rating system, detailed arguments, and multi-round synthesis with consensus building.
+</Context>
+<Consultants>
+1. Environmental Scientist: Focuses on environmental impact assessment and sustainability metrics.
+2. Industrial Economist: Evaluates economic feasibility, cost-benefit analysis, and market implications.
+3. Energy Policy Expert: Assesses regulatory frameworks, policy incentives, and implementation challenges.
+</Consultants>
+<Methodology>
+Expert Debates (N=3) + Consensus (Step 3B) with structured rating system, detailed arguments, and multi-round synthesis.
+</Methodology>
+<Finalization_Protocol>
+- All expert positions must include detailed arguments and structured rating systems.
+- The process must include multi-round synthesis with consensus building.
+- Output must include comprehensive analysis with specific examples and data points.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

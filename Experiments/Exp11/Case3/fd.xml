@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FormalDefinition xmlns="http://sint.example.com/fd/v2.2">
+  <Header>
+    <Title>Implementation of Universal Basic Income: Consensus-Building Analysis - Formal Definition</Title>
+    <Version>V2.2</Version>
+    <Date>2025-10-26</Date>
+    <ProjectName>Universal Basic Income Analysis</ProjectName>
+    <Customer>SINT Research Laboratory</Customer>
+  </Header>
+  <Objective>
+    <Description>A multi-round consensus-building exercise on implementing Universal Basic Income with structured rating systems and synthesis.</Description>
+  </Objective>
+  <Context>
+    <Description>Evaluation of Universal Basic Income implementation through a multi-perspective consensus process with 3 experts representing different stakeholder interests.</Description>
+  </Context>
+  <TaskSpecification>
+    <Mode>Debates (N=3) + Consensus (Step 3B)</Mode>
+    <Requirements>With structured rating system, detailed arguments, and multi-round synthesis</Requirements>
+  </TaskSpecification>
+  <Experts>
+    <Expert id="1" role="Economist">
+      <Position>Pilot programs with gradual implementation</Position>
+      <Arguments>
+        <Argument>Empirical data needed before full implementation</Argument>
+        <Argument>Gradual rollout reduces fiscal risk</Argument>
+        <Argument>Allows for policy adjustments based on results</Argument>
+      </Arguments>
+      <Rating>8.0/10</Rating>
+    </Expert>
+    <Expert id="2" role="Social Policy Expert">
+      <Position>Targeted implementation for specific demographics</Position>
+      <Arguments>
+        <Argument>Focus on groups most in need</Argument>
+        <Argument>Reduces overall cost while providing benefit</Argument>
+        <Argument>Addresses specific social issues</Argument>
+      </Arguments>
+      <Rating>7.5/10</Rating>
+    </Expert>
+    <Expert id="3" role="Political Scientist">
+      <Position>Broad-based implementation with political support</Position>
+      <Arguments>
+        <Argument>Universal programs build stronger public support</Argument>
+        <Argument>Reduces political opposition over time</Argument>
+        <Argument>More efficient administrative structure</Argument>
+      </Arguments>
+      <Rating>7.0/10</Rating>
+    </Expert>
+  </Experts>
+  <RatingSystem>
+    <Criteria>
+      <Criterion id="1">Fiscal Sustainability: 1-10 rating</Criterion>
+      <Criterion id="2">Social Impact: 1-10 rating</Criterion>
+      <Criterion id="3">Political Feasibility: 1-10 rating</Criterion>
+      <Criterion id="4">Administrative Efficiency: 1-10 rating</Criterion>
+    </Criteria>
+    <StructuredRatings>
+      <Rating for="Economist">
+        <Score criterion="1">7.5</Score>
+        <Score criterion="2">8.0</Score>
+        <Score criterion="3">7.0</Score>
+        <Score criterion="4">8.5</Score>
+      </Rating>
+      <Rating for="Social Policy Expert">
+        <Score criterion="1">8.0</Score>
+        <Score criterion="2">8.5</Score>
+        <Score criterion="3">7.5</Score>
+        <Score criterion="4">7.0</Score>
+      </Rating>
+      <Rating for="Political Scientist">
+        <Score criterion="1">6.5</Score>
+        <Score criterion="2">7.5</Score>
+        <Score criterion="3">8.5</Score>
+        <Score criterion="4">8.0</Score>
+      </Rating>
+    </StructuredRatings>
+  </RatingSystem>
+  <MultiRoundSynthesis>
+    <Round1>Experts share initial positions and supporting evidence</Round1>
+    <Round2>Experts evaluate others' positions and adjust ratings</Round2>
+    <Round3>Experts identify common ground and propose synthesis</Round3>
+    <Round4>Experts finalize consensus recommendations</Round4>
+  </MultiRoundSynthesis>
+  <ConsensusOutcome>
+    <Agreement>A phased approach starting with targeted pilot programs, followed by broader implementation based on evidence</Agreement>
+    <Recommendation>Begin with pilot programs targeting specific demographics, with gradual expansion based on data</Recommendation>
+    <FinalRating>7.8/10</FinalRating>
+  </ConsensusOutcome>
+  <Methodology>
+    <Process>Multi-expert debate with consensus building</Process>
+    <RatingSystem>Structured multi-criteria evaluation</RatingSystem>
+    <EvaluationCriteria>Multi-round synthesis and consensus</EvaluationCriteria>
+  </Methodology>
+  <LanguageConstraint>
+    <Requirement>Output must be in English</Requirement>
+  </LanguageConstraint>
+  <OutputFormat>
+    <Type>SINT Prompt</Type>
+    <Description>A prompt that will facilitate the consensus-building process and generate detailed analysis</Description>
+  </OutputFormat>
+</FormalDefinition>

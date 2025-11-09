@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis; 4) Dual Output + Verification; 5) MSV.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Design resilience interventions for regional food systems facing supply shocks via conflict debates.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[Storage; diversified sourcing; transportation; perishables; equity.]]></key_facts>
+<source_data><![CDATA[Supply chain reports; ag economics; public health guidance.]]></source_data>
+</Context>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</Methodology>
+<Consultants><Agent id="A1" focus="Supply Chain Optimization"/><Agent id="A2" focus="Agricultural Economics"/><Agent id="A3" focus="Public Health & Nutrition"/><Agent id="A4" focus="Logistics Operations"/></Consultants>
+<SynthesisEngine>0 MSV; 1 positions; 2 ratings; 3A criticism; 4 ≤2 rounds; 4.5 extract; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Ranked interventions with costs/benefits/risks and triggers.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Balanced deployment policy for gene-edited crops under explicit biosafety and acceptance constraints.</one_line>
+<bullets>
+<item>Phased approvals tied to transparent labeling and traceability.</item>
+<item>Targeted agronomic pilots across farm scales before region-wide rollouts.</item>
+<item>Standing public feedback and rapid-response communications.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Conflict">
+<KeyFinding source="fact_1" consultant="A1">Adopt tiered approval with containment and traceable seed lots.</KeyFinding>
+<KeyFinding source="fact_3" consultant="A2">Pilot yield trials with standardized inputs and audit logs.</KeyFinding>
+<RiskAssessment source="fact_2" consultant="A3">Deploy labeling + hotline + outreach to mitigate acceptance risks.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="All theses ground to Context."/>
+<check id="xml_validity" result="pass" note="Well-formed XML."/>
+<check id="objective_match" result="pass" note="Debate addressed yield vs. biosafety/acceptance."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions stated or cited."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

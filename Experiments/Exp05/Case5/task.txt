@@ -1,0 +1,8 @@
+Title: Rural Telemedicine Rollout: Coverage vs. Continuity of Care
+Objective: Conduct a conflict debate to design rollout strategies balancing coverage expansion with continuity and quality of care.
+Context: Bandwidth constraints, device access, licensure, referral networks, equity in outcomes.
+Methodology: Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.
+Experts: Rural Health Systems Planner; Clinical Quality and Safety Lead; Digital Infrastructure Engineer; Community Health Advocate.
+Constraints: PCG; ratings and cross-evaluation; Dual Output with Verification.
+Expected Outcomes: Ranked strategy portfolio with triggers and monitoring.
+Language: English only.

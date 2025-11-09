@@ -1,0 +1,20 @@
+Task ID: 1
+Target Case: Case2
+SINT Mode: Debates(N=3)+Conflict(Step 3A)
+
+Title: Analysis of Climate Change Mitigation Strategies: Economic vs. Environmental Priorities
+
+Description:
+A comprehensive analysis of climate change mitigation strategies where economists, environmental scientists, and policy experts debate the optimal balance between economic growth and environmental preservation.
+Experts must provide numerical ratings (1-10) for different strategies, engage in cross-criticism, and achieve iterative convergence on the most viable approaches.
+
+Expert Panel:
+- Expert E1: Economist, focusing on economic impacts and costs of mitigation strategies
+- Expert E2: Environmental Scientist, focusing on environmental benefits and ecological preservation
+- Expert E3: Policy Analyst, focusing on implementation feasibility and political viability
+
+Analysis Requirements:
+- Detailed expert positions with numerical ratings (1-10)
+- Cross-criticism with specific examples
+- At least 2 rounds of iterative convergence
+- Comprehensive synthesis of findings

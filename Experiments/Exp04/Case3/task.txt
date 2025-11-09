@@ -1,0 +1,8 @@
+Title: Open Data Governance for a Smart City Platform
+Objective: Integrate privacy, utility, and interoperability into a consensus governance roadmap for city open data.
+Context: PII handling, licensing, APIs/standards, civic innovation, vendor lock-in risks.
+Methodology: Debates (N=3) with Step 3B (Consensus); integrate and prioritize.
+Experts: Chief Data Officer; Civic Tech Community Representative; Legal and Compliance Counsel.
+Constraints: PCG; ratings and cross-evaluation at Step 2; Dual Output with Verification.
+Expected Outcomes: Prioritized governance policies with measurable targets and review cadence.
+Language: English only.

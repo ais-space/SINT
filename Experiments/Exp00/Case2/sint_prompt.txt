@@ -1,0 +1,60 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) PCG: each thesis must reference <Objective> or <Context>; otherwise mark INVALID and self-correct next.
+3) No prior heuristics; prioritize synthesis over citation.
+4) Dual Output is mandatory (Executive Summary + Synthesized Conclusion (XML) + Verification Report).
+5) On MSV conflict/impossibility, stop and request clarification.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Create a multi-agent debate that evaluates safety, efficiency, and ethical trade-offs in deploying autonomous delivery robots in dense urban environments. Require detailed positions, numerical ratings (1-10), cross-criticism, and iterative convergence under a conflict scenario.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Urban constraints and safety norms; 2. Local regulations; 3. Operational KPIs; 4. Night-time deliveries and school zones; 5. PCG and Dual Output required.]]></key_facts>
+<source_data><![CDATA[Municipal codes, logistics policies, safety guidelines, service-level requirements.]]></source_data>
+</Context>
+<Methodology>
+Debates (N=3) with Step 3A (Conflict), with Divergence Ratings and compromise proposals across at least 2 rounds.
+</Methodology>
+<Consultants>
+<Agent id="A1" focus="Urban Safety Regulation"/>
+<Agent id="A2" focus="Operations Optimization"/>
+<Agent id="A3" focus="Ethics and Public Trust"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: MSV validation of Objective/Methodology.
+Step 1: Initial positions (max 2 sentences) referencing Context.
+Step 2: Divergence Ratings (1-10). If any < 3 -> Step 3A; else Step 3B.
+Step 3A: Collective criticism: best thesis, vulnerable thesis, 2-sentence compromise; PCG enforced.
+Step 3B: Integration without criticism; prioritize relevance to Objective; PCG enforced.
+Step 4: Up to 2 rounds in conflict scenario; use progress summaries; on consensus < 7/10, produce partial_consensus.
+Step 4.5: Extract PCG-valid compromises (>= 7/10) into <KeyFinding> and <RiskAssessment> with source="fact_N" and consultant="Agent_ID".
+Step 5: Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200"/>
+<three_bullets/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Provide structured XML reflecting Scenario 3A (Conflict) outcomes, with PCG source attributes.
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-2</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

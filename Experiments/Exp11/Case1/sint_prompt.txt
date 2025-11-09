@@ -1,0 +1,66 @@
+# SINT PROMPT: Generation of Diverse Complex Analytical Tasks
+
+## Project: Generation of Diverse Complex Analytical Tasks
+**Customer:** SINT Research Laboratory
+**Objective:** Generate 4 different complex analytical tasks requiring unique interdisciplinary approaches with detailed expert analysis, numerical ratings, iterative convergence, and comprehensive synthesis.
+
+---
+
+## TASK GENERATION INSTRUCTIONS
+
+You are tasked with generating 4 distinct complex analytical tasks that satisfy the following specifications:
+
+### Task 1: Debates (N=3) + Conflict (Step 3A)
+Create a complex analytical task that requires 3 experts engaging in debates with conflicting viewpoints. The task must include:
+- Detailed expert positions with opposing viewpoints
+- Numerical ratings (1-10) for each position
+- Cross-criticism between experts
+- Iterative convergence toward resolution
+- Specific examples and data points supporting each position
+
+### Task 2: Debates (N=3) + Consensus (Step 3B)
+Create a complex analytical task that requires 3 experts working toward consensus. The task must include:
+- Structured rating system for different approaches
+- Detailed arguments supporting various options
+- Multi-round synthesis process
+- Clear methodology for consensus building
+- Evidence-based recommendations
+
+### Task 3: Generator + Critic (N=2)
+Create a complex analytical task that employs a Generator-Critic model with 2 experts. The task must include:
+- Comprehensive feedback loops between the Generator and Critic
+- Detailed analysis of proposed solutions
+- Iterative refinement process
+- Critical evaluation of assumptions and methodologies
+- Continuous improvement mechanisms
+
+### Task 4: Debates (N=4) + Conflict (Step 3A)
+Create a complex analytical task that requires 4 experts engaging in debates with significant conflicts. The task must include:
+- Numerical ratings (1-10) for different perspectives
+- Cross-evaluation between all experts
+- Iterative synthesis process
+- Complex problem with multiple stakeholder viewpoints
+- Detailed resolution pathways
+
+---
+
+## GENERATION REQUIREMENTS
+
+1. **Thematic Diversity**: All 4 tasks must be fundamentally different in theme and approach
+2. **Expert Analysis**: Each task requires detailed expert positions with concrete examples
+3. **Numerical Ratings**: All expert positions must include ratings on 1-10 scale
+4. **Cross-Evaluation**: Experts must evaluate each other's positions
+5. **Iterative Process**: Each task must include rounds of criticism and synthesis
+6. **Language**: All output must be in English
+
+## DELIVERABLES
+
+Generate 4 complete analytical tasks that adhere to the above specifications. Each task should be self-contained with:
+- Clear problem statement
+- Defined expert roles and positions
+- Evaluation criteria
+- Expected outcomes
+- Methodology for resolution
+
+**OUTPUT FORMAT**:
+For each task, provide the complete task description with all required elements specified above.

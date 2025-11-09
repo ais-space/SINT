@@ -1,0 +1,49 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) PCG: reference <Objective> or <Context> explicitly; otherwise mark INVALID and self-correct next.
+3) No canned heuristics; prioritize synthesis.
+4) Dual Output is mandatory (Executive Summary + Synthesized Conclusion (XML) + Verification Report).
+5) MSV: on contradictions/impossibility, stop and request clarification.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Generate a complete Formal Definition (FD) enabling a SINT Code Generator to build a SINT prompt that yields 4 distinct complex analytical tasks, each requiring a unique interdisciplinary setup with numeric ratings (1-10), cross-evaluation, iterative convergence, and Dual Output.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Domain breadth; 2. Ratings+cross-eval; 3. English-only; 4. PCG grounding; 5. Methods per case: C2=Debates(3)+3A, C3=Debates(3)+3B, C4=Gen+Critic(2), C5=Debates(4)+3A.]]></key_facts>
+<source_data><![CDATA[SINT v2.2 rules; Prompt_CLI_EN constraints; verification schema.]]></source_data>
+</Context>
+<Methodology>Debates (N=4) for synthesis; tasks set their own methods per Context.</Methodology>
+<Consultants>
+<Agent id="A1" focus="Robust Experiment Design"/>
+<Agent id="A2" focus="Method–Domain Fit"/>
+<Agent id="A3" focus="Metrics & Validity"/>
+<Agent id="A4" focus="Domain Breadth"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: MSV validation.
+Step 1: Initial positions (≤2 sentences) tied to Context.
+Step 2: Divergence Ratings (1-10); any <3 → 3A else 3B.
+Step 3A: Criticism (best/vulnerable/compromise), enforce PCG.
+Step 3B: Integration without criticism; prioritize relevance; enforce PCG.
+Step 4: If 3A, ≤2 rounds, progress summaries; if consensus <7 deliver partial_consensus; if 3B → Step 5.
+Step 4.5: Extract items with rating ≥7 into <KeyFinding>/<RiskAssessment> with source="fact_N" consultant="Agent_ID".
+Step 5: Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Indicate Scenario (3A/3B), include PCG traceability via source attributes.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

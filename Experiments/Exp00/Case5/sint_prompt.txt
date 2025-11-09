@@ -1,0 +1,60 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Line-by-line execution of <SynthesisEngine>.
+2) PCG required; mark INVALID and self-correct if ungrounded.
+3) Prioritize synthesis; no pre-made heuristics.
+4) Dual Output + Verification Report mandatory.
+5) MSV: stop on contradictions/impossibility.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Conduct a multi-agent conflict-oriented debate to derive investment and operational strategies that maximize grid resilience during compound extreme weather events.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Generation mix and transmission constraints; 2. Demand response and storage; 3. Maintenance and crews; 4. Stress scenarios; 5. Regulatory limits.]]></key_facts>
+<source_data><![CDATA[Grid operation reports, N-1 contingency planning, weather risk models, regulatory filings.]]></source_data>
+</Context>
+<Methodology>
+Debates (N=4) with Step 3A (Conflict), at least 2 rounds with divergence ratings and compromise synthesis.
+</Methodology>
+<Consultants>
+<Agent id="A1" focus="Transmission Systems Engineering"/>
+<Agent id="A2" focus="Renewable Integration Strategy"/>
+<Agent id="A3" focus="Reliability and Maintenance"/>
+<Agent id="A4" focus="Energy Policy and Regulation"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: MSV.
+Step 1: Initial positions (2 sentences) referencing Context.
+Step 2: Divergence ratings; if any < 3 -> 3A else 3B.
+Step 3A: Criticism with best/vulnerable/compromise items; PCG enforced.
+Step 4: Up to 2 rounds; progress summaries; partial_consensus if needed.
+Step 4.5: Extract PCG-valid compromises (>=7/10) into KeyFinding/RiskAssessment with attributes.
+Step 5: Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200"/>
+<three_bullets/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Provide ranked portfolio of investments and operational triggers with PCG traceability.
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-2</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

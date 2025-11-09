@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis; 4) Dual Output + Verification; 5) MSV stop on contradictions.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Balance protection efficacy, environmental impact, and community disruption for coastal flood defenses via conflict debates.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[Sea-level rise; storm surge; ecosystems; construction; funding.]]></key_facts>
+<source_data><![CDATA[Coastal engineering reports; EIA studies; community plans.]]></source_data>
+</Context>
+<Methodology>Debates (N=3) with Step 3A, ≥2 rounds, Divergence Ratings, compromise synthesis.</Methodology>
+<Consultants><Agent id="A1" focus="Coastal Engineering"/><Agent id="A2" focus="Environmental Impact"/><Agent id="A3" focus="Community Resilience"/></Consultants>
+<SynthesisEngine>0 MSV; 1 positions; 2 ratings; 3A criticism; 4 ≤2 rounds; 4.5 extract ≥7/10; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Conflict Scenario with PCG traceability.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

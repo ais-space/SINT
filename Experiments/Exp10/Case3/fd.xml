@@ -1,0 +1,28 @@
+<SINT_Prompt_Task>
+<Objective>
+An exploration of global education reform approaches where pedagogy experts, technology specialists, and cultural anthropologists work toward consensus on the optimal balance between standardized curricula and individualized learning paths. The analysis should include structured rating systems and multi-round synthesis.
+</Objective>
+<Context>
+Key areas: Global education reform, standardized curricula, individualized learning, pedagogy effectiveness, technology integration, cultural relevance. The analysis must include structured rating systems, detailed arguments with concrete examples, multi-round synthesis to reach consensus, and comprehensive analysis of all perspectives.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Role>Pedagogy Expert</Role>
+<Focus>Learning theory and classroom effectiveness, evidence-based teaching methods, assessment strategies.</Focus>
+</Consultant>
+<Consultant id="2">
+<Role>Technology Specialist</Role>
+<Focus>Digital tools and personalized learning platforms, data analytics for learning, adaptive systems.</Focus>
+</Consultant>
+<Consultant id="3">
+<Role>Cultural Anthropologist</Role>
+<Focus>Cultural relevance and diverse learning styles, community values, societal impact of education.</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) with Consensus Scenario (Step 3B) approach to integrate different perspectives toward a balanced solution.
+</Methodology>
+<Finalization_Protocol>
+All output must be in English. Experts must use structured rating systems, provide detailed arguments with concrete examples, engage in multi-round synthesis to reach consensus, and provide comprehensive analysis of all perspectives.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

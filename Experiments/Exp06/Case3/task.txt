@@ -1,0 +1,9 @@
+Task 2: Evaluation of Renewable Energy Transition Strategies for Industrial Manufacturing
+
+Description: Debates (N=3) + Consensus (Step 3B) with structured rating system, detailed arguments, and multi-round synthesis. Experts: Environmental Scientist, Industrial Economist, Energy Policy Expert.
+
+Requirements:
+- Structured rating system
+- Detailed arguments from each expert
+- Multi-round synthesis process
+- Consensus building

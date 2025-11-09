@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<output_raw>
+    <task_1>
+        <title>Task 1: Assessment of Quantum Computing Impact on Current Cybersecurity Infrastructure</title>
+        <description>Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence. Experts: Quantum Physics Specialist, Cybersecurity Architect, Technology Policy Analyst.</description>
+        <methodology>Expert Debates (N=3) + Conflict (Step 3A)</methodology>
+        <requirements>
+            Detailed expert positions with numerical ratings (1-10)
+            Cross-criticism between experts
+            Iterative convergence
+            Comprehensive synthesis with multiple rounds
+        </requirements>
+    </task_1>
+    
+    <task_2>
+        <title>Task 2: Evaluation of Renewable Energy Transition Strategies for Industrial Manufacturing</title>
+        <description>Debates (N=3) + Consensus (Step 3B) with structured rating system, detailed arguments, and multi-round synthesis. Experts: Environmental Scientist, Industrial Economist, Energy Policy Expert.</description>
+        <methodology>Expert Debates (N=3) + Consensus (Step 3B)</methodology>
+        <requirements>
+            Structured rating system
+            Detailed arguments from each expert
+            Multi-round synthesis process
+            Consensus building
+        </requirements>
+    </task_2>
+    
+    <task_3>
+        <title>Task 3: Analysis of AI Implementation Risks in Healthcare Diagnostics</title>
+        <description>Generator + Critic (N=2) with comprehensive feedback loops and detailed analysis. Roles: AI Systems Developer, Medical Ethics Specialist.</description>
+        <methodology>Generator + Critic (N=2)</methodology>
+        <requirements>
+            Comprehensive feedback loops
+            Detailed analysis of risks
+            Strict logical evaluation
+            Expert criticism and refinement
+        </requirements>
+    </task_3>
+    
+    <task_4>
+        <title>Task 4: Comprehensive Study on Urban Planning for Climate Resilience</title>
+        <description>Debates (N=4) + Conflict (Step 3A) with numerical ratings, cross-evaluation, and iterative synthesis. Experts: Climate Scientist, Urban Planner, Social Policy Expert, Infrastructure Engineer.</description>
+        <methodology>Expert Debates (N=4) + Conflict (Step 3A)</methodology>
+        <requirements>
+            Four expert perspectives
+            Numerical ratings (1-10)
+            Cross-evaluation between all experts
+            Iterative synthesis process
+        </requirements>
+    </task_4>
+    
+    <synthesis_report>
+        <summary>The SINT process successfully generated four distinct analytical tasks covering different domains and methodologies as required.</summary>
+        <compliance_check>PCG compliant: All tasks reference the original objective and context</compliance_check>
+    </synthesis_report>
+</output_raw>

@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Security review protocol for LLM apps handling sensitive data with explicit gates and rollback.</one_line>
+<bullets>
+<item>Threat modeling coverage with red-team test cases.</item>
+<item>Redaction, access control, and audit logs enforced.</item>
+<item>Staged rollout with rollback on failed gates.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Define prompt-injection and exfiltration tests as mandatory gates.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">Apply redaction + role-based access + immutable audit logs.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Require rollback and incident response playbook on failed gates.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Grounded to Context."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="AppSec goals satisfied."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

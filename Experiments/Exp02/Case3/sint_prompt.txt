@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis over citation; 4) Dual Output + Verification; 5) MSV stop on contradictions.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Integrate ridership recovery, cost control, and reliability into a consensus roadmap for a metropolitan rapid transit network.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Peak/off-peak; 2. Remote work; 3. Backlog; 4. Fare/access/equity; 5. PCG + ratings.]]></key_facts>
+<source_data><![CDATA[Ops reports, budgets, ridership trends.]]></source_data>
+</Context>
+<Methodology>Debates (N=3) with Step 3B (Consensus).</Methodology>
+<Consultants><Agent id="A1" focus="Transit Operations"/><Agent id="A2" focus="Urban Mobility Planning"/><Agent id="A3" focus="Public Finance"/></Consultants>
+<SynthesisEngine>Step 0 MSV; Step 1 positions; Step 2 ratings; if any <3 -> 3A else 3B; Step 3B integrate/prioritize; Step 4 direct to Step 5; Step 4.5 extract with attributes; Step 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Provide integrated roadmap with measurable targets.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

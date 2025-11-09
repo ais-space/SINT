@@ -1,0 +1,8 @@
+Title: AI-Driven Wildfire Response: Detection Latency vs. False Alarm Risk
+Objective: Run a conflict debate balancing rapid detection and low false-alarm rates in AI-assisted wildfire monitoring and dispatch.
+Context: Sensor fusion, satellite vs. UAV cadence, dispatch protocols, resource constraints, public safety messaging.
+Methodology: Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.
+Experts: Fire Behavior Scientist; Remote Sensing and Perception Engineer; Emergency Dispatch and Public Safety Officer.
+Constraints: PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.
+Expected Outcomes: Operational thresholds and dispatch triggers with KPIs and safeguards.
+Language: English only.

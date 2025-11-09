@@ -1,0 +1,20 @@
+Task ID: 2
+Target Case: Case3
+SINT Mode: Debates(N=3)+Consensus(Step 3B)
+
+Title: Global Education Reform: Balancing Standardization vs. Individualization
+
+Description:
+An exploration of global education reform approaches where pedagogy experts, technology specialists, and cultural anthropologists work toward consensus on the optimal balance between standardized curricula and individualized learning paths.
+The analysis should include structured rating systems and multi-round synthesis.
+
+Expert Panel:
+- Expert E1: Pedagogy Expert, focusing on learning theory and classroom effectiveness
+- Expert E2: Technology Specialist, focusing on digital tools and personalized learning platforms
+- Expert E3: Cultural Anthropologist, focusing on cultural relevance and diverse learning styles
+
+Analysis Requirements:
+- Structured rating system for different educational approaches
+- Detailed arguments with concrete examples
+- Multi-round synthesis to reach consensus
+- Comprehensive analysis of all perspectives

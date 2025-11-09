@@ -1,0 +1,22 @@
+<SINT_Prompt_Task>
+<Objective>
+Conduct a comprehensive study on urban planning for climate resilience using the SINT framework with Expert Debates (N=4) + Conflict (Step 3A) methodology, with numerical ratings and iterative synthesis.
+</Objective>
+<Context>
+The study must consider climate science projections, urban infrastructure capacity, social policy impacts, and engineering solutions. Experts: Climate Scientist, Urban Planner, Social Policy Expert, Infrastructure Engineer. The process must include four expert perspectives with numerical ratings (1-10), cross-evaluation, and iterative synthesis.
+</Context>
+<Consultants>
+1. Climate Scientist: Focuses on climate projections, extreme weather patterns, and environmental risks.
+2. Urban Planner: Evaluates city layouts, zoning strategies, and land use optimization.
+3. Social Policy Expert: Assesses community impact, equity considerations, and policy implementation.
+4. Infrastructure Engineer: Analyzes system capacity, engineering solutions, and implementation feasibility.
+</Consultants>
+<Methodology>
+Expert Debates (N=4) + Conflict (Step 3A) with numerical ratings, cross-evaluation, and iterative synthesis.
+</Methodology>
+<Finalization_Protocol>
+- All expert positions must include numerical ratings (1-10) and detailed cross-evaluations.
+- The process must include iterative synthesis with multiple rounds.
+- Output must include comprehensive analysis with specific examples and data points.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

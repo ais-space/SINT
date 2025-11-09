@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Siting principles for grid-scale batteries balancing reliability, cost, and EJ.</one_line>
+<bullets>
+<item>Nodes with high reliability impact and manageable interconnection upgrades.</item>
+<item>Lifecycle cost checks with market backstop and revenue certainty.</item>
+<item>EJ guardrails on exposure with community benefit agreements.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Conflict">
+<KeyFinding source="fact_1" consultant="A1">Prioritize nodes enhancing N-1 reliability margins.</KeyFinding>
+<KeyFinding source="fact_3" consultant="A2">Lifecycle cost threshold and market risk hedges.</KeyFinding>
+<RiskAssessment source="fact_2" consultant="A3">Exposure limits and benefit agreements for host communities.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Grounded to Context."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Balance achieved."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

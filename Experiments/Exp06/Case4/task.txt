@@ -1,0 +1,9 @@
+Task 3: Analysis of AI Implementation Risks in Healthcare Diagnostics
+
+Description: Generator + Critic (N=2) with comprehensive feedback loops and detailed analysis. Roles: AI Systems Developer, Medical Ethics Specialist.
+
+Requirements:
+- Comprehensive feedback loops
+- Detailed analysis of risks
+- Strict logical evaluation
+- Expert criticism and refinement

@@ -1,0 +1,39 @@
+**TASK 1: Ethical Framework Evaluation for Humanitarian Military Intervention in Contemporary Sovereignty Conflicts**
+
+**SINT Configuration:** Case 2 — Expert Debates (N=3) + Conflict Resolution (Step 3A) with iterative convergence
+
+**Objective:** Synthesize a defensible ethical framework for determining when, if ever, military humanitarian intervention overrides state sovereignty in cases of mass atrocities, through rigorous debate between three fundamentally conflicting moral-political philosophies. The analysis must produce numerical ratings (1-10 scale) for intervention legitimacy across specific contemporary conflict scenarios, demonstrate iterative convergence through minimum 3 debate rounds with cross-criticism, and generate a comprehensive synthesis that integrates majority position while explicitly documenting irresolvable minority objections.
+
+**Context and Grounding:** This task addresses the persistent tension between Responsibility to Protect (R2P) norms and Westphalian sovereignty principles in contemporary international relations. Grounding facts include: (1) UN Charter Article 2(4) prohibition on force vs. Chapter VII exceptions, (2) 2005 World Summit R2P doctrine adoption, (3) divergent outcomes in Libya (2011), Syria (2011-present), and Myanmar (2017-present) interventions, (4) emerging patterns of selective intervention correlated with strategic interests rather than humanitarian severity metrics, (5) post-intervention state failure rates exceeding 60% in cases lacking multilateral reconstruction commitment.
+
+**Expert Consultant Configuration (N=3):**
+
+*Expert A1 — Realist Sovereignty Advocate:* Focus on state system stability, non-intervention norms, and historical evidence of intervention failure. Will rate sovereignty preservation 9-10/10, intervention legitimacy 2-4/10 in most scenarios. Argumentative style: skeptical empiricism with emphasis on unintended consequences and strategic manipulation of humanitarian rhetoric. Expected to provide detailed historical precedents (Iraq 2003, Libya 2011) with casualty data and state collapse metrics.
+
+*Expert A2 — Cosmopolitan Humanitarian Interventionist:* Focus on universal human rights, atrocity prevention obligations, and moral imperative to protect vulnerable populations. Will rate intervention legitimacy 8-10/10 for genocide/crimes against humanity, sovereignty as conditional 4-6/10. Argumentative style: principled moral reasoning with emphasis on comparable worth of all human lives and positive intervention examples (Kosovo 1999, Sierra Leone 2000). Expected to provide victim-centered analysis with mortality projections under intervention vs. non-intervention scenarios.
+
+*Expert A3 — Post-Colonial Critical Theorist:* Focus on historical power asymmetries, selective intervention patterns reinforcing neocolonial structures, and alternative conflict resolution mechanisms. Will rate Western intervention legitimacy 2-4/10 due to structural bias, regional/African Union-led intervention 6-8/10. Argumentative style: power analysis with historical contextualization of intervention as continuation of imperial patterns. Expected to provide statistical analysis of intervention selectivity correlated with resource access and strategic location rather than humanitarian severity.
+
+**Analytical Requirements:**
+
+1. **Numerical Rating System:** Each expert must provide 1-10 ratings across multiple dimensions for 3-5 contemporary conflict scenarios (e.g., Yemen, Tigray, Ukraine):
+   - Intervention Moral Legitimacy (1=unjustifiable, 10=morally obligatory)
+   - Sovereignty Override Justification (1=absolute sovereignty, 10=sovereignty forfeited)
+   - Expected Humanitarian Outcome (1=catastrophic deterioration, 10=significant improvement)
+   - Intervention Selectivity Bias (1=pure humanitarian motive, 10=purely strategic exploitation)
+
+2. **Cross-Evaluation Protocol:** Each expert must rate opponents' frameworks on internal consistency (1-10), empirical grounding (1-10), and practical applicability (1-10), with specific textual justification citing factual errors or logical gaps.
+
+3. **Iterative Debate Structure (Minimum 3 Rounds):**
+   - Round 1: Each expert presents framework with ratings for 3 scenarios, grounded in Context facts
+   - Round 2: Cross-criticism phase — each expert identifies strongest opposing argument (rate 7-10/10) and most vulnerable opposing claim (rate 1-3/10), proposes synthesis compromise
+   - Round 3: Convergence attempt — experts adjust ratings based on valid criticisms, document remaining disagreements with numerical divergence metrics
+   - Additional rounds (up to 5 total) if consensus score remains below 7/10
+
+4. **Synthesis Requirements:** Final output must include:
+   - Majority position synthesis with composite intervention criteria (if 2+ experts converge)
+   - Explicit minority opinion documentation with irresolvable objections
+   - Practical decision framework with threshold ratings for intervention authorization
+   - Meta-analysis of debate process: initial rating variance, final convergence metrics, PCG compliance verification
+
+**Expected Outcome:** A comprehensive ethical framework document (3000-5000 words) containing: (a) synthesized intervention criteria with numerical thresholds, (b) application to 3-5 test cases with justified ratings, (c) documented areas of irresolvable ethical disagreement, (d) procedural recommendations for multilateral intervention authorization, (e) full debate archive with round-by-round rating evolution and cross-evaluation matrices.

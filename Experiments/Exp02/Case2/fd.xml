@@ -1,0 +1,30 @@
+<SINT_Prompt_Task>
+<Objective>
+Run a conflict-oriented debate to evaluate trade-offs between accelerated yield gains and biosafety/acceptance constraints for region-wide deployment of gene-edited staple crops. Require detailed positions, numeric ratings (1-10), cross-critique, and iterative convergence.
+</Objective>
+<Context>
+1. Regulatory approvals, containment protocols, labeling/traceability.
+2. Agronomic constraints across smallholder vs. industrial scales.
+3. English-only output; PCG grounding required.
+4. Divergence Ratings and compromise proposals across rounds.
+5. Dual Output + Verification Report are mandatory.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Regulatory Bioethics">Approval pathways, risk classification, public safeguards.</Agent>
+<Agent id="A2" focus="Agricultural Systems Engineering">Yield modeling, logistics, input constraints.</Agent>
+<Agent id="A3" focus="Public Engagement and Risk Communication">Acceptance drivers, transparency, outreach.</Agent>
+</Consultants>
+<Methodology>
+Debates (N=3) with Step 3A (Conflict), at least 2 rounds with Divergence Ratings and compromise synthesis.
+</Methodology>
+<Finalization_Protocol>
+1. Require ratings (1-10), cross-evaluation each round, explicit compromises.
+2. Strict XML-only formatting; no leading spaces or HTML entities.
+3. Enforce PCG; mark INVALID and self-correct if ungrounded.
+4. MSV: stop and request clarification on contradictions/impossibilities.
+5. Dual Output + Verification Report required.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta: consensus_score, iterations_used, fallback_flag.
+</Verification>
+</SINT_Prompt_Task>

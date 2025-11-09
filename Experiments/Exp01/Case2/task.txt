@@ -1,0 +1,8 @@
+Title: Autonomous Maritime Port Scheduling: Safety, Throughput, and Fair Berthing
+Objective: Run a conflict debate to balance collision-avoidance safety, throughput maximization, and fair berthing for autonomous tug-and-berth scheduling.
+Context: Harbor traffic rules, AIS/VTMS data, weather/visibility, labor windows, emissions constraints.
+Methodology: Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.
+Experts: Harbor Safety Regulator; Port Operations Optimization Engineer; Labor and Community Impact Advocate.
+Constraints: PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.
+Expected Outcomes: Compromise policy and scheduling principles with KPIs and guardrails.
+Language: English only.

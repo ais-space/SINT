@@ -1,0 +1,28 @@
+<SINT_Prompt_Task>
+<Objective>
+Generation of a single, detailed, and technically complete Formal Definition (FD) that will be used by the 'Code Generator' agent to create a SINT prompt that in turn should generate 4 different complex analytical tasks. Each task requires a unique interdisciplinary approach with detailed expert analysis, numerical ratings, iterative convergence, and comprehensive synthesis.
+</Objective>
+<Context>
+The generated tasks should cover fundamentally different areas of knowledge, require various sets of experts and methodologies, demonstrate the broad spectrum of SINT framework capabilities, and require highly detailed analysis with numerical ratings and iterative synthesis. Each of the 4 generated tasks must demonstrate different SINT modes: Task 1 (Case 2): Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence. Task 2 (Case 3): Debates (N=3) + Consensus (Step 3B) with structured rating system, detailed arguments, and multi-round synthesis. Task 3 (Case 4): Generator + Critic (N=2) with comprehensive feedback loops and detailed analysis. Task 4 (Case 5): Debates (N=4) + Conflict (Step 3A) with numerical ratings, cross-evaluation, and iterative synthesis.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Role>Interdisciplinary Methodologist</Role>
+<Focus>Focus on ensuring each task requires fundamentally different thematic and methodological approaches, with emphasis on methodological diversity and expert composition.</Focus>
+</Consultant>
+<Consultant id="2">
+<Role>Complexity Assessment Specialist</Role>
+<Focus>Focus on ensuring each task has appropriate complexity with detailed expert analysis, numerical ratings (1-10), cross-evaluation scores, and specific examples.</Focus>
+</Consultant>
+<Consultant id="3">
+<Role>Framework Compliance Expert</Role>
+<Focus>Focus on ensuring all tasks follow the Principle of Contextual Grounding (PCG), with clearly defined objectives and expected outcomes for each.</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) with Conflict Scenario (Step 3A) approach to ensure methodological diversity and comprehensive analysis.
+</Methodology>
+<Finalization_Protocol>
+All output must be in English. Each expert must provide detailed, specific arguments with concrete examples, data points, and numerical ratings. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts. Output should include 4 distinct analytical tasks that meet all specified requirements.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

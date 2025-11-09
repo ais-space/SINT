@@ -1,0 +1,19 @@
+<SINT_Prompt_Task>
+<Objective>
+Create a framework for K-12 education that prepares students for a technology-driven future while maintaining humanistic and social skills.
+</Objective>
+<Context>
+Traditional education systems struggle to adapt to rapidly changing workforce requirements and technological capabilities. The task involves designing educational reform with experts in technology integration, child development, and workforce readiness working toward consensus through structured rating and synthesis.
+</Context>
+<Consultants>
+<Consultant id="1" role="Technology Integration Specialist" focus="Incorporating digital tools and computational thinking into pedagogical practices"/>
+<Consultant id="2" role="Child Development Expert" focus="Age-appropriate learning methods and developmental psychology considerations"/>
+<Consultant id="3" role="Workforce Readiness Analyst" focus="Skills required for future employment and economic participation"/>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) with Consensus scenario to find integrative solutions.
+</Methodology>
+<Finalization_Protocol>
+Experts must provide structured ratings and engage in multi-round synthesis to achieve consensus. All output must be in English. All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

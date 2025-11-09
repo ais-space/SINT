@@ -1,0 +1,8 @@
+Task Title: Urban Development Sustainability
+Description: Evaluate the sustainability of various urban development models, considering environmental, social, and economic factors. Use the Debates (N=4) + Conflict (Step 3A) methodology with numerical ratings, cross-evaluation, and iterative synthesis.
+Experts:
+- Urban Planner
+- Environmental Scientist
+- Sociologist
+- Economist
+Methodology: Debates (N=4) + Conflict (Step 3A)

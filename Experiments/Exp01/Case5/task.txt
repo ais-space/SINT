@@ -1,0 +1,8 @@
+Title: Multi-Drone Disaster Response: Airspace Safety vs. Search Efficiency
+Objective: Conduct a conflict debate to balance rapid area coverage and airspace safety/comms reliability for multi-drone SAR operations.
+Context: BVLOS regs, interference, terrain/obstacles, battery/logistics, human coordination.
+Methodology: Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.
+Experts: Aviation Safety Officer; UAS Mission Planner; Communications and Networking Specialist; Field Operations Coordinator.
+Constraints: PCG; detailed ratings and cross-evaluation; Dual Output + Verification.
+Expected Outcomes: Ranked tactics and control policies with triggers and fail-safes.
+Language: English only.

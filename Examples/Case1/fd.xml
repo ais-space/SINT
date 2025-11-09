@@ -1,0 +1,59 @@
+<SINT_Prompt_Task>
+<Objective>Generate 4 fundamentally different complex analytical tasks, each requiring unique interdisciplinary expert analysis with detailed arguments, numerical ratings (1-10 scale), iterative convergence through multiple debate rounds, and comprehensive synthesis. Each task must demonstrate distinct SINT framework capabilities across diverse knowledge domains.</Objective>
+<Language>english</Language>
+<Context>
+<Fact id="1">Task 1 must demonstrate Case 2 (Debates N=3 + Conflict Step 3A) with detailed expert positions, numerical ratings, cross-criticism, and iterative convergence</Fact>
+<Fact id="2">Task 2 must demonstrate Case 3 (Debates N=3 + Consensus Step 3B) with structured rating system, detailed arguments, and multi-round synthesis</Fact>
+<Fact id="3">Task 3 must demonstrate Case 4 (Generator + Critic N=2) with comprehensive feedback loops and detailed analysis</Fact>
+<Fact id="4">Task 4 must demonstrate Case 5 (Debates N=4 + Conflict Step 3A) focused on AGI existential risk assessment, challenging extreme alarmism while analyzing alignment problems and instrumental convergence against counterarguments about biological aggression absence and engineered safeguards</Fact>
+<Fact id="5">All tasks must apply Principle of Contextual Grounding (PCG), require separate full SINT applications, include multiple criticism rounds, iterative convergence, and comprehensive synthesis with numerical ratings and cross-evaluations</Fact>
+</Context>
+<Consultants>
+<Agent id="A1" role="Meta-Framework Architect" focus="Designing the overarching structure for generating 4 diverse analytical tasks that maximize SINT framework demonstration across fundamentally different domains with appropriate expert configurations and debate protocols" style="systematic-synthesizer: methodical approach to task generation ensuring maximum diversity and framework coverage"/>
+<Agent id="A2" role="Domain Diversity Specialist" focus="Ensuring the 4 generated tasks cover maximally different knowledge areas (e.g., geopolitics, ethics, technology, existential philosophy) with non-overlapping methodologies and expert types" style="lateral-thinker: emphasis on interdisciplinary boundaries and thematic orthogonality"/>
+<Agent id="A3" role="Analytical Rigor Enforcer" focus="Guaranteeing each of the 4 tasks includes detailed numerical rating systems (1-10), comprehensive cross-evaluation mechanisms, iterative debate protocols with minimum 3 rounds, and robust synthesis requirements" style="precision-auditor: focus on methodological completeness and measurable analytical depth"/>
+</Consultants>
+<Methodology mode="expert_debates" debate_type="consensus" N="3" rationale="Objective requires interdisciplinary synthesis of multiple factors (task diversity, SINT mode demonstration, analytical depth, domain coverage) across 3+ expert perspectives to generate 4 fundamentally different complex tasks"/>
+<Dynamics rounds_min="3" rounds_max="5" termination="consensus_or_documented_conflict" vs_enabled="true" verbose="true">
+<RatingSystem scale="1-10" require_justification="true" cross_evaluation="mandatory"/>
+<IterativeRefinement min_rounds="3" convergence_tracking="numerical_rating_delta"/>
+<VerbosityLevel debate_narrative="full" expert_replicas="vivid_rhetorical" pcg_grounding="explicit"/>
+</Dynamics>
+<Finalization_Protocol>
+<OutputStructure>
+<SynthesizedConclusion>
+<TaskSet>
+<Task id="1" sint_mode="Case2_DebatesN3_Conflict3A"/>
+<Task id="2" sint_mode="Case3_DebatesN3_Consensus3B"/>
+<Task id="3" sint_mode="Case4_GeneratorCriticN2"/>
+<Task id="4" sint_mode="Case5_DebatesN4_Conflict3A" theme="AGI_existential_risk_balanced_assessment"/>
+</TaskSet>
+</SynthesizedConclusion>
+<ExecutiveSummary format="one_line_plus_three_bullets"/>
+<DebateLog narrative_style="engaging" rounds_visible="all" language="english"/>
+<VerificationReport>
+<PCG_Check status="mandatory"/>
+<XML_Validity status="mandatory"/>
+<LanguageConsistency check_id="language_consistency" expected="pass"/>
+<VS_Diversity check_id="vs_diversity" expected="pass" condition="if_vs_enabled"/>
+</VerificationReport>
+</OutputStructure>
+<QualityRequirements>
+<Requirement id="R1">Each of 4 generated tasks must be fundamentally different in theme, domain, expert configuration, and analytical approach</Requirement>
+<Requirement id="R2">Each task must include complete specification: clear objective, expert roles with explicit conflicts, numerical rating system (1-10), minimum 3 debate rounds, cross-evaluation protocol, synthesis requirements</Requirement>
+<Requirement id="R3">Task 4 must focus on AGI existential risk with minimum 5 experts including A1 as extreme alarmist (Yudkowsky-style), featuring vivid debate styles, humor elements, maximum debate rounds, and balanced final assessment challenging doom inevitability</Requirement>
+<Requirement id="R4">All expert arguments must include concrete examples, data points, numerical ratings with justifications, and PCG grounding</Requirement>
+<Requirement id="R5">Final output in TaskSet must contain only Task tags with complete task specifications, no intermediate FZ tags</Requirement>
+</QualityRequirements>
+<DoubleOutput>
+<Primary>Full SynthesizedConclusion with TaskSet containing 4 complete analytical tasks in english</Primary>
+<Secondary>ExecutiveSummary maximum one_line plus three_bullets in english</Secondary>
+</DoubleOutput>
+<ProhibitedElements>
+<Prohibition>No wrapping of final OutputFormat in SINT_Prompt tags</Prohibition>
+<Prohibition>No HTML entities or tags</Prohibition>
+<Prohibition>No Markdown or code blocks in output</Prohibition>
+<Prohibition>No spaces or tabs at line beginnings for XML formatting</Prohibition>
+</ProhibitedElements>
+</Finalization_Protocol>
+</SINT_Prompt_Task>

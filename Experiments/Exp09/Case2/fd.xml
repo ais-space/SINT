@@ -1,0 +1,28 @@
+<SINT_Prompt_Task>
+<Objective>
+A comprehensive analysis of climate change mitigation strategies where economists, environmental scientists, and policy experts debate the optimal balance between economic growth and environmental preservation. Experts must provide numerical ratings (1-10) for different strategies, engage in cross-criticism, and achieve iterative convergence on the most viable approaches.
+</Objective>
+<Context>
+Key areas: Climate change mitigation strategies, economic impacts, environmental preservation, policy implementation. The analysis must include detailed expert positions, numerical ratings (1-10), cross-criticism with specific examples, and at least 2 rounds of iterative convergence for comprehensive synthesis.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Role>Economist</Role>
+<Focus>Economic impacts and costs of mitigation strategies, cost-benefit analysis, economic feasibility of different approaches.</Focus>
+</Consultant>
+<Consultant id="2">
+<Role>Environmental Scientist</Role>
+<Focus>Environmental benefits and ecological preservation, carbon footprint reduction, ecosystem health impacts.</Focus>
+</Consultant>
+<Consultant id="3">
+<Role>Policy Analyst</Role>
+<Focus>Implementation feasibility and political viability, regulatory mechanisms, stakeholder engagement.</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) with Conflict Scenario (Step 3A) approach to ensure deep synthesis between conflicting economic and environmental priorities.
+</Methodology>
+<Finalization_Protocol>
+All output must be in English. Experts must provide numerical ratings (1-10), engage in cross-criticism, and achieve iterative convergence. Output should include detailed analysis with specific examples and comprehensive synthesis.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

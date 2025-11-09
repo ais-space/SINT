@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis over citation; 4) Dual Output + Verification; 5) MSV.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Use Generator+Critic to produce a robust application security review protocol tailored to LLM-based systems processing PII and proprietary data.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Threat models; 2. Redaction/logging; 3. Access control; 4. Human override; 5. Auditability.]]></key_facts>
+<source_data><![CDATA[AppSec policies, compliance requirements, security testing guides.]]></source_data>
+</Context>
+<Methodology>Generator + External Critic (N=2) with explicit feedback and corrections.</Methodology>
+<Consultants><Agent id="G" focus="AppSec Architecture"/><Agent id="C" focus="Compliance and Risk"/></Consultants>
+<SynthesisEngine>Step 0 MSV; Step 1 Generator drafts; Step 2 Critic rates and flags; Step 3 revise; Step 4.5 extract; Step 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Provide review protocol: gates, controls, test cases, rollback triggers.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

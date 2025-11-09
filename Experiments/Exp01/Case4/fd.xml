@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Govern enterprise ML feature stores via Generator+Critic producing lineage, access, drift, and retention controls.</Objective>
+<Context>PII handling, RBAC, audit trails, schema evolution, drift flags, incidents.</Context>
+<Consultants><Agent id="G" focus="Data Governance Architecture"/><Agent id="C" focus="Compliance & Risk"/></Consultants>
+<Methodology>Generator + External Critic (N=2) with mandatory corrections and rating gates.</Methodology>
+<Finalization_Protocol>Numeric ratings; feedback loops; strict XML; PCG + MSV; Dual Output + Verification; rollback triggers.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,20 @@
+<SINT_Prompt_Task>
+<Objective>
+Design urban models that balance environmental sustainability, economic viability, social equity, and livability.
+</Objective>
+<Context>
+Urbanization trends require innovative approaches to accommodate growing populations while reducing environmental impact. The task involves sustainable urban planning with four distinct perspectives: transportation, environment, housing policy, and social equity engaging in conflict-based analysis with numerical ratings.
+</Context>
+<Consultants>
+<Consultant id="1" role="Transportation Planner" focus="Efficient mobility systems, reducing emissions, and accessibility across populations"/>
+<Consultant id="2" role="Environmental Engineer" focus="Resource efficiency, waste management, and ecological impact reduction"/>
+<Consultant id="3" role="Housing Policy Expert" focus="Affordable housing availability and spatial distribution"/>
+<Consultant id="4" role="Social Equity Advocate" focus="Equal access to urban amenities and services across socioeconomic groups"/>
+</Consultants>
+<Methodology>
+Expert Debates (N=4) with Conflict scenario due to fundamentally competing urban priorities.
+</Methodology>
+<Finalization_Protocol>
+Experts must provide numerical ratings (1-10), engage in cross-evaluation, and iterative synthesis. All output must be in English. All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

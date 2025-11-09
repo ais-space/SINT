@@ -1,0 +1,10 @@
+Task ID: 4
+Title: Urban Planning for Sustainable Cities
+Type: Debates(N=4)+Conflict
+Description: Design sustainable urban development models considering transportation, housing, environment, and social equity with four distinct expert perspectives engaging in conflict-based analysis with numerical ratings.
+
+Objective: Design urban models that balance environmental sustainability, economic viability, social equity, and livability.
+Context: Urbanization trends require innovative approaches to accommodate growing populations while reducing environmental impact.
+Consultants: Transportation Planner, Environmental Engineer, Housing Policy Expert, Social Equity Advocate
+Methodology: Expert Debates (N=4) with Conflict scenario due to fundamentally competing urban priorities
+Experts must provide numerical ratings (1-10), engage in cross-evaluation, and iterative synthesis.

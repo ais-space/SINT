@@ -1,0 +1,8 @@
+Title: Model Routing and Safety Gates for Customer Support LLMs
+Objective: Use Generator+Critic to create routing rules and safety gates ensuring QoS and safety for customer support LLMs.
+Context: Tiered models, content filters, escalation to human, latency SLOs, cost budgets.
+Methodology: Generator + External Critic (N=2) with corrections and rating gates.
+Experts: Conversational AI Architect (Generator); Trust & Safety and Finance Controller (Critic).
+Constraints: PCG; numeric ratings for risk/coverage; Dual Output with Verification.
+Expected Outcomes: Gated routing protocol with metrics, test hooks, and rollback triggers.
+Language: English only.

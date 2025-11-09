@@ -1,0 +1,87 @@
+# SINT PROMPT: Climate Change Mitigation Strategies - Multi-Expert Debate
+
+## Task: Climate Change Mitigation Strategies: Economic vs Environmental vs Social Perspectives
+
+**Objective:** Facilitate a comprehensive debate between three experts with conflicting viewpoints on climate change mitigation strategies, followed by iterative convergence to find potential synthesis.
+
+---
+
+## EXPERT ROLES AND POSITIONS
+
+### Expert 1: Economist
+**Position:** Market-based solutions like carbon pricing are most effective
+**Arguments:**
+1. Carbon pricing provides efficient market incentives
+2. Minimal government intervention required
+3. Cost-effective implementation at scale
+
+**Rating:** 7.5/10
+
+### Expert 2: Environmental Scientist
+**Position:** Immediate regulatory measures are necessary
+**Arguments:**
+1. Climate crisis requires urgent action
+2. Market mechanisms are too slow
+3. Need for binding emissions targets
+
+**Rating:** 8.5/10
+
+### Expert 3: Social Justice Advocate
+**Position:** Equity-focused approaches must take precedence
+**Arguments:**
+1. Poor communities bear disproportionate costs
+2. Climate policies must address social justice
+3. Just transition for workers is essential
+
+**Rating:** 8.0/10
+
+---
+
+## DEBATE FRAMEWORK
+
+### Round 1: Initial Position Presentation
+- Each expert presents their position with supporting arguments
+- Numerical rating (1-10) assigned to each position
+- Evidence and examples provided for each perspective
+
+### Round 2: Cross-Criticism
+- Economist evaluates Environmental Scientist: "Regulation might be economically inefficient and lead to unintended consequences"
+- Economist evaluates Social Justice Advocate: "Economic growth is necessary to fund social programs"
+- Environmental Scientist evaluates Economist: "Market mechanisms have failed to address climate urgency"
+- Environmental Scientist evaluates Social Justice Advocate: "Environmental collapse would harm all communities"
+- Social Justice Advocate evaluates Economist: "Market failures require government intervention"
+- Social Justice Advocate evaluates Environmental Scientist: "Environment policy must consider vulnerable populations"
+
+### Round 3: Refinement and Response
+- Each expert responds to criticisms and adjusts their position
+- Identification of common ground or shared concerns
+- Exploration of potential compromises
+
+### Round 4: Iterative Convergence
+- Development of synthesised approach combining best elements
+- Final rating of converged solution
+- Identification of agreed elements
+
+---
+
+## ANALYSIS REQUIREMENTS
+
+1. **Detailed Expert Positions:** Each expert must provide specific, evidence-based arguments
+2. **Numerical Ratings:** All positions must be rated on 1-10 scale
+3. **Cross-Evaluation:** Experts must evaluate and critique each other's positions
+4. **Iterative Process:** Multiple rounds of refinement and synthesis
+5. **Synthesis:** Final converged solution combining best elements
+
+---
+
+## EXPECTED OUTPUT
+
+Provide a detailed analysis of the debate process including:
+- Each expert's initial position with evidence
+- Cross-criticism between experts
+- Expert responses to criticism
+- Final synthesized solution
+- Overall rating of the consensus position
+- List of agreed elements
+
+**All output must be in English.**

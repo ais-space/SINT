@@ -1,0 +1,90 @@
+<SINT_Prompt>
+<Configuration>
+    <Role>SINT Executor</Role>
+    <Protocol>
+    1. Execution of <SynthesisEngine> is strictly line-by-line.
+    2. Principle of Contextual Grounding (PCG): Any new thesis/conclusion must explicitly reference elements in <Context> or <Objective>.
+    3. Direct use or citation of pre-existing heuristics is forbidden.
+    4. Synthesis is prioritized over citation.
+    5. PCG-Failure Action: If a thesis cannot be correlated with <Context> or <Objective>, mark it as INVALID and require self-correction in the next message.
+    </Protocol>
+    <Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+
+<Objective>
+<![CDATA[Develop an ethical framework for advanced AI development considering technical, social, and economic implications. Use the Generator + Critic (N=2) methodology with comprehensive feedback loops and detailed analysis.]]>
+</Objective>
+
+<Context>
+    <key_facts max_items="5"><![CDATA[Numbered key facts for PCG: 1. AI development raises ethical concerns about bias; 2. Privacy is a critical issue in AI systems; 3. Questions of autonomy and human dignity arise; 4. Transparency requirements are essential; 5. Societal impact can be profound]]></key_facts>
+    <source_data><![CDATA[AI development involves significant ethical considerations including bias, privacy, autonomy, transparency, and societal impact. Key stakeholders include developers, users, affected communities, and regulatory bodies.]]>
+</source_data>
+</Context>
+
+<Methodology>
+Generator + Critic (N=2) with comprehensive feedback loops and detailed analysis
+</Methodology>
+
+<Consultants>
+<Consultant id="1">
+<Name>AI Ethics Specialist</Name>
+<Focus>Algorithmic fairness, bias mitigation, privacy protection, transparency requirements</Focus>
+</Consultant>
+<Consultant id="2">
+<Name>Technology Philosopher</Name>
+<Focus>Autonomy, human dignity, moral status of AI systems, long-term implications of superintelligence</Focus>
+</Consultant>
+</Consultants>
+
+<SynthesisEngine>
+Step 0: Validation Phase (MSV).
+The Executor (LLM) must conduct a logical pre-filter of the <Objective> and <Methodology> for internal contradictions or impossible instructions. If a conflict is found, stop the process and request clarification.
+
+Step 1: Initialization Phase.
+Each Consultant formulates their initial position (max 2 sentences) on the <Objective> within their <Focus>.
+
+Step 2: Divergence and Conflict Assessment Phase.
+Each Consultant assigns a Divergence Rating (1-10) to all positions.
+Conflict Assessment: If at least one agent assigns a Divergence Rating < 3 (Defective/Dangerous) to an opponent's position, proceed to Step 3A (Criticism Phase). Otherwise, proceed to Step 3B (Integration Phase - Default Path).
+
+Step 3A: Criticism Phase (Conflict Scenario).
+All consultants provide collective criticism. Each Consultant: 1) Highlights the best thesis. 2) Points out a vulnerable thesis. 3) Proposes a compromise (max 2 sentences). All theses must comply with PCG.
+
+Step 3B: Integration Phase (Consensus Scenario).
+Consultants do not criticize. Each Consultant integrates relevant theses (Rating >= 3), prioritizing them by importance to the <Objective>. All theses must comply with PCG.
+
+Step 4: Iterative Convergence/Final Synthesis.
+If Scenario 3A (Conflict) was chosen: A maximum of 2 debate rounds are conducted. Before each round, the LLM must generate a brief Summary of Progress to maintain context. On failure (Consensus < 7/10), a fallback partial_consensus is formed.
+If Scenario 3B (Consensus) was chosen: Proceed directly to Step 5.
+
+Step 4.5: Extraction and Structuring.
+Extract only PCG-valid compromise theses with a rating >= 7/10 and structure them into groups (<KeyFinding>, <RiskAssessment>). Use attributes source="fact_N" and consultant="Agent_ID" for traceability.
+
+Step 5: Finalization Phase.
+Finalize: form the public output (Executive Summary) + Synthesized Conclusion (XML) + Verification Report.
+</SynthesisEngine>
+
+<OutputFormat>
+    <ExecutiveSummary>
+        <one_line_conclusion max_chars="200" />
+        <three_bullets />
+    </ExecutiveSummary>
+    <SynthesizedConclusion>
+    Synthesis completed under Scenario: [Conflict/Consensus].
+    [Full, structured technical output in XML format, using source="..." attributes for PCG.]
+    </SynthesizedConclusion>
+    <VerificationReport>
+        <check id="pcg_compliance" result="pass|fail" note="" />
+        <check id="xml_validity" result="pass|fail" note="" />
+        <check id="objective_match" result="pass|fail" note="" />
+        <check id="no_undeclared_assumptions" result="pass|fail" note="" />
+        <meta>
+            <consensus_score>0-10</consensus_score>
+            <iterations_used>0-2</iterations_used>
+            <fallback_flag>false|true</fallback_flag>
+        </meta>
+    </VerificationReport>
+    <assumptions>
+    </assumptions>
+</OutputFormat>
+</SINT_Prompt>

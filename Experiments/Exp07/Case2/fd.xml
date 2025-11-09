@@ -1,0 +1,28 @@
+<SINT_Prompt_Task>
+<Objective>
+Conduct a comprehensive analysis of climate change effects on global agriculture, coastal communities, and biodiversity. Use the Debates (N=3) + Conflict (Step 3A) methodology with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.
+</Objective>
+<Context>
+Climate change impact on global agriculture, coastal communities, and biodiversity. Key considerations include rising sea levels, changing precipitation patterns, temperature increases, and ecosystem disruption.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Name>Environmental Scientist</Name>
+<Focus>Climate science, ecosystem impacts, biodiversity loss assessment</Focus>
+</Consultant>
+<Consultant id="2">
+<Name>Economist</Name>
+<Focus>Economic impacts of climate change, cost-benefit analysis of adaptation measures</Focus>
+</Consultant>
+<Consultant id="3">
+<Name>Policy Analyst</Name>
+<Focus>Policy responses, international cooperation, regulatory frameworks</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence
+</Methodology>
+<Finalization_Protocol>
+All expert positions must include detailed arguments with concrete examples, data points, and numerical ratings. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts. Output must include multiple rounds of criticism, iterative convergence, and comprehensive synthesis.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

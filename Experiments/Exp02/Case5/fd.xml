@@ -1,0 +1,14 @@
+<SINT_Prompt_Task>
+<Objective>Conduct a conflict-oriented debate to derive legally robust and socially acceptable allocation strategies for river-basin water during prolonged drought.</Objective>
+<Context>
+1. Rights hierarchy, ecological flows, ag vs. urban demand.
+2. Emergency reserves and enforcement capacity.
+3. English-only; PCG; detailed ratings and cross-evaluation.
+4. Concrete drought stages and triggers.
+5. Dual Output + Verification mandatory.
+</Context>
+<Consultants><Agent id="A1" focus="Water Rights Law"/><Agent id="A2" focus="Agricultural Hydrology"/><Agent id="A3" focus="Municipal Planning"/><Agent id="A4" focus="Environmental Science"/></Consultants>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise synthesis.</Methodology>
+<Finalization_Protocol>Numeric ratings; cross-eval; strict XML; PCG + MSV; dual output; ranked rules + triggers.</Finalization_Protocol>
+<Verification>Checks and meta as standard.</Verification>
+</SINT_Prompt_Task>

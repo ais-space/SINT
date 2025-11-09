@@ -1,0 +1,8 @@
+Title: Model Evaluation Protocol under Data Drift
+Objective: Create a Generator+Critic workflow to build a robust evaluation protocol for ML systems facing covariate shift and data drift across quarters.
+Context: Monitoring signals, acceptance thresholds, retraining triggers, A/B guardrails; references to drift detection literature.
+Methodology: Generator + External Critic (N=2) with explicit feedback loops and mandatory corrections.
+Experts: Evaluation Protocol Architect (Generator); Risk and Compliance Reviewer (Critic).
+Constraints: PCG required; numeric ratings (1-10) for risk/coverage; Dual Output with Verification Report.
+Expected Outcomes: Stepwise protocol with metrics, thresholds, rollback criteria, and escalation paths.
+Language: English only.

@@ -1,0 +1,8 @@
+Title: National Grid Resilience under Extreme Weather
+Objective: Conduct a multi-agent conflict-oriented debate to derive investment and operational strategies that maximize grid resilience during compound extreme weather events.
+Context: Generation mix, transmission constraints, demand response, distributed storage, maintenance scheduling. Use concrete stress scenarios.
+Methodology: Debates (N=4) with Step 3A (Conflict). At least 2 rounds with divergence ratings and compromise synthesis.
+Experts: Transmission Systems Engineer; Renewable Integration Strategist; Reliability and Maintenance Planner; Energy Policy and Regulation Analyst.
+Constraints: PCG required; detailed ratings and cross-evaluation; Dual Output with Verification Report.
+Expected Outcomes: Ranked portfolio of actions with cost/benefit/risk, and triggers for operational modes.
+Language: English only.

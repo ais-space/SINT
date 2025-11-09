@@ -1,0 +1,23 @@
+<SINT_Prompt_Task>
+<Objective>
+Generate a single, detailed, and technically complete Formal Definition (FD), which will be used by the 'Code Generator' agent to create a SINT prompt that in turn should generate 4 different complex analytical tasks, each requiring a unique interdisciplinary approach with detailed expert analysis, numerical ratings, iterative convergence, and comprehensive synthesis.
+</Objective>
+<Context>
+The generated tasks should cover fundamentally different areas of knowledge, require various sets of experts and methodologies, demonstrate the broad spectrum of SINT framework capabilities, and require highly detailed analysis with numerical ratings and iterative synthesis. Each of the 4 tasks must require a separate full SINT application. All tasks must be fundamentally different in thematic and approaches. All tasks must be formulated considering the principle of contextual grounding (PCG).
+</Context>
+<Consultants>
+1. Interdisciplinary Analysis Expert: Focuses on cross-field connections and methodology integration.
+2. Complexity Assessment Specialist: Evaluates depth, rigor, and analytical requirements of tasks.
+3. Framework Application Strategist: Ensures proper SINT methodology alignment and implementation.
+</Consultants>
+<Methodology>
+Expert Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.
+</Methodology>
+<Finalization_Protocol>
+- All output (including 4 generated tasks) MUST BE in English.
+- Each expert must provide detailed, specific arguments with concrete examples, data points, and numerical ratings.
+- The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts.
+- All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples.
+- The output must include multiple rounds of criticism, iterative convergence, and comprehensive synthesis.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

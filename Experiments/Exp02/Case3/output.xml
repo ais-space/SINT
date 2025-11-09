@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Consensus roadmap aligning service reliability, costs, and ridership recovery.</one_line>
+<bullets>
+<item>Staggered headway restoration by corridor priority and demand.</item>
+<item>Maintenance windows batched to clear backlog with minimal disruption.</item>
+<item>Fare pilots targeting equity without eroding fiscal stability.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Consensus">
+<KeyFinding source="fact_1" consultant="A1">Restore 6–8 min peak headways on top 3 corridors.</KeyFinding>
+<KeyFinding source="fact_3" consultant="A2">Expand off-peak coverage to underserved zones with microtransit feeders.</KeyFinding>
+<RiskAssessment source="fact_2" consultant="A3">Capex-light fleet refresh; fare pilot impacts monitored quarterly.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="All findings cite Context."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Targets align with roadmap goals."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions clarified."/>
+<meta><consensus_score>8</consensus_score><iterations_used>1</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

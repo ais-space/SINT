@@ -1,0 +1,21 @@
+<SINT_Prompt_Task>
+<Objective>
+Assess quantum computing impact on current cybersecurity infrastructure using the SINT framework with Expert Debates (N=3) + Conflict (Step 3A) methodology, with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.
+</Objective>
+<Context>
+The assessment must consider quantum algorithms threats, cryptographic vulnerabilities, and defense strategies. Experts: Quantum Physics Specialist, Cybersecurity Architect, Technology Policy Analyst. The process must include detailed expert positions with numerical ratings (1-10), cross-criticism, and iterative convergence with comprehensive synthesis.
+</Context>
+<Consultants>
+1. Quantum Physics Specialist: Focuses on quantum computing capabilities and algorithmic threats.
+2. Cybersecurity Architect: Evaluates current infrastructure vulnerabilities and defense mechanisms.
+3. Technology Policy Analyst: Assesses regulatory implications and strategic responses.
+</Consultants>
+<Methodology>
+Expert Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.
+</Methodology>
+<Finalization_Protocol>
+- All expert positions must include detailed arguments with numerical ratings (1-10) and cross-evaluation scores.
+- The process must include multiple rounds of criticism and synthesis.
+- Output must include comprehensive analysis with specific examples and data points.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

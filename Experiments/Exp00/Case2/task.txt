@@ -1,0 +1,8 @@
+Title: AI Safety Policy Trade-offs in Autonomous Urban Delivery
+Objective: Create a multi-agent debate that evaluates safety, efficiency, and ethical trade-offs in deploying autonomous delivery robots in dense urban environments. Require detailed positions, numerical ratings (1-10), cross-criticism, and iterative convergence under a conflict scenario.
+Context: City logistics constraints, pedestrian safety norms, local regulations, and operational KPIs. Include concrete examples (e.g., night-time deliveries, school zones).
+Methodology: Debates (N=3) with Step 3A (Conflict) for at least 2 rounds, using Divergence Ratings and compromise proposals.
+Experts: Urban Safety Regulator; Operations Optimization Engineer; Ethics and Public Trust Specialist.
+Constraints: PCG required; ratings and cross-evaluation mandatory each round; Dual Output with Verification Report.
+Expected Outcomes: Clear compromise principles for deployment policies, risk mitigations, and KPIs with thresholds.
+Language: English only.

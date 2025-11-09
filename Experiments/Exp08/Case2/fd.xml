@@ -1,0 +1,19 @@
+<SINT_Prompt_Task>
+<Objective>
+Assess the economic trade-offs of carbon tax vs. cap-and-trade vs. regulatory approaches to climate change mitigation.
+</Objective>
+<Context>
+Climate change policies require balancing environmental benefits with economic costs across various sectors and populations. The task involves analyzing the global economic impact of climate change policies with experts in environmental economics, industrial policy, and social impact assessment engaging in structured debate with numerical ratings and iterative convergence.
+</Context>
+<Consultants>
+<Consultant id="1" role="Environmental Economist" focus="Economic modeling of environmental policies and their long-term impacts"/>
+<Consultant id="2" role="Industrial Policy Expert" focus="Effects of environmental regulations on industrial competitiveness and growth"/>
+<Consultant id="3" role="Social Impact Analyst" focus="Distributional effects of climate policies on different socioeconomic groups"/>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) with Conflict scenario due to fundamentally opposing stakeholder interests.
+</Methodology>
+<Finalization_Protocol>
+Experts must provide numerical ratings (1-10) for each policy approach, engage in cross-criticism, and work toward iterative convergence. All output must be in English. All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

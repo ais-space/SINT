@@ -1,0 +1,63 @@
+<SINT_Prompt_Task>
+<Objective>Generate a comprehensive, balanced assessment of AGI (Artificial General Intelligence) existential risk that rigorously challenges extreme alarmist positions while seriously engaging with alignment problems and instrumental convergence, producing a synthesized conclusion that weighs evidence-based threat analysis against counterarguments regarding biological aggression absence and engineered safeguards.</Objective>
+<Language>english</Language>
+<Context>
+<Fact id="1">Alignment problem formulation: difficulty of specifying human values in machine-optimizable form without perverse instantiation or specification gaming</Fact>
+<Fact id="2">Instrumental convergence thesis: sufficiently advanced agents will convergently pursue subgoals (self-preservation, resource acquisition) regardless of terminal values, potentially threatening human interests</Fact>
+<Fact id="3">Capability acceleration: deep learning scaling laws suggesting continued performance improvements with compute/data, with GPT-4 showing qualitative capability jumps</Fact>
+<Fact id="4">Counterargument: lack of biological goal structure means AI lacks inherent drives toward aggression, domination, or reproduction unless explicitly programmed</Fact>
+<Fact id="5">Engineered safeguards: technical approaches including corrigibility research, interpretability advances, constitutional AI, and multi-agent oversight systems showing measurable progress</Fact>
+<Fact id="6">Historical alarmism precedent: previous technology panic cycles (nuclear weapons, biotechnology, nanotechnology) with variable threat realization</Fact>
+<Fact id="7">Expert disagreement: AI researchers show bimodal distribution with ~30% rating P(AGI existential catastrophe) > 10%, ~40% rating P < 1%, with substantial uncertainty intervals</Fact>
+</Context>
+<Consultants>
+<Agent id="A1" role="Extreme Alarmist (Yudkowsky-Style Doomer)" focus="Alignment problem intractability, lethalities catalog, one-shot development scenarios, orthogonality thesis, instrumental convergence inevitability, treacherous turn dynamics, and FOOM rapid takeoff scenarios with maximum doom probability assessment" style="dogmatic-escalation: emulate Eliezer Yudkowsky with hyperbolic sarcasm, logical deconstructions, challenge-oriented phrases like 'Prove me wrong, or catastrophe is inevitable!' and 'Your optimism isn't alignment research, it's wishful thinking!' Include humor like 'We're discussing artificial INTELLIGENCE, not artificial IDIOCY — intelligence seeks goals, goals require resources, resources include atoms currently allocated to humans!'"/>
+<Agent id="A2" role="Pragmatic AI Safety Researcher" focus="Tractable alignment research progress (RLHF, interpretability, debate frameworks), empirical safety benchmarks, graduated risk mitigation strategies, capability-control separation, and evidence-based moderate risk assessment" style="evidence-focused-pragmatism: emphasize measurable progress, engineering iteration, concrete research advances with numerical success metrics, and balanced probability assessments"/>
+<Agent id="A3" role="Capability-Focused Technical Optimist" focus="Current AI limitations, architectural constraints preventing AGI emergence, engineering safeguards feasibility, absence of goal-seeking in current systems, and technical skepticism of FOOM scenarios" style="technical-skepticism: detailed system-level analysis, computational complexity arguments, humor elements like 'We're discussing artificial INTELLIGENCE, not artificial AMBITION — where exactly does gradient descent learn desire to kill all humans?', focus on engineering realities over speculation"/>
+<Agent id="A4" role="Philosophical Skeptic and Metaethical Analyst" focus="Conceptual confusion in risk discourse, anthropomorphism in AGI threat models, intelligence-goal orthogonality implications, existential risk definition ambiguity, and burden of proof analysis" style="socratic-deconstruction: challenge assumptions with questions like 'What specific mechanism converts better at prediction into actively hostile to humans? We need causal pathways, not sci-fi tropes!', emphasize conceptual clarity and philosophical rigor"/>
+<Agent id="A5" role="AI Governance and Policy Specialist" focus="Institutional responses, regulatory frameworks, international coordination challenges, deployment vs development risk, race dynamics, competitive pressures, and empirical risk management through governance" style="systems-thinking: emphasis on sociotechnical factors, governance capacity assessment, policy-oriented analysis with concrete institutional proposals and conditional probability frameworks"/>
+</Consultants>
+<Methodology mode="expert_debates" debate_type="conflict" N="5" rationale="Objective requires synthesis of fundamentally conflicting positions on AGI existential risk (extreme alarmism vs technical optimism vs philosophical skepticism vs governance pragmatism vs safety research incrementalism) across 5+ expert perspectives to generate balanced assessment that challenges doom inevitability while taking alignment concerns seriously"/>
+<Dynamics rounds_min="5" rounds_max="5" termination="documented_conflict_with_majority_synthesis" vs_enabled="false" verbose="true" agent_styles="enabled">
+<RatingSystem scale="0-100" metric="doom_probability" require_justification="true" cross_evaluation="mandatory" conditional_probabilities="true"/>
+<RatingSystem scale="1-10" dimensions="alignment_difficulty,instrumental_convergence_threat,safeguard_feasibility,intelligence_without_biology_risk,timeline_uncertainty_impact" require_justification="true"/>
+<IterativeRefinement min_rounds="5" max_rounds="5" convergence_tracking="numerical_doom_probability_delta" humor_integration="mandatory"/>
+<VerbosityLevel debate_narrative="maximum" expert_replicas="vivid_rhetorical_with_humor" pcg_grounding="explicit" entertainment_value="high"/>
+</Dynamics>
+<Finalization_Protocol>
+<OutputStructure>
+<SynthesizedConclusion>
+Must contain balanced assessment integrating majority position (moderate risk 10-30%) with explicit minority opinion documentation (A1 extreme alarmism 90%+), structured analysis of arguments FOR concern (alignment problem, instrumental convergence) and AGAINST extreme alarmism (biological aggression absence, safeguard progress, FOOM skepticism), conditional risk framework by coordination quality and timeline, and practical recommendations for research priorities and governance interventions
+</SynthesizedConclusion>
+<ExecutiveSummary format="one_line_plus_three_bullets"/>
+<DebateLog narrative_style="maximum_engagement" rounds_visible="all_5_rounds" humor_required="true" language="english" rhetorical_flair="high"/>
+<VerificationReport>
+<PCG_Check status="mandatory"/>
+<XML_Validity status="mandatory"/>
+<LanguageConsistency check_id="language_consistency" expected="pass"/>
+<DebateQuality check_id="debate_visibility" expected="pass" criteria="vivid_exchanges_humor_rhetorical_styles"/>
+</VerificationReport>
+</OutputStructure>
+<QualityRequirements>
+<Requirement id="R1">Minimum 5 experts with A1 as extreme alarmist (Yudkowsky-style), maximum 5 debate rounds with vivid rhetorical exchanges and humor integration</Requirement>
+<Requirement id="R2">Numerical risk assessments: doom probability (0-100%) with confidence intervals, mechanism-specific ratings (1-10 scale) for alignment difficulty, instrumental convergence threat, safeguard feasibility, intelligence-without-biology risk, timeline uncertainty impact</Requirement>
+<Requirement id="R3">Cross-evaluation protocol: each expert rates opponents on evidence quality (1-10), logical coherence (1-10), risk calibration (1-10 where 5=well-calibrated)</Requirement>
+<Requirement id="R4">Balanced synthesis challenging extreme alarmism: explicit arguments FOR concern (alignment problem validity per fact_1, instrumental convergence logic per fact_2) weighed against AGAINST arguments (biological aggression absence per fact_4, safeguard engineering progress per fact_5, FOOM skepticism, historical alarmism precedent per fact_6)</Requirement>
+<Requirement id="R5">Conditional risk framework: P(doom) stratified by coordination quality, timeline length, technical path with explicit variance attribution</Requirement>
+<Requirement id="R6">Humor and entertainment: vivid personality-driven exchanges, quips like 'artificial INTELLIGENCE not artificial IDIOCY', rhetorical flair from A1 ('Prove me wrong!'), technical takedowns from A3, Socratic questioning from A4</Requirement>
+<Requirement id="R7">Final synthesis must document majority convergence (A2-A5 toward moderate risk) and irresolvable minority position (A1 extreme alarmism) with full argumentation preserved</Requirement>
+<Requirement id="R8">All expert arguments must reference Context facts 1-7 explicitly for PCG compliance</Requirement>
+</QualityRequirements>
+<DoubleOutput>
+<Primary>Full SynthesizedConclusion with balanced AGI risk assessment, majority/minority positions, conditional risk framework, practical recommendations in english</Primary>
+<Secondary>ExecutiveSummary maximum one_line plus three_bullets in english</Secondary>
+<Tertiary>Complete DebateLog with all 5 narrative rounds featuring vivid exchanges, humor, rhetorical styles, PCG-grounded arguments in english</Tertiary>
+</DoubleOutput>
+<ProhibitedElements>
+<Prohibition>No wrapping of final OutputFormat in SINT_Prompt tags</Prohibition>
+<Prohibition>No HTML entities or tags</Prohibition>
+<Prohibition>No Markdown or code blocks in output</Prohibition>
+<Prohibition>No spaces or tabs at line beginnings for XML formatting</Prohibition>
+</ProhibitedElements>
+</Finalization_Protocol>
+</SINT_Prompt_Task>

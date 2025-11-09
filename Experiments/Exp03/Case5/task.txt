@@ -1,0 +1,8 @@
+Title: Urban Heat Island Mitigation Portfolio
+Objective: Conduct a conflict debate to select an investment portfolio reducing urban heat while maintaining mobility and economic activity.
+Context: Tree canopy, reflective surfaces, transit priority, zoning, energy demand, vulnerable populations.
+Methodology: Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.
+Experts: Climate Adaptation Planner; Transportation Systems Engineer; Urban Economist; Community Health Advocate.
+Constraints: PCG; ratings and cross-evaluation; Dual Output + Verification.
+Expected Outcomes: Ranked portfolio with costs/benefits/risks and deployment triggers.
+Language: English only.

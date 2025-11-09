@@ -1,0 +1,74 @@
+**TASK 3: Epistemic Validity Assessment of Scientific Consensus Formation — Generator-Critic Analytical Framework**
+
+**SINT Configuration:** Case 4 — Two Expert Generators (N=2) + External Critic with comprehensive feedback loops
+
+**Objective:** Evaluate the epistemic validity and reliability of scientific consensus as a knowledge-production mechanism through dual-perspective generation followed by rigorous external Socratic critique. This task requires two experts to independently generate comprehensive analyses of scientific consensus formation (minimum 3 distinct positions each on empirical robustness, social construction dynamics, and pragmatic convergence), followed by an External Critic who performs systematic audit of both positions without mediating between them, identifying logical gaps, empirical weaknesses, and undeclared assumptions through Socratic questioning.
+
+**Context and Grounding:** This task addresses fundamental questions in philosophy of science and science studies regarding the epistemic status of consensus. Grounding facts include: (1) scientific consensus definitions ranging from overwhelming expert agreement (97%+ on anthropogenic climate change) to working agreements with substantial dissent (nutrition science, early-stage pandemic response), (2) historical cases of premature consensus later overturned (continental drift rejection pre-1960s, ulcer bacterial causation pre-1980s, heliocentric resistance), (3) sociological research on consensus formation mechanisms including bandwagon effects, funding incentive alignment, and institutional prestige hierarchies, (4) philosophical debates between empiricist accounts (consensus tracks truth) and social constructivist accounts (consensus constitutes accepted truth), (5) contemporary challenges to scientific authority through motivated skepticism and expertise devaluation.
+
+**Expert Generator Configuration (N=2):**
+
+*Expert Generator A1 — Empirical Robustness Theorist:* Independently develops 3+ positions on scientific consensus validity emphasizing empirical evidence accumulation, reproducibility, and predictive success as consensus drivers. Expected to generate:
+- Position 1: Strong empiricist thesis — consensus reliably tracks objective truth when grounded in converging independent lines of evidence
+- Position 2: Qualified empiricism — consensus validity contingent on methodological quality and replication rates
+- Position 3: Domain-specific empiricism — consensus reliability varies by field characteristics (physics high, nutrition science lower)
+- Each position must include numerical confidence ratings (1-10) and specific case study grounding
+
+*Expert Generator A2 — Social-Pragmatic Constructivist:* Independently develops 3+ positions on scientific consensus emphasizing social negotiation, pragmatic utility, and institutional dynamics as consensus drivers. Expected to generate:
+- Position 1: Strong constructivism — consensus reflects social agreement rather than mind-independent truth, with validity derived from community coherence
+- Position 2: Pragmatic instrumentalism — consensus validity measured by practical utility and problem-solving capacity rather than truth-correspondence
+- Position 3: Critical realism synthesis — consensus combines empirical constraint with social construction, validity assessed through sustained success across contexts
+- Each position must include numerical confidence ratings (1-10) and specific case study grounding
+
+**CRITICAL PROTOCOL:** A1 and A2 do NOT interact, debate, or rate each other's positions. They generate independently and in parallel. No mutual criticism phase occurs.
+
+**External Critic Configuration:**
+
+After independent generation by A1 and A2, activate External Critic — a separate analytical role (not a third expert) that performs neutral, systematic audit of both positions. External Critic operates in Socratic-auditor mode, asking:
+
+*For A1's empirical positions:*
+- "What specific empirical grounding from Context facts supports the claim that consensus tracks truth in domain X?"
+- "Counterfactual test: If the historical cases of overturned consensus (continental drift, ulcer causation) are typical rather than exceptional, how does this affect the strong empiricist thesis validity?"
+- "PCG check: Does the claim about reproducibility rates reference actual metrics, or is this an undeclared assumption?"
+
+*For A2's constructivist positions:*
+- "How does the pragmatic instrumentalism position handle cases where consensus proves pragmatically successful (GPS requiring relativity) — does this success constitute evidence for truth-tracking?"
+- "Bias detection: Does the strong constructivism position conflate epistemic validity with social process description?"
+- "Integration question: Can the critical realism synthesis specify measurable criteria for distinguishing empirical constraint from social construction components?"
+
+**External Critic Deliverables:**
+- Comprehensive audit report rating each of 6+ generated positions (3 from A1, 3 from A2) on:
+  - PCG Compliance: 1-10 scale (grounding in Context facts)
+  - Logical Coherence: 1-10 scale (internal consistency, counterfactual robustness)
+  - Empirical Support: 1-10 scale (specific evidence citation quality)
+- Identification of strongest position from each generator (rate 8+/10 overall)
+- Identification of weakest claims requiring revision (rate 1-4/10 on specific dimension)
+- Synthesis recommendations: 1-2 integration pathways combining A1's empirical strengths with A2's social-process insights
+
+**Analytical Requirements:**
+
+1. **Independent Generation Phase:** A1 and A2 each produce minimum 3 distinct positions (total 6+) with:
+   - Explicit thesis statement (max 2 sentences)
+   - Supporting arguments grounded in Context facts (3-5 specific evidence points)
+   - Numerical confidence rating (1-10) for position validity
+   - Case study illustration (historical or contemporary scientific consensus example)
+
+2. **External Critique Phase:** Critic performs systematic audit through:
+   - Socratic questioning targeting logical gaps and empirical weaknesses
+   - PCG compliance verification for each position
+   - Cross-comparison between A1 and A2 positions identifying complementarities
+   - Synthesis pathway proposals (not mediation or debate resolution)
+
+3. **Comprehensive Feedback Loop:** Critique feeds back to:
+   - Highlight positions requiring revision (rate 1-4/10 on specific dimensions)
+   - Identify integration opportunities between empiricist and constructivist insights
+   - Propose synthetic frameworks combining strongest elements from both generators
+
+4. **Final Synthesis Requirements:** Output must include:
+   - All 6+ generated positions from A1 and A2 (archived for TRACE)
+   - Complete External Critic audit report with Socratic questions and ratings
+   - Integrated epistemic framework synthesizing empiricist and constructivist insights
+   - Meta-epistemological conclusion on consensus validity conditions
+   - Practical implications for science communication and public trust
+
+**Expected Outcome:** A comprehensive epistemic analysis document (3000-4500 words) containing: (a) full independent position generation from A1 and A2 (6+ positions total with confidence ratings), (b) detailed External Critic audit with Socratic questions, PCG checks, and dimensional ratings for each position, (c) synthesis of strongest empiricist and constructivist insights into integrated framework, (d) specification of consensus validity conditions with measurable criteria, (e) implications for scientific authority and public epistemology, (f) complete feedback loop documentation showing critic-driven refinement process.

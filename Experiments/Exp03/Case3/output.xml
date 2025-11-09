@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Consensus funding posture aligning excellence, equity, and strategic alignment.</one_line>
+<bullets>
+<item>Bias-aware peer review with early-career set-asides.</item>
+<item>Core facilities support tied to utilization metrics.</item>
+<item>Impact-weighted matching for strategic themes.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Consensus">
+<KeyFinding source="fact_1" consultant="A1">Structured review with bias mitigations and diversity targets.</KeyFinding>
+<KeyFinding source="fact_3" consultant="A2">Early-career allocations and mentoring incentives.</KeyFinding>
+<RiskAssessment source="fact_2" consultant="A3">Fiscal guardrails and review cadence per semester.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Context mapping present."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Funding posture delivered."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>8</consensus_score><iterations_used>1</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

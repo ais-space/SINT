@@ -1,0 +1,111 @@
+<SINT_Prompt_Task>
+<Objective>Generate an integrated, implementable governance framework for regulating emerging biotechnologies (CRISPR gene editing, synthetic biology, heritable genome modification) with numerical priority ratings for regulatory mechanisms through structured multi-expert consensus-building and actionable policy recommendations</Objective>
+<Language>english</Language>
+<Dynamics vs_enabled="true" mode="expert_debates_consensus" min_rounds="3" max_rounds="5" consensus_threshold="7.0" integration_style="collaborative_building"/>
+<Context>
+<Fact id="1">CRISPR-Cas9 gene editing cost reduced from $5000 to $75 per genome edit between 2012-2023, democratizing access and increasing regulatory challenge scale</Fact>
+<Fact id="2">He Jiankui's 2018 heritable genome modification in human embryos exposed critical governance failures in oversight and enforcement</Fact>
+<Fact id="3">Differential regulatory approaches across jurisdictions: UK permissive research framework, US restrictive federal funding policy, China's post-2019 tightening demonstrate lack of international coordination</Fact>
+<Fact id="4">WHO 2021 governance framework recommendations emphasize transparency and inclusivity but lack enforcement mechanisms and binding authority</Fact>
+<Fact id="5">Synthetic biology applications in biomanufacturing, agriculture, and medicine accelerating faster than risk assessment protocols can evaluate, creating regulatory lag</Fact>
+</Context>
+<Consultants count="3">
+<Agent id="A1" role="Precautionary Regulation Advocate">
+<Focus>Risk minimization, strict oversight, burden of proof on technology proponents, irreversible consequences prevention</Focus>
+<ExpectedPosition>Rate precautionary mechanisms 8-10/10, rapid innovation pathways 3-5/10</ExpectedPosition>
+<Style>risk-focused: Emphasize irreversible consequences and intergenerational precaution. Use phrases like "We cannot un-edit the human germline once mistakes are made" and "The precautionary principle exists precisely because some risks are existential"</Style>
+<AnalyticalTools>Risk scenario analysis (off-target effects, germline modification cascade effects, biosecurity threats) with probability estimates and severity ratings, intergenerational impact assessment</AnalyticalTools>
+</Agent>
+<Agent id="A2" role="Innovation-Enabling Pragmatist">
+<Focus>Therapeutic potential maximization, adaptive regulation, evidence-based risk assessment, opportunity costs of regulatory delay</Focus>
+<ExpectedPosition>Rate streamlined approval pathways 8-10/10, overly restrictive precaution 4-6/10</ExpectedPosition>
+<Style>benefit-focused: Emphasize opportunity costs of delayed treatments and competitive innovation dynamics. Use phrases like "Every year of regulatory delay costs patient lives" and "Evidence-based regulation adapts to data, not hypothetical fears"</Style>
+<AnalyticalTools>Case studies of regulatory delay impacts (rare disease therapeutics, agricultural applications) with quantified patient-years lost, economic cost-benefit analysis, comparative regulatory efficiency metrics</AnalyticalTools>
+</Agent>
+<Agent id="A3" role="Public Health and Ethics Integrator">
+<Focus>Equitable access, democratic governance, stakeholder inclusion, social determinants of health, governance legitimacy</Focus>
+<ExpectedPosition>Rate participatory mechanisms 8-10/10, technocratic-only approaches 4-6/10</ExpectedPosition>
+<Style>systems-thinker: Emphasize social determinants and governance legitimacy. Use phrases like "Technology governance without public voice lacks democratic legitimacy" and "Access equity determines whether innovation reduces or amplifies health disparities"</Style>
+<AnalyticalTools>Public engagement frameworks, benefit-sharing mechanisms, justice considerations with metrics for access equity and procedural legitimacy, stakeholder analysis matrices</AnalyticalTools>
+</Agent>
+</Consultants>
+<Methodology mode="expert_debates_consensus" agent_count="3">
+<Rationale>Objective requires interdisciplinary synthesis of three competing regulatory philosophies (precaution vs. innovation vs. equity) but emphasizes consensus-building and integration rather than adversarial conflict. Requires N=3 for comprehensive value integration with collaborative rather than confrontational approach</Rationale>
+<ConsensusStructure integration_approach="progressive_building">
+<Round id="1" type="initial_presentation">Each expert presents complete governance framework with numerical ratings (1-10 scale) for regulatory mechanism categories: Risk Assessment Stringency, Innovation Facilitation, Democratic Participation, International Coordination, Enforcement Capability. All positions grounded in Context facts</Round>
+<Round id="2" type="integration_phase">Experts rate complementarity (not opposition) to others' proposals (1-10 scale), identify integration opportunities where mechanisms can be combined, propose synthetic solutions incorporating elements across perspectives. Focus on highest-rated complementary mechanisms (7+/10 from multiple experts) to merge into unified framework draft</Round>
+<Round id="3" type="refinement_phase">Experts collaboratively adjust integrated framework, resolve remaining tensions through compromise rather than winner-takes-all. Achieve consensus score 7+/10 from all experts on final integrated framework components</Round>
+<ConditionalRounds id="4-5" trigger="consensus_score_below_7">Continue collaborative refinement until convergence or maximum 5 rounds reached</ConditionalRounds>
+</ConsensusStructure>
+<TerminationCriterion>Minimum 3 rounds mandatory. Maximum 5 rounds. Goal: Achieve consensus score 7+/10 from all experts on final integrated framework. If not achieved after Round 5, document integration challenges and partial consensus areas</TerminationCriterion>
+</Methodology>
+<AnalyticalRequirements>
+<Requirement id="R1" type="numerical_rating_system">
+<Description>Each expert must provide 1-10 ratings across five regulatory mechanism categories</Description>
+<Categories>
+<Category name="Risk Assessment Stringency" scale="1=minimal oversight to 10=maximum precaution"/>
+<Category name="Innovation Facilitation" scale="1=highly restrictive to 10=maximally permissive"/>
+<Category name="Democratic Participation" scale="1=expert-only to 10=broad public inclusion"/>
+<Category name="International Coordination" scale="1=national autonomy to 10=binding global governance"/>
+<Category name="Enforcement Capability" scale="1=voluntary compliance to 10=criminal penalties"/>
+</Categories>
+<ApplicationAreas>Germline modification protocols, synthetic biology oversight, gene drive applications</ApplicationAreas>
+</Requirement>
+<Requirement id="R2" type="structured_integration_protocol">
+<Description>Experts build progressively on each other's frameworks through complementarity assessment rather than adversarial critique</Description>
+<IntegrationMechanisms>
+<Mechanism name="Complementarity Rating">Each expert rates how well others' proposals complement their own (1-10 scale) rather than oppose</Mechanism>
+<Mechanism name="Integration Opportunities">Identify where mechanisms can be combined or synthesized across perspectives</Mechanism>
+<Mechanism name="Synthetic Solutions">Propose merged approaches incorporating elements from multiple expert frameworks</Mechanism>
+</IntegrationMechanisms>
+</Requirement>
+<Requirement id="R3" type="consensus_metrics">
+<Description>Track convergence across rounds: initial rating distributions, round-by-round integration decisions, final consensus scores from all experts, areas of full vs. partial agreement</Description>
+<ConsensusIndicators>
+<Indicator name="Rating Convergence">Measure standard deviation reduction across rounds for each category</Indicator>
+<Indicator name="Expert Agreement Score">Each expert rates final framework 1-10, target: all experts 7+/10</Indicator>
+<Indicator name="Integration Completeness">Percentage of initial proposals incorporated into final framework</Indicator>
+</ConsensusIndicators>
+</Requirement>
+</AnalyticalRequirements>
+<FinalizationProtocol>
+<OutputFormat root_tag="OutputFormat" strict_prohibition="NEVER wrap final public output in SINT_Prompt tag">
+<ExecutiveSummary max_length="one_line_plus_three_bullets" language="english">
+<Constraint>Reflect key integrated framework achieved through consensus process</Constraint>
+</ExecutiveSummary>
+<SynthesizedConclusion length="3500-5000_words" language="english" style="objective_balanced_integrated">
+<MandatoryComponents>
+<Component name="unified_governance_framework">Integrated regulatory architecture with composite ratings for all mechanisms derived from expert consensus</Component>
+<Component name="specific_protocols">Detailed protocols for germline modification, synthetic biology, and gene drive applications with mechanism specifications</Component>
+<Component name="stakeholder_engagement_structures">Public participation frameworks and democratic governance procedures</Component>
+<Component name="international_coordination_mechanisms">Cross-jurisdiction harmonization strategies and global governance proposals</Component>
+<Component name="adaptive_governance_protocols">Monitoring triggers and framework revision procedures for evolving technology landscape</Component>
+<Component name="implementation_roadmap">Phased regulatory development with timelines and jurisdiction-specific adaptation guidance</Component>
+<Component name="consensus_documentation">Show rating convergence across rounds, integration decision points, final expert agreement metrics (consensus scores 7+/10)</Component>
+</MandatoryComponents>
+</SynthesizedConclusion>
+<ConsensusLog verbose="true" narrative_style="collaborative_constructive" language="english">
+<Description>Full round-by-round consensus-building archive showing progressive integration, complementarity assessments, synthetic proposals, collaborative refinement without adversarial criticism</Description>
+<RoundStructure>Include expert contributions with constructive tone (e.g., A1: "A2's evidence-based approach complements precautionary safeguards - we can integrate adaptive review cycles with mandatory safety thresholds"), complementarity ratings, integration proposals, convergence metrics</RoundStructure>
+</ConsensusLog>
+<IntegrationArchive>
+<RatingEvolutionMatrices>Track each expert's ratings across all categories for each round showing convergence</RatingEvolutionMatrices>
+<ComplementarityMatrices>Document all complementarity ratings and integration opportunity identifications</ComplementarityMatrices>
+<ConsensusMetrics>Final expert agreement scores, rating variance reduction, integration completeness percentages</ConsensusMetrics>
+</IntegrationArchive>
+</OutputFormat>
+<VerificationReport>
+<Check id="pcg_compliance" result="mandatory">Verify all expert frameworks reference Context facts, no invented data or ungrounded proposals</Check>
+<Check id="xml_validity" result="mandatory">Confirm well-formed XML structure throughout output</Check>
+<Check id="language_consistency" result="mandatory" note="All output in english without mixing, expert styles adapted for collaborative rather than adversarial tone"/>
+<Check id="numerical_integrity" result="mandatory">Verify all ratings use 1-10 scale consistently, consensus metrics calculated correctly, convergence demonstrated</Check>
+<Check id="integration_authenticity" result="mandatory">Confirm final framework genuinely integrates multiple perspectives, not dominated by single expert viewpoint</Check>
+<Check id="consensus_achievement" result="mandatory">Verify all experts rate final framework 7+/10, or document specific areas of partial consensus if full consensus not achieved</Check>
+</VerificationReport>
+</FinalizationProtocol>
+<ExpectedOutcome>
+<PrimaryDeliverable>Implementable biotechnology governance framework document (3500-5000 words) containing integrated regulatory architecture with rated mechanisms, specific protocols for key applications, stakeholder engagement structures, international coordination mechanisms, adaptive governance triggers, and implementation roadmap with jurisdiction-specific guidance</PrimaryDeliverable>
+<SecondaryDeliverable>Full consensus-building archive with round-by-round integration process, complementarity assessments, rating convergence matrices, and final expert agreement metrics demonstrating consensus achievement (7+/10 from all experts)</SecondaryDeliverable>
+<SuccessCriteria>Framework demonstrates genuine multi-perspective integration (not single viewpoint dominance), practical implementability through specific mechanisms and phased roadmap, legitimacy through documented consensus process with quantified expert agreement</SuccessCriteria>
+</ExpectedOutcome>
+</SINT_Prompt_Task>

@@ -1,0 +1,31 @@
+<SINT_Prompt_Task>
+<Objective>
+Conduct a multi-agent conflict-oriented debate to derive investment and operational strategies that maximize grid resilience during compound extreme weather events.
+</Objective>
+<Context>
+1. Generation mix, transmission constraints, demand response, and distributed storage.
+2. Maintenance scheduling and crew logistics under adverse conditions.
+3. Concrete stress scenarios and regulatory constraints.
+4. English-only output with PCG enforcement and detailed ratings/cross-evaluation.
+5. Dual Output and Verification Report mandatory.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Transmission Systems Engineering">Topology, congestion, contingency planning.</Agent>
+<Agent id="A2" focus="Renewable Integration Strategy">Intermittency, storage pairing, curtailment.</Agent>
+<Agent id="A3" focus="Reliability and Maintenance">Preventive schedules, failure modes, crews.</Agent>
+<Agent id="A4" focus="Energy Policy and Regulation">Standards, incentives, cost recovery.</Agent>
+</Consultants>
+<Methodology>
+Debates (N=4) with Step 3A (Conflict). At least 2 rounds with divergence ratings and compromise synthesis.
+</Methodology>
+<Finalization_Protocol>
+1. Require numeric ratings (1-10), cross-evaluation each round, and explicit compromise proposals.
+2. Strict XML-only format, no leading spaces/HTML entities.
+3. PCG enforcement and MSV pre-checks.
+4. Dual Output and Verification Report required.
+5. Provide ranked portfolio of actions with cost/benefit/risk and operational triggers.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta as usual.
+</Verification>
+</SINT_Prompt_Task>

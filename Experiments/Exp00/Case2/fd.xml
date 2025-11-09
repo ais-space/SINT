@@ -1,0 +1,30 @@
+<SINT_Prompt_Task>
+<Objective>
+Create a multi-agent debate that evaluates safety, efficiency, and ethical trade-offs in deploying autonomous delivery robots in dense urban environments. Require detailed positions, numerical ratings (1-10), cross-criticism, and iterative convergence under a conflict scenario.
+</Objective>
+<Context>
+1. City logistics constraints, pedestrian safety norms, local regulations, and operational KPIs.
+2. Include concrete examples: night-time deliveries, school zones, curb management.
+3. All outputs must be in English and comply with PCG (trace back to Objective/Context).
+4. Require Divergence Ratings and compromise proposals across rounds.
+5. Dual Output and Verification Report are mandatory.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Urban Safety Regulation">Policies, pedestrian safety, compliance zones.</Agent>
+<Agent id="A2" focus="Operations Optimization">Routing, throughput, SLAs, resource use.</Agent>
+<Agent id="A3" focus="Ethics and Public Trust">Human factors, transparency, incident handling.</Agent>
+</Consultants>
+<Methodology>
+Debates (N=3) with Step 3A (Conflict), minimum 2 rounds, with Divergence Ratings and compromise synthesis.
+</Methodology>
+<Finalization_Protocol>
+1. Enforce ratings (1-10), cross-evaluation each round, and explicit compromise proposals.
+2. Dual Output: Executive Summary (one-line + 3 bullets) + Synthesized Conclusion (XML) + Verification Report.
+3. Strict XML-only formatting, no leading spaces, no HTML tags/entities.
+4. PCG enforcement: all theses must reference Objective/Context; INVALID if not.
+5. MSV: on contradictions/impossibility, stop and request clarification.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta: consensus_score, iterations_used, fallback_flag.
+</Verification>
+</SINT_Prompt_Task>

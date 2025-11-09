@@ -1,0 +1,18 @@
+<SINT_Prompt_Task>
+<Objective>
+Create ethical guidelines for AI implementation in healthcare diagnostics and treatment recommendations.
+</Objective>
+<Context>
+AI in healthcare promises improved outcomes but raises concerns about bias, transparency, and human oversight. The task involves developing governance frameworks with an AI ethics specialist generating proposals and a healthcare regulatory expert providing critical evaluation.
+</Context>
+<Consultants>
+<Consultant id="1" role="AI Ethics Specialist" focus="Developing ethical frameworks for AI systems, addressing bias, fairness, and accountability"/>
+<Consultant id="2" role="Healthcare Regulatory Expert" focus="Ensuring compliance with medical standards, patient safety, and legal requirements"/>
+</Consultants>
+<Methodology>
+Generator + External Critic (N=2) with comprehensive feedback loops.
+</Methodology>
+<Finalization_Protocol>
+The generator proposes governance frameworks, the critic evaluates them for practicality and compliance. All output must be in English. All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

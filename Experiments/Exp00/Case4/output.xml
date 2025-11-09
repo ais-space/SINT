@@ -1,0 +1,26 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Two-agent Generator+Critic protocol for robust drift evaluation and safe deployment.</one_line>
+<bullets>
+<item>Defines monitoring signals and acceptance thresholds with guardrails.</item>
+<item>Establishes drift-triggered retraining and rollback criteria.</item>
+<item>Documents compliance checks and auditability requirements.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Track PSI for top features weekly; alert thresholds at PSI>0.2.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">Require staged rollout with A/B guardrails and kill-switch.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Define retraining triggers and rollback to previous model on critical drift.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Citations to Context maintained."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Matches evaluation protocol goals."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta>
+<consensus_score>7</consensus_score>
+<iterations_used>2</iterations_used>
+<fallback_flag>false</fallback_flag>
+</meta>
+</VerificationReport>
+</SINT_Output>

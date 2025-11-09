@@ -1,0 +1,8 @@
+Title: Gene-Edited Crop Deployment: Safety, Yield, and Public Acceptance
+Objective: Run a conflict-oriented debate to evaluate trade-offs between accelerated yield gains and biosafety/acceptance constraints for region-wide deployment of gene-edited staple crops.
+Context: Regulatory approvals, containment protocols, labeling and traceability, agronomic constraints, smallholder vs. industrial scale.
+Methodology: Debates (N=3) with Step 3A (Conflict), minimum 2 rounds; require Divergence Ratings and compromise synthesis.
+Experts: Regulatory Bioethics Specialist; Agricultural Systems Engineer; Public Engagement and Risk Communication Lead.
+Constraints: PCG required; numeric ratings (1-10) every round; cross-evaluation; Dual Output with Verification Report.
+Expected Outcomes: Actionable policy and deployment guidelines balancing yield, risk, and acceptance, with measurable KPIs.
+Language: English only.

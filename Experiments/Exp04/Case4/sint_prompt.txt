@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG; 3) Synthesis; 4) Dual Output + Verification; 5) MSV.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Create routing rules and safety gates for customer support LLMs via Generator+Critic ensuring QoS and safety.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[Tiered models; filters; human escalation; latency SLOs; costs.]]></key_facts>
+<source_data><![CDATA[Support metrics; safety policies; cost dashboards.]]></source_data>
+</Context>
+<Methodology>Generator + External Critic (N=2) with corrections and rating gates.</Methodology>
+<Consultants><Agent id="G" focus="Conversational AI Architecture"/><Agent id="C" focus="Trust & Safety + Finance"/></Consultants>
+<SynthesisEngine>0 MSV; 1 draft; 2 critique+ratings; 3 revise; 4.5 extract; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Gated routing protocol with metrics, test hooks, rollback.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

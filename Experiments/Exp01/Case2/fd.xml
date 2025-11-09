@@ -1,0 +1,14 @@
+<SINT_Prompt_Task>
+<Objective>Balance safety, throughput, and fair berthing in autonomous port scheduling via conflict debates with numeric ratings and iterative convergence.</Objective>
+<Context>
+1. Harbor traffic rules and VTMS constraints; 2. Weather/visibility; 3. Labor windows; 4. Emissions limits; 5. English-only PCG and Dual Output.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Harbor Safety Regulation"/>
+<Agent id="A2" focus="Operations Optimization"/>
+<Agent id="A3" focus="Labor & Community Impact"/>
+</Consultants>
+<Methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds, Divergence Ratings and compromise proposals.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval each round; strict XML-only; PCG with INVALID/self-correct; MSV checks; Dual Output + Verification.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionOutput>
+<CaseResults>
+    <Task id="1">
+        <Title>Climate Change Impact Assessment</Title>
+        <Description>Conduct a comprehensive analysis of climate change effects on global agriculture, coastal communities, and biodiversity. Use the Debates (N=3) + Conflict (Step 3A) methodology with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.</Description>
+        <Experts>
+            <Expert id="1">Environmental Scientist</Expert>
+            <Expert id="2">Economist</Expert>
+            <Expert id="3">Policy Analyst</Expert>
+        </Experts>
+        <Methodology>Debates (N=3) + Conflict (Step 3A)</Methodology>
+    </Task>
+
+    <Task id="2">
+        <Title>Healthcare System Reform</Title>
+        <Description>Analyze the strengths and weaknesses of various healthcare systems worldwide (single-payer, multi-payer, private insurance). Use the Debates (N=3) + Consensus (Step 3B) methodology with structured rating system, detailed arguments, and multi-round synthesis.</Description>
+        <Experts>
+            <Expert id="1">Healthcare Policy Expert</Expert>
+            <Expert id="2">Economist</Expert>
+            <Expert id="3">Public Health Specialist</Expert>
+        </Experts>
+        <Methodology>Debates (N=3) + Consensus (Step 3B)</Methodology>
+    </Task>
+
+    <Task id="3">
+        <Title>AI Development Ethics Framework</Title>
+        <Description>Develop an ethical framework for advanced AI development considering technical, social, and economic implications. Use the Generator + Critic (N=2) methodology with comprehensive feedback loops and detailed analysis.</Description>
+        <Experts>
+            <Expert id="1">AI Ethics Specialist</Expert>
+            <Expert id="2">Technology Philosopher</Expert>
+        </Experts>
+        <Methodology>Generator + Critic (N=2)</Methodology>
+    </Task>
+
+    <Task id="4">
+        <Title>Urban Development Sustainability</Title>
+        <Description>Evaluate the sustainability of various urban development models, considering environmental, social, and economic factors. Use the Debates (N=4) + Conflict (Step 3A) methodology with numerical ratings, cross-evaluation, and iterative synthesis.</Description>
+        <Experts>
+            <Expert id="1">Urban Planner</Expert>
+            <Expert id="2">Environmental Scientist</Expert>
+            <Expert id="3">Sociologist</Expert>
+            <Expert id="4">Economist</Expert>
+        </Experts>
+        <Methodology>Debates (N=4) + Conflict (Step 3A)</Methodology>
+    </Task>
+</CaseResults>
+
+<SynthesisResults>
+    <Summary>
+        Four complex analytical tasks have been generated, each requiring a unique interdisciplinary approach with detailed expert analysis, numerical ratings, iterative convergence, and comprehensive synthesis as requested.
+    </Summary>
+    <MethodologyDistribution>
+        <Task1>Debates (N=3) + Conflict (Step 3A)</Task1>
+        <Task2>Debates (N=3) + Consensus (Step 3B)</Task2>
+        <Task3>Generator + Critic (N=2)</Task3>
+        <Task4>Debates (N=4) + Conflict (Step 3A)</Task4>
+    </MethodologyDistribution>
+</SynthesisResults>
+
+<VerificationReport>
+    <Compliance status="pass">All tasks comply with the contextual grounding principle and are in English.</Compliance>
+    <Completeness status="pass">All 4 requested tasks have been generated with required expert profiles.</Completeness>
+</VerificationReport>
+</ExecutionOutput>

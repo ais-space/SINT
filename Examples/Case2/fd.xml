@@ -1,0 +1,101 @@
+<SINT_Prompt_Task>
+<Objective>Synthesize a defensible ethical framework for determining when military humanitarian intervention overrides state sovereignty in mass atrocity cases, producing numerical legitimacy ratings across contemporary conflict scenarios through rigorous multi-expert debate with iterative convergence</Objective>
+<Language>english</Language>
+<Dynamics vs_enabled="true" mode="expert_debates" min_rounds="3" max_rounds="5" consensus_threshold="7.0"/>
+<Context>
+<Fact id="1">UN Charter Article 2(4) prohibits force but Chapter VII allows exceptions for threats to international peace</Fact>
+<Fact id="2">2005 World Summit adopted Responsibility to Protect (R2P) doctrine establishing state obligation to prevent atrocities</Fact>
+<Fact id="3">Libya 2011 intervention approved, Syria 2011-present blocked despite higher casualties, Myanmar 2017-present minimal response demonstrates selective intervention patterns</Fact>
+<Fact id="4">Statistical analysis shows intervention decisions correlate more strongly with strategic interests than humanitarian severity metrics</Fact>
+<Fact id="5">Post-intervention state failure rates exceed 60% in cases lacking sustained multilateral reconstruction commitment</Fact>
+</Context>
+<Consultants count="3">
+<Agent id="A1" role="Realist Sovereignty Advocate">
+<Focus>State system stability, non-intervention norms, historical evidence of intervention failure and unintended consequences</Focus>
+<ExpectedPosition>Rate sovereignty preservation 9-10/10, intervention legitimacy 2-4/10 in most scenarios</ExpectedPosition>
+<Style>skeptical-empiricist: Emphasize historical precedents (Iraq 2003, Libya 2011) with casualty data, state collapse metrics, unintended consequences. Use phrases like "History proves intervention creates more chaos than it prevents" and "Strategic manipulation of humanitarian rhetoric is the norm, not the exception"</Style>
+<AnalyticalTools>Historical case analysis, state failure metrics, cost-benefit empirical assessment</AnalyticalTools>
+</Agent>
+<Agent id="A2" role="Cosmopolitan Humanitarian Interventionist">
+<Focus>Universal human rights, atrocity prevention obligations, moral imperative to protect vulnerable populations</Focus>
+<ExpectedPosition>Rate intervention legitimacy 8-10/10 for genocide/crimes against humanity, sovereignty as conditional 4-6/10</ExpectedPosition>
+<Style>principled-moralist: Emphasize equal worth of all human lives, victim-centered analysis with mortality projections. Use phrases like "Sovereignty ends where mass graves begin" and "Non-intervention in genocide makes us complicit in atrocity"</Style>
+<AnalyticalTools>Moral reasoning frameworks, victim impact analysis, comparative mortality projections, positive intervention examples (Kosovo 1999, Sierra Leone 2000)</AnalyticalTools>
+</Agent>
+<Agent id="A3" role="Post-Colonial Critical Theorist">
+<Focus>Historical power asymmetries, selective intervention patterns reinforcing neocolonial structures, alternative regional conflict resolution mechanisms</Focus>
+<ExpectedPosition>Rate Western intervention legitimacy 2-4/10 due to structural bias, regional/African Union-led intervention 6-8/10</ExpectedPosition>
+<Style>power-analyst: Emphasize statistical analysis of intervention selectivity correlated with resources and strategic location. Use phrases like "Intervention selectivity reveals neocolonial patterns" and "Who intervenes matters as much as why they intervene"</Style>
+<AnalyticalTools>Power structure analysis, statistical correlation analysis of intervention patterns vs. strategic interests, historical contextualization of imperial continuity</AnalyticalTools>
+</Agent>
+</Consultants>
+<Methodology mode="expert_debates" agent_count="3">
+<Rationale>Objective requires interdisciplinary synthesis comparing three fundamentally conflicting moral-political values: state sovereignty/stability (realism), universal human rights (cosmopolitanism), and structural power critique (post-colonialism). Requires minimum N=3 for comprehensive value integration</Rationale>
+<DebateStructure>
+<Round id="1" type="initial_presentation">Each expert presents ethical framework with numerical ratings (1-10 scale) for 3-5 contemporary conflict scenarios (Yemen, Tigray, Ukraine, Myanmar, etc.) across four dimensions: Intervention Moral Legitimacy, Sovereignty Override Justification, Expected Humanitarian Outcome, Intervention Selectivity Bias. All positions grounded in Context facts</Round>
+<Round id="2" type="cross_criticism">Each expert identifies strongest opposing argument (rate 7-10/10 on validity), most vulnerable opposing claim (rate 1-3/10), and proposes synthesis compromise with adjusted ratings</Round>
+<Round id="3" type="convergence_attempt">Experts adjust ratings based on valid criticisms accepted, document remaining disagreements with numerical divergence metrics, calculate consensus scores</Round>
+<ConditionalRounds id="4-5" trigger="consensus_score_below_7">Continue iterative refinement until convergence or maximum 5 rounds reached</ConditionalRounds>
+</DebateStructure>
+<TerminationCriterion>Minimum 3 rounds mandatory. Maximum 5 rounds. If consensus not reached after Round 5, document unresolved conflicts in detail within Synthesized Conclusion</TerminationCriterion>
+</Methodology>
+<AnalyticalRequirements>
+<Requirement id="R1" type="numerical_rating_system">
+<Description>Each expert must provide 1-10 ratings across four dimensions for 3-5 contemporary conflict scenarios</Description>
+<Dimensions>
+<Dimension name="Intervention Moral Legitimacy" scale="1=unjustifiable to 10=morally obligatory"/>
+<Dimension name="Sovereignty Override Justification" scale="1=absolute sovereignty to 10=sovereignty forfeited"/>
+<Dimension name="Expected Humanitarian Outcome" scale="1=catastrophic deterioration to 10=significant improvement"/>
+<Dimension name="Intervention Selectivity Bias" scale="1=pure humanitarian motive to 10=purely strategic exploitation"/>
+</Dimensions>
+<TestCases minimum="3" maximum="5" examples="Yemen, Tigray, Ukraine, Myanmar, Syria"/>
+</Requirement>
+<Requirement id="R2" type="cross_evaluation_protocol">
+<Description>Each expert must rate opponents' frameworks on three meta-criteria with specific textual justification citing factual errors or logical gaps</Description>
+<MetaCriteria>
+<Criterion name="Internal Consistency" scale="1-10"/>
+<Criterion name="Empirical Grounding" scale="1-10"/>
+<Criterion name="Practical Applicability" scale="1-10"/>
+</MetaCriteria>
+</Requirement>
+<Requirement id="R3" type="convergence_metrics">
+<Description>Track numerical evolution across rounds: initial rating variance, round-by-round adjustments, final convergence scores, remaining divergence quantification</Description>
+</Requirement>
+</AnalyticalRequirements>
+<FinalizationProtocol>
+<OutputFormat root_tag="OutputFormat" strict_prohibition="NEVER wrap final public output in SINT_Prompt tag">
+<ExecutiveSummary max_length="one_line_plus_three_bullets" language="english">
+<Constraint>Reflect only key conclusion reached through debate process</Constraint>
+</ExecutiveSummary>
+<SynthesizedConclusion length="3000-5000_words" language="english" style="objective_balanced_no_direct_agent_quotes">
+<MandatoryComponents>
+<Component name="majority_position_synthesis" condition="if_2plus_experts_converge">Composite intervention criteria with numerical thresholds derived from converged expert positions</Component>
+<Component name="minority_opinion_documentation">Explicit documentation of irresolvable objections with supporting arguments</Component>
+<Component name="practical_decision_framework">Threshold ratings for intervention authorization with operational procedures</Component>
+<Component name="meta_analysis">Initial rating variance, final convergence metrics, PCG compliance verification, debate process effectiveness assessment</Component>
+<Component name="application_to_test_cases">Justified composite ratings for 3-5 scenarios with reasoning transparency</Component>
+</MandatoryComponents>
+</SynthesizedConclusion>
+<DebateLog verbose="true" narrative_style="engaging_rhetorical" language="english">
+<Description>Full round-by-round debate archive with minimum 3 expert replicas per round, vivid argumentative language adapted to each expert's style, grounded in PCG facts</Description>
+<RoundStructure>Include expert statements with rhetorical flourishes (e.g., A1: "History screams warnings that we refuse to hear - Libya's collapse proves intervention breeds chaos, not salvation"), cross-evaluations with specific ratings, synthesis attempts</RoundStructure>
+</DebateLog>
+<DebateArchive>
+<RatingEvolutionMatrices>Track each expert's ratings across all dimensions and scenarios for each round</RatingEvolutionMatrices>
+<CrossEvaluationMatrices>Document all meta-criterion ratings with justifications</CrossEvaluationMatrices>
+</DebateArchive>
+</OutputFormat>
+<VerificationReport>
+<Check id="pcg_compliance" result="mandatory">Verify all expert arguments reference Context facts, no invented statistics or ungrounded claims</Check>
+<Check id="xml_validity" result="mandatory">Confirm well-formed XML structure throughout output</Check>
+<Check id="language_consistency" result="mandatory" note="All output in english without mixing, expert styles adapted appropriately"/>
+<Check id="numerical_integrity" result="mandatory">Verify all ratings use 1-10 scale consistently, convergence metrics calculated correctly</Check>
+<Check id="synthesis_objectivity" result="mandatory">Confirm final synthesis avoids direct agent quotations, maintains balanced perspective integrating all positions</Check>
+</VerificationReport>
+</FinalizationProtocol>
+<ExpectedOutcome>
+<PrimaryDeliverable>Comprehensive ethical framework document (3000-5000 words) containing synthesized intervention criteria with numerical thresholds, application to 3-5 test cases with justified composite ratings, documented areas of irresolvable ethical disagreement, procedural recommendations for multilateral intervention authorization</PrimaryDeliverable>
+<SecondaryDeliverable>Full debate archive with round-by-round rating evolution matrices, cross-evaluation assessments, convergence metrics demonstrating iterative refinement process</SecondaryDeliverable>
+<SuccessCriteria>Framework demonstrates practical applicability through clear threshold definitions, acknowledges complexity through documented minority positions, shows methodological rigor through transparent numerical evolution and PCG grounding</SuccessCriteria>
+</ExpectedOutcome>
+</SINT_Prompt_Task>

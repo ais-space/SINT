@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Design resilience interventions for regional food systems facing supply shocks via conflict debates.</Objective>
+<Context>Storage; diversified sourcing; transportation; perishables; equity in access.</Context>
+<Consultants><Agent id="A1" focus="Supply Chain Optimization"/><Agent id="A2" focus="Agricultural Economics"/><Agent id="A3" focus="Public Health & Nutrition"/><Agent id="A4" focus="Logistics Operations"/></Consultants>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval; strict XML; PCG + MSV; Dual Output + Verification; ranked interventions with triggers.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

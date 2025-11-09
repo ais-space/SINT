@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>LLM inference cost control protocol preserving QoS/SLOs with clear gates.</one_line>
+<bullets>
+<item>Tiered routing and caching with token budget enforcement.</item>
+<item>Regression guardrails and canary tests.</item>
+<item>Rollback triggers with fiscal thresholds.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Token budget policies and cache hit SLOs per route.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">Cost per request caps aligned to business SLAs.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Rollback on QoS regression or budget breach.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Mapped to Context."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Protocol delivered."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

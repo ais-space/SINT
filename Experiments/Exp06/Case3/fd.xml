@@ -1,0 +1,20 @@
+<SINT_Prompt_Task>
+<Objective>
+Analyze AI implementation risks in healthcare diagnostics using the SINT framework with Generator + Critic (N=2) methodology and comprehensive feedback loops.
+</Objective>
+<Context>
+The analysis must consider patient safety, diagnostic accuracy, ethical implications, and regulatory compliance. Roles: AI Systems Developer, Medical Ethics Specialist. The process must include detailed risk analysis, strict logical evaluation, and expert criticism and refinement.
+</Context>
+<Consultants>
+1. AI Systems Developer: Focuses on technical implementation, algorithm accuracy, and system reliability.
+2. Medical Ethics Specialist: Evaluates ethical implications, patient safety, and professional standards.
+</Consultants>
+<Methodology>
+Generator + Critic (N=2) with comprehensive feedback loops and detailed analysis.
+</Methodology>
+<Finalization_Protocol>
+- All expert positions must include detailed risk analysis and technical evaluation.
+- The process must include comprehensive feedback loops for refinement.
+- Output must include specific examples of risks and mitigation strategies.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

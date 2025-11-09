@@ -1,0 +1,36 @@
+<SINT_Prompt_Task>
+<Objective>
+Deliver a complete Formal Definition (FD) enabling a SINT Code Generator to produce a SINT prompt that yields 4 distinct complex analytical tasks, each requiring unique interdisciplinary setups, numeric ratings (1-10), cross-evaluation, iterative convergence, and Dual Output.
+</Objective>
+<Context>
+1. Four tasks must be in clearly different domains to maximize breadth and variability.
+2. Each task enforces ratings, cross-critique, and multi-round synthesis.
+3. English-only output with strict PCG: each thesis must trace to Objective/Context.
+4. Each task prescribes specific methodology and expert roles suitable for its domain.
+5. XML-only outputs with a Verification Report and auditable meta.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Variability & Traceability">Designs tasks to expose variability while retaining audit trails.</Agent>
+<Agent id="A2" focus="Method–Domain Alignment">Maps debate/critic/consensus to domain tensions.</Agent>
+<Agent id="A3" focus="Metrics & Gatekeeping">Defines rating rubrics and verification checks.</Agent>
+<Agent id="A4" focus="Domain Diversity & Realism">Ensures domain coverage and realistic constraints.</Agent>
+</Consultants>
+<Methodology>
+Use Debates (N=4) in this System Designer step. Downstream mandates:
+- Case 2: Debates (N=3) with Step 3A (Conflict)
+- Case 3: Debates (N=3) with Step 3B (Consensus)
+- Case 4: Generator + External Critic (N=2)
+- Case 5: Debates (N=4) with Step 3A (Conflict)
+</Methodology>
+<Finalization_Protocol>
+1. Enforce PCG with INVALID/self-correct rule for ungrounded theses.
+2. Require numeric ratings, cross-evaluation, and iterative synthesis.
+3. Dual Output: Executive Summary + Synthesized Conclusion (XML) + Verification Report.
+4. Strict XML-only formatting; no leading spaces or HTML entities.
+5. MSV: stop and request clarification on contradictions/impossibility.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions;
+meta: consensus_score (0-10), iterations_used (0-2), fallback_flag (boolean).
+</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,94 @@
+<SINT_Prompt>
+<Configuration>
+    <Role>SINT Executor</Role>
+    <Protocol>
+    1. Execution of <SynthesisEngine> is strictly line-by-line.
+    2. Principle of Contextual Grounding (PCG): Any new thesis/conclusion must explicitly reference elements in <Context> or <Objective>.
+    3. Direct use or citation of pre-existing heuristics is forbidden.
+    4. Synthesis is prioritized over citation.
+    5. PCG-Failure Action: If a thesis cannot be correlated with <Context> or <Objective>, mark it as INVALID and require self-correction in the next message.
+    </Protocol>
+    <Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+
+<Objective>
+<![CDATA[Conduct a comprehensive analysis of climate change effects on global agriculture, coastal communities, and biodiversity. Use the Debates (N=3) + Conflict (Step 3A) methodology with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.]]>
+</Objective>
+
+<Context>
+    <key_facts max_items="5"><![CDATA[Numbered key facts for PCG: 1. Climate change affects global agriculture; 2. Coastal communities face rising sea levels; 3. Biodiversity is threatened by ecosystem disruption; 4. Economic impacts are significant; 5. Policy responses are required]]></key_facts>
+    <source_data><![CDATA[Climate change impact on global agriculture, coastal communities, and biodiversity. Key considerations include rising sea levels, changing precipitation patterns, temperature increases, and ecosystem disruption.]]>
+</source_data>
+</Context>
+
+<Methodology>
+Expert Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence
+</Methodology>
+
+<Consultants>
+<Consultant id="1">
+<Name>Environmental Scientist</Name>
+<Focus>Climate science, ecosystem impacts, biodiversity loss assessment</Focus>
+</Consultant>
+<Consultant id="2">
+<Name>Economist</Name>
+<Focus>Economic impacts of climate change, cost-benefit analysis of adaptation measures</Focus>
+</Consultant>
+<Consultant id="3">
+<Name>Policy Analyst</Name>
+<Focus>Policy responses, international cooperation, regulatory frameworks</Focus>
+</Consultant>
+</Consultants>
+
+<SynthesisEngine>
+Step 0: Validation Phase (MSV).
+The Executor (LLM) must conduct a logical pre-filter of the <Objective> and <Methodology> for internal contradictions or impossible instructions. If a conflict is found, stop the process and request clarification.
+
+Step 1: Initialization Phase.
+Each Consultant formulates their initial position (max 2 sentences) on the <Objective> within their <Focus>.
+
+Step 2: Divergence and Conflict Assessment Phase.
+Each Consultant assigns a Divergence Rating (1-10) to all positions.
+Conflict Assessment: If at least one agent assigns a Divergence Rating < 3 (Defective/Dangerous) to an opponent's position, proceed to Step 3A (Criticism Phase). Otherwise, proceed to Step 3B (Integration Phase - Default Path).
+
+Step 3A: Criticism Phase (Conflict Scenario).
+All consultants provide collective criticism. Each Consultant: 1) Highlights the best thesis. 2) Points out a vulnerable thesis. 3) Proposes a compromise (max 2 sentences). All theses must comply with PCG.
+
+Step 3B: Integration Phase (Consensus Scenario).
+Consultants do not criticize. Each Consultant integrates relevant theses (Rating >= 3), prioritizing them by importance to the <Objective>. All theses must comply with PCG.
+
+Step 4: Iterative Convergence/Final Synthesis.
+If Scenario 3A (Conflict) was chosen: A maximum of 2 debate rounds are conducted. Before each round, the LLM must generate a brief Summary of Progress to maintain context. On failure (Consensus < 7/10), a fallback partial_consensus is formed.
+If Scenario 3B (Consensus) was chosen: Proceed directly to Step 5.
+
+Step 4.5: Extraction and Structuring.
+Extract only PCG-valid compromise theses with a rating >= 7/10 and structure them into groups (<KeyFinding>, <RiskAssessment>). Use attributes source="fact_N" and consultant="Agent_ID" for traceability.
+
+Step 5: Finalization Phase.
+Finalize: form the public output (Executive Summary) + Synthesized Conclusion (XML) + Verification Report.
+</SynthesisEngine>
+
+<OutputFormat>
+    <ExecutiveSummary>
+        <one_line_conclusion max_chars="200" />
+        <three_bullets />
+    </ExecutiveSummary>
+    <SynthesizedConclusion>
+    Synthesis completed under Scenario: [Conflict/Consensus].
+    [Full, structured technical output in XML format, using source="..." attributes for PCG.]
+    </SynthesizedConclusion>
+    <VerificationReport>
+        <check id="pcg_compliance" result="pass|fail" note="" />
+        <check id="xml_validity" result="pass|fail" note="" />
+        <check id="objective_match" result="pass|fail" note="" />
+        <check id="no_undeclared_assumptions" result="pass|fail" note="" />
+        <meta>
+            <consensus_score>0-10</consensus_score>
+            <iterations_used>0-2</iterations_used>
+            <fallback_flag>false|true</fallback_flag>
+        </meta>
+    </VerificationReport>
+    <assumptions>
+    </assumptions>
+</OutputFormat>
+</SINT_Prompt>

@@ -1,0 +1,9 @@
+Task 1: Assessment of Quantum Computing Impact on Current Cybersecurity Infrastructure
+
+Description: Debates (N=3) + Conflict (Step 3A) with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence. Experts: Quantum Physics Specialist, Cybersecurity Architect, Technology Policy Analyst.
+
+Requirements:
+- Detailed expert positions with numerical ratings (1-10)
+- Cross-criticism between experts
+- Iterative convergence
+- Comprehensive synthesis with multiple rounds

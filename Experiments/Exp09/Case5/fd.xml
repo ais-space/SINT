@@ -1,0 +1,32 @@
+<SINT_Prompt_Task>
+<Objective>
+A complex debate on urban development priorities among sustainability experts, housing economists, urban planners, and social equity advocates. Experts must provide numerical ratings, engage in cross-evaluation, and reach iterative synthesis on development strategies. The analysis should include numerical ratings (1-10), cross-evaluation between all expert perspectives, iterative synthesis with multiple rounds, and comprehensive analysis of trade-offs.
+</Objective>
+<Context>
+Key areas: Urban development, sustainability priorities, housing affordability, quality of life, infrastructure planning, social equity. The analysis must include perspectives from sustainability experts, housing economists, urban planners, and social equity advocates, with numerical ratings, cross-evaluation, iterative synthesis, and comprehensive trade-off analysis.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Role>Sustainability Expert</Role>
+<Focus>Environmental impact and green infrastructure, carbon footprint reduction, ecosystem preservation, renewable energy integration.</Focus>
+</Consultant>
+<Consultant id="2">
+<Role>Housing Economist</Role>
+<Focus>Affordability and market dynamics, housing supply-demand balance, economic accessibility, financing mechanisms.</Focus>
+</Consultant>
+<Consultant id="3">
+<Role>Urban Planner</Role>
+<Focus>Infrastructure and spatial efficiency, transportation networks, zoning effectiveness, resource allocation.</Focus>
+</Consultant>
+<Consultant id="4">
+<Role>Social Equity Advocate</Role>
+<Focus>Community needs and access to resources, inclusive design, distributional impacts, citizen participation.</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=4) with Conflict Scenario (Step 3A) approach to address fundamental tensions between different urban development priorities.
+</Methodology>
+<Finalization_Protocol>
+All output must be in English. Experts must provide numerical ratings (1-10), engage in cross-evaluation between all perspectives, reach iterative synthesis through multiple rounds, and provide comprehensive analysis of trade-offs between different priorities.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

@@ -1,0 +1,29 @@
+<SINT_Prompt_Task>
+<Objective>
+Create a Generator+Critic workflow to build a robust evaluation protocol for ML systems facing covariate shift and data drift across quarters.
+</Objective>
+<Context>
+1. Monitoring signals for drift, acceptance thresholds, and retraining triggers.
+2. A/B guardrails and rollback criteria for safe deployment.
+3. References to drift detection literature and best practices.
+4. English output with PCG enforcement and numeric ratings.
+5. Dual Output and Verification Report are mandatory.
+</Context>
+<Consultants>
+<Agent id="G" focus="Evaluation Protocol Architect">Generator of protocol drafts and metrics.</Agent>
+<Agent id="C" focus="Risk and Compliance Review">External critic performing corrections.</Agent>
+</Consultants>
+<Methodology>
+Generator + External Critic (N=2) with explicit feedback loops and mandatory corrections.
+</Methodology>
+<Finalization_Protocol>
+1. Require numeric ratings (1-10) for risk/coverage completeness.
+2. Enforce feedback/correction cycles until constraints satisfied or limit reached.
+3. Strict XML-only formatting, no leading spaces or HTML tags/entities.
+4. PCG enforcement and MSV pre-checks.
+5. Dual Output and Verification Report required.
+</Finalization_Protocol>
+<Verification>
+Checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta fields as usual.
+</Verification>
+</SINT_Prompt_Task>

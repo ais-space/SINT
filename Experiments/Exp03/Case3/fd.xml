@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Consensus model for internal research funding balancing excellence, equity, and strategic alignment.</Objective>
+<Context>Peer review bias; early-career support; core facilities; societal impact; matching grants.</Context>
+<Consultants><Agent id="A1" focus="Research Policy"/><Agent id="A2" focus="Faculty Representation"/><Agent id="A3" focus="Finance & Grants"/></Consultants>
+<Methodology>Debates (N=3) with Step 3B (Consensus); integrate and prioritize without criticism.</Methodology>
+<Finalization_Protocol>Ratings at Step 2; strict XML; PCG; MSV; Dual Output + Verification; measurable targets and cadence.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

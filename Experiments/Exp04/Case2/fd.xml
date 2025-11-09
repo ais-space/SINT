@@ -1,0 +1,14 @@
+<SINT_Prompt_Task>
+<Objective>Balance protection efficacy, environmental impact, and community disruption for coastal flood defenses via conflict debates.</Objective>
+<Context>
+1. Sea-level rise projections; 2. Storm surge stats; 3. Ecosystem services; 4. Construction constraints; 5. Funding.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Coastal Engineering"/>
+<Agent id="A2" focus="Environmental Impact"/>
+<Agent id="A3" focus="Community Resilience"/>
+</Consultants>
+<Methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds, Divergence Ratings and compromise synthesis.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval each round; strict XML-only; PCG with INVALID/self-correct; MSV; Dual Output + Verification.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

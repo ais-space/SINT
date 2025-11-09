@@ -1,0 +1,5 @@
+run=Exp03
+temperature=0.8
+seed=42
+model=GPT-5(low reasoning)
+provider=OpenAI

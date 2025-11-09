@@ -1,0 +1,57 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) PCG required; mark INVALID if ungrounded; self-correct next.
+3) Synthesis over citation; no pre-made heuristics.
+4) Dual Output + Verification Report required.
+5) MSV: stop on contradictions/impossibility.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Create a Generator+Critic workflow to build a robust evaluation protocol for ML systems facing covariate shift and data drift across quarters.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Monitoring signals; 2. Acceptance thresholds; 3. Retraining triggers; 4. A/B guardrails; 5. Drift literature references.]]></key_facts>
+<source_data><![CDATA[Drift detection methods (PSI, KL), monitoring frameworks, compliance guidelines.]]></source_data>
+</Context>
+<Methodology>
+Generator + External Critic (N=2) with explicit feedback and mandatory corrections.
+</Methodology>
+<Consultants>
+<Agent id="G" focus="Evaluation Protocol Architect"/>
+<Agent id="C" focus="Risk and Compliance Review"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: MSV.
+Step 1: Generator drafts metrics and thresholds referencing Context.
+Step 2: Critic assigns ratings and flags risks; demand corrections.
+Step 3: Generator revises; repeat until constraints satisfied or limit hit.
+Step 4.5: Extract vetted steps as protocol items with source and consultant attributes.
+Step 5: Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200"/>
+<three_bullets/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Provide the finalized evaluation protocol with drift monitors, thresholds, retraining triggers, A/B guardrails, and rollback.
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-2</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

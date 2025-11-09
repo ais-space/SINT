@@ -1,0 +1,8 @@
+Title: LLM Inference Cost Control Protocol in Production
+Objective: Use Generator+Critic to design a cost control protocol for LLM inference while preserving QoS/SLOs.
+Context: Token budgets, routing to model tiers, caching, guardrails for quality regressions, business SLAs.
+Methodology: Generator + External Critic (N=2) with corrections and rating gates.
+Experts: Platform Optimization Architect (Generator); Finance and Risk Controller (Critic).
+Constraints: PCG; numeric ratings for risk/coverage; Dual Output + Verification.
+Expected Outcomes: Gated cost-control workflow with metrics, test hooks, and rollback triggers.
+Language: English only.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FormalDefinition xmlns="http://sint.example.com/fd/v2.2">
+  <Header>
+    <Title>Generation of Diverse Complex Analytical Tasks - Formal Definition</Title>
+    <Version>V2.2</Version>
+    <Date>2025-10-26</Date>
+    <ProjectName>Generation of Diverse Complex Analytical Tasks</ProjectName>
+    <Customer>SINT Research Laboratory</Customer>
+  </Header>
+  <Objective>
+    <Description>Generate a single, detailed, and technically complete Formal Definition (FD), which will be used by the 'Code Generator' agent to create a SINT prompt that in turn should generate 4 different complex analytical tasks, each requiring a unique interdisciplinary approach with detailed expert analysis, numerical ratings, iterative convergence, and comprehensive synthesis.</Description>
+  </Objective>
+  <Context>
+    <Description>The generated tasks should cover fundamentally different areas of knowledge, require various sets of experts and methodologies, demonstrate the broad spectrum of SINT framework capabilities, and require highly detailed analysis with numerical ratings and iterative synthesis.</Description>
+  </Context>
+  <TaskSpecification>
+    <Description>The 4 generated tasks must strictly demonstrate the following SINT modes:</Description>
+    <Task1>
+      <Mode>Debates (N=3) + Conflict (Step 3A)</Mode>
+      <Requirements>With detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence</Requirements>
+    </Task1>
+    <Task2>
+      <Mode>Debates (N=3) + Consensus (Step 3B)</Mode>
+      <Requirements>With structured rating system, detailed arguments, and multi-round synthesis</Requirements>
+    </Task2>
+    <Task3>
+      <Mode>Generator + Critic (N=2)</Mode>
+      <Requirements>With comprehensive feedback loops and detailed analysis</Requirements>
+    </Task3>
+    <Task4>
+      <Mode>Debates (N=4) + Conflict (Step 3A)</Mode>
+      <Requirements>With numerical ratings, cross-evaluation, and iterative synthesis</Requirements>
+    </Task4>
+  </TaskSpecification>
+  <Constraints>
+    <Item>Each of the 4 tasks must require a separate full SINT application</Item>
+    <Item>All tasks must be fundamentally different in thematic and approaches</Item>
+    <Item>All tasks must be formulated considering the principle of contextual grounding (PCG)</Item>
+    <Item>Each task must have clearly defined objectives and expected outcomes</Item>
+    <Item>All expert positions must include detailed arguments, numerical ratings (1-10), cross-evaluation scores, and specific examples</Item>
+    <Item>The output must include multiple rounds of criticism, iterative convergence, and comprehensive synthesis</Item>
+  </Constraints>
+  <LanguageConstraint>
+    <Requirement>All output (including 4 generated tasks) MUST BE in English</Requirement>
+  </LanguageConstraint>
+  <AnalysisRequirements>
+    <Item>Each expert must provide detailed, specific arguments with concrete examples, data points, and numerical ratings</Item>
+    <Item>The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between experts</Item>
+  </AnalysisRequirements>
+  <OutputFormat>
+    <Type>SINT Prompt</Type>
+    <Description>A prompt that will generate 4 complex analytical tasks as specified</Description>
+  </OutputFormat>
+</FormalDefinition>

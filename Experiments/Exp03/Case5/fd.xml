@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Select an urban heat mitigation investment portfolio while preserving mobility and economic activity via conflict debates.</Objective>
+<Context>Canopy; reflective surfaces; transit priority; zoning; energy demand; vulnerable populations.</Context>
+<Consultants><Agent id="A1" focus="Climate Adaptation"/><Agent id="A2" focus="Transportation Systems"/><Agent id="A3" focus="Urban Economics"/><Agent id="A4" focus="Community Health"/></Consultants>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval; strict XML; PCG + MSV; Dual Output + Verification; ranked portfolio with triggers.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

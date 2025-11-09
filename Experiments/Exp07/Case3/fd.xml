@@ -1,0 +1,28 @@
+<SINT_Prompt_Task>
+<Objective>
+Analyze the strengths and weaknesses of various healthcare systems worldwide (single-payer, multi-payer, private insurance). Use the Debates (N=3) + Consensus (Step 3B) methodology with structured rating system, detailed arguments, and multi-round synthesis.
+</Objective>
+<Context>
+Healthcare systems worldwide include single-payer (e.g., Canada, UK), multi-payer (e.g., Germany, France), and private insurance (e.g., USA) models. Key factors include access, quality, cost, efficiency, and patient outcomes.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Name>Healthcare Policy Expert</Name>
+<Focus>Policy design, implementation mechanisms, regulatory frameworks</Focus>
+</Consultant>
+<Consultant id="2">
+<Name>Economist</Name>
+<Focus>Cost-effectiveness, resource allocation, financial sustainability</Focus>
+</Consultant>
+<Consultant id="3">
+<Name>Public Health Specialist</Name>
+<Focus>Population health outcomes, accessibility, preventive care</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=3) + Consensus (Step 3B) with structured rating system, detailed arguments, and multi-round synthesis
+</Methodology>
+<Finalization_Protocol>
+All expert positions must include detailed arguments with concrete examples, data points, and numerical ratings. The process must include multi-round synthesis with detailed cross-evaluation between experts. Output must include structured rating system, detailed arguments, and comprehensive synthesis.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

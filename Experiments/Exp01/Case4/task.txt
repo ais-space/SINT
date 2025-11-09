@@ -1,0 +1,8 @@
+Title: Data Governance Protocol for Enterprise Feature Stores
+Objective: Use Generator+Critic to produce a governance protocol for ML feature stores covering lineage, access, drift, and retention.
+Context: PII handling, RBAC, audit trails, schema evolution, drift flags, incident response.
+Methodology: Generator + External Critic (N=2) with mandatory corrections and rating gates.
+Experts: Data Governance Architect (Generator); Compliance and Risk Reviewer (Critic).
+Constraints: PCG; numeric ratings for risk/coverage; Dual Output + Verification.
+Expected Outcomes: Gated governance workflow with controls, metrics, and rollback triggers.
+Language: English only.

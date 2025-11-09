@@ -1,0 +1,62 @@
+<SINT_Execution_Output>
+<Summary>
+FD and SINT prompt synthesized under Debates (N=4). Scenario 3B (Consensus) selected for meta-synthesis. Four downstream tasks defined with explicit methodologies for Cases 2–5.
+</Summary>
+<GeneratedTasks>
+<Task index="2" case="Case2">
+<title>Autonomous Maritime Port Scheduling: Safety, Throughput, and Fair Berthing</title>
+<objective>Run a conflict debate to balance collision-avoidance safety, throughput maximization, and fair berthing for autonomous tug-and-berth scheduling.</objective>
+<context>Harbor traffic rules, AIS/VTMS data, weather/visibility, labor windows, emissions constraints.</context>
+<methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.</methodology>
+<experts>
+- Harbor Safety Regulator
+- Port Operations Optimization Engineer
+- Labor and Community Impact Advocate
+</experts>
+<constraints>PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Compromise policy and scheduling principles with KPIs and guardrails.</expected_outcomes>
+</Task>
+
+<Task index="3" case="Case3">
+<title>Hospital Triage Redesign for Surge Events</title>
+<objective>Integrate timeliness, equity, and survival outcomes into a consensus triage redesign for hospital surge conditions.</objective>
+<context>ED bottlenecks, ICU capacity, staff shortages, ethical frameworks, data integration.</context>
+<methodology>Debates (N=3) with Step 3B (Consensus); integrate and prioritize without criticism.</methodology>
+<experts>
+- Emergency Medicine Lead
+- Health Systems Operations Analyst
+- Bioethics and Equity Officer
+</experts>
+<constraints>PCG; ratings and cross-evaluation at Step 2; Dual Output + Verification.</constraints>
+<expected_outcomes>Prioritized triage protocol changes with measurable targets and monitoring.</expected_outcomes>
+</Task>
+
+<Task index="4" case="Case4">
+<title>Data Governance Protocol for Enterprise Feature Stores</title>
+<objective>Use Generator+Critic to produce a governance protocol for ML feature stores covering lineage, access, drift, and retention.</objective>
+<context>PII handling, RBAC, audit trails, schema evolution, drift flags, incident response.</context>
+<methodology>Generator + External Critic (N=2) with mandatory corrections and rating gates.</methodology>
+<experts>
+- Data Governance Architect (Generator)
+- Compliance and Risk Reviewer (Critic)
+</experts>
+<constraints>PCG; numeric ratings for risk/coverage; Dual Output + Verification.</constraints>
+<expected_outcomes>Gated governance workflow with controls, metrics, and rollback triggers.</expected_outcomes>
+</Task>
+
+<Task index="5" case="Case5">
+<title>Multi-Drone Disaster Response: Airspace Safety vs. Search Efficiency</title>
+<objective>Conduct a conflict debate to balance rapid area coverage and airspace safety/comms reliability for multi-drone SAR operations.</objective>
+<context>BVLOS regs, interference, terrain/obstacles, battery/logistics, human coordination.</context>
+<methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</methodology>
+<experts>
+- Aviation Safety Officer
+- UAS Mission Planner
+- Communications and Networking Specialist
+- Field Operations Coordinator
+</experts>
+<constraints>PCG; detailed ratings and cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Ranked tactics and control policies with triggers and fail-safes.</expected_outcomes>
+</Task>
+</GeneratedTasks>
+</SINT_Execution_Output>

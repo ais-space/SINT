@@ -1,0 +1,7 @@
+Task Title: Climate Change Impact Assessment
+Description: Conduct a comprehensive analysis of climate change effects on global agriculture, coastal communities, and biodiversity. Use the Debates (N=3) + Conflict (Step 3A) methodology with detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence.
+Experts: 
+- Environmental Scientist
+- Economist
+- Policy Analyst
+Methodology: Debates (N=3) + Conflict (Step 3A)

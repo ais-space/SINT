@@ -1,0 +1,99 @@
+# SINT PROMPT: Universal Basic Income Consensus-Building Analysis
+
+## Task: Implementation of Universal Basic Income: Consensus-Building Analysis
+
+**Objective:** Facilitate a multi-round consensus-building exercise on implementing Universal Basic Income with structured rating systems and synthesis.
+
+---
+
+## EXPERT ROLES AND POSITIONS
+
+### Expert 1: Economist
+**Position:** Pilot programs with gradual implementation
+**Arguments:**
+1. Empirical data needed before full implementation
+2. Gradual rollout reduces fiscal risk
+3. Allows for policy adjustments based on results
+
+**Rating:** 8.0/10
+
+### Expert 2: Social Policy Expert
+**Position:** Targeted implementation for specific demographics
+**Arguments:**
+1. Focus on groups most in need
+2. Reduces overall cost while providing benefit
+3. Addresses specific social issues
+
+**Rating:** 7.5/10
+
+### Expert 3: Political Scientist
+**Position:** Broad-based implementation with political support
+**Arguments:**
+1. Universal programs build stronger public support
+2. Reduces political opposition over time
+3. More efficient administrative structure
+
+**Rating:** 7.0/10
+
+---
+
+## RATING SYSTEM
+
+### Criteria
+1. Fiscal Sustainability: 1-10 rating
+2. Social Impact: 1-10 rating
+3. Political Feasibility: 1-10 rating
+4. Administrative Efficiency: 1-10 rating
+
+### Experts' Scores:
+- Economist: Fiscal Sustainability: 7.5, Social Impact: 8.0, Political Feasibility: 7.0, Administrative Efficiency: 8.5
+- Social Policy Expert: Fiscal Sustainability: 8.0, Social Impact: 8.5, Political Feasibility: 7.5, Administrative Efficiency: 7.0
+- Political Scientist: Fiscal Sustainability: 6.5, Social Impact: 7.5, Political Feasibility: 8.5, Administrative Efficiency: 8.0
+
+---
+
+## MULTI-ROUND SYNTHESIS PROCESS
+
+### Round 1: Initial Position Sharing
+- Each expert presents their position with supporting evidence
+- Experts evaluate their own positions against the rating criteria
+- Initial ratings are established
+
+### Round 2: Cross-Evaluation
+- Experts evaluate others' positions and adjust their own ratings
+- Identify strengths and weaknesses in each approach
+- Consider feasibility and potential outcomes
+
+### Round 3: Synthesis Identification
+- Experts identify common ground and potential compromise solutions
+- Propose hybrid approaches combining best elements
+- Begin developing consensus recommendations
+
+### Round 4: Consensus Finalization
+- Experts finalize consensus recommendations
+- Establish implementation pathway
+- Provide final rating for the agreed approach
+
+---
+
+## ANALYSIS REQUIREMENTS
+
+1. **Structured Evaluation:** Use the four criteria for systematic analysis
+2. **Multi-Round Process:** Follow the four-round approach with specific deliverables
+3. **Consensus Building:** Focus on finding common ground and compromise
+4. **Evidence-Based:** Support all positions with data and examples
+5. **Synthesis:** Combine best elements from different approaches
+
+---
+
+## EXPECTED OUTPUT
+
+Provide a comprehensive analysis of the consensus-building process including:
+- Each expert's initial position and rating
+- Round-by-round progression and adjustments
+- Final consensus recommendations
+- Agreed implementation pathway
+- Final rating of the consensus approach
+- Key elements of the agreement
+
+**All output must be in English.**

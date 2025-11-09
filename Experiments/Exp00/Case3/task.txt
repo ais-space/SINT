@@ -1,0 +1,8 @@
+Title: Open-Source Sustainability Strategy for a Core ML Library
+Objective: Design a debate to integrate contributor growth, long-term funding, and stability guarantees into a cohesive sustainability roadmap for an open-source ML core library.
+Context: Release cadence, backward compatibility, governance models, and sponsor expectations. Use real examples of policy options (LTS branches, RFC processes).
+Methodology: Debates (N=3) with Step 3B (Consensus). No criticism; focus on integration and prioritization.
+Experts: Project Governance Lead; Ecosystem Developer Advocate; Financial Sustainability Advisor.
+Constraints: PCG required; ratings (1-10) and cross-evaluation at Step 2; Dual Output with Verification Report.
+Expected Outcomes: Prioritized policy set with measurable targets (e.g., SLA for PR review, release SLOs, funding tiers).
+Language: English only.

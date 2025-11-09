@@ -1,0 +1,35 @@
+<SINT_Prompt_Task>
+<Objective>
+Produce a fully specified Formal Definition (FD) that will enable a SINT Code Generator to compose a SINT prompt designed to yield 4 distinct complex analytical tasks. Each task must require a unique interdisciplinary configuration, include detailed expert reasoning with numeric ratings (1-10), cross-evaluation, iterative convergence, and a verifiable dual-output structure.
+</Objective>
+<Context>
+1. The 4 tasks must cover substantially different domains to stress-test generality.
+2. Each task must require explicit ratings, cross-critique, and multi-round synthesis.
+3. All outputs must be in English and adhere to PCG (trace back to Objective/Context).
+4. Each task must prescribe a precise methodology and agent composition aligned to its domain.
+5. The final outputs must be XML-only (no leading spaces), include a Verification Report, and be auditable.
+</Context>
+<Consultants>
+<Agent id="A1" focus="Design for Variability">Shapes task space to elicit observable variability across seeds/temps.</Agent>
+<Agent id="A2" focus="Method–Task Alignment">Selects debate vs. critic patterns matching domain tensions.</Agent>
+<Agent id="A3" focus="Metrics and Ratings">Defines rating rubrics, cross-evaluation protocol, and thresholds.</Agent>
+<Agent id="A4" focus="Domain Diversity Planning">Ensures domain breadth and realistic constraints/sources.</Agent>
+</Consultants>
+<Methodology>
+Use Expert Debates (N=4) for this System Designer step to balance conflicting design pressures. The resulting 4 tasks must mandate:
+- Case 2: Debates (N=3) with Step 3A (Conflict)
+- Case 3: Debates (N=3) with Step 3B (Consensus)
+- Case 4: Generator + External Critic (N=2)
+- Case 5: Debates (N=4) with Step 3A (Conflict)
+</Methodology>
+<Finalization_Protocol>
+1. Enforce PCG: all theses must cite Objective/Context; mark INVALID if ungrounded and self-correct next step.
+2. Require numeric ratings (1-10), cross-evaluation, and multi-round synthesis where applicable.
+3. Dual Output mandatory: Executive Summary (one line + three bullets) and Synthesized Conclusion (XML) plus Verification Report.
+4. Strict XML-only formatting: no markdown wrappers, no HTML tags/entities, no leading spaces.
+5. MSV: if contradictions/impossibilities arise, stop and request clarification.
+</Finalization_Protocol>
+<Verification>
+Include checks: pcg_compliance, xml_validity, objective_match, no_undeclared_assumptions; meta: consensus_score (0-10), iterations_used (0-2), fallback_flag (boolean).
+</Verification>
+</SINT_Prompt_Task>

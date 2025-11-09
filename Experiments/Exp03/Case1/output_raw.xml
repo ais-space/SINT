@@ -1,0 +1,62 @@
+<SINT_Execution_Output>
+<Summary>
+FD and SINT prompt synthesized via Debates (N=4) with Scenario 3B (Consensus). Four tasks prepared for Cases 2–5 with explicit methodologies.
+</Summary>
+<GeneratedTasks>
+<Task index="2" case="Case2">
+<title>AI-Driven Wildfire Response: Detection Latency vs. False Alarm Risk</title>
+<objective>Run a conflict debate balancing rapid detection and low false-alarm rates in AI-assisted wildfire monitoring and dispatch.</objective>
+<context>Sensor fusion, satellite vs. UAV cadence, dispatch protocols, resource constraints, public safety messaging.</context>
+<methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.</methodology>
+<experts>
+- Fire Behavior Scientist
+- Remote Sensing and Perception Engineer
+- Emergency Dispatch and Public Safety Officer
+</experts>
+<constraints>PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Operational thresholds and dispatch triggers with KPIs and safeguards.</expected_outcomes>
+</Task>
+
+<Task index="3" case="Case3">
+<title>University Research Funding Allocation Posture</title>
+<objective>Integrate excellence, equity, and strategic alignment into a consensus model for allocating internal research funds.</objective>
+<context>Peer review bias, early-career support, core facilities, societal impact, matching grants.</context>
+<methodology>Debates (N=3) with Step 3B (Consensus); integration and prioritization.</methodology>
+<experts>
+- Research Policy Director
+- Faculty Representative (STEM/Humanities balance)
+- Finance and Grants Officer
+</experts>
+<constraints>PCG; ratings and cross-evaluation at Step 2; Dual Output + Verification.</constraints>
+<expected_outcomes>Prioritized funding rules with measurable targets and review cadence.</expected_outcomes>
+</Task>
+
+<Task index="4" case="Case4">
+<title>LLM Inference Cost Control Protocol in Production</title>
+<objective>Use Generator+Critic to design a cost control protocol for LLM inference while preserving QoS/SLOs.</objective>
+<context>Token budgets, routing to model tiers, caching, guardrails for quality regressions, business SLAs.</context>
+<methodology>Generator + External Critic (N=2) with corrections and rating gates.</methodology>
+<experts>
+- Platform Optimization Architect (Generator)
+- Finance and Risk Controller (Critic)
+</experts>
+<constraints>PCG; numeric ratings for risk/coverage; Dual Output + Verification.</constraints>
+<expected_outcomes>Gated cost-control workflow with metrics, test hooks, and rollback triggers.</expected_outcomes>
+</Task>
+
+<Task index="5" case="Case5">
+<title>Urban Heat Island Mitigation Portfolio</title>
+<objective>Conduct a conflict debate to select an investment portfolio reducing urban heat while maintaining mobility and economic activity.</objective>
+<context>Tree canopy, reflective surfaces, transit priority, zoning, energy demand, vulnerable populations.</context>
+<methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</methodology>
+<experts>
+- Climate Adaptation Planner
+- Transportation Systems Engineer
+- Urban Economist
+- Community Health Advocate
+</experts>
+<constraints>PCG; ratings and cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Ranked portfolio with costs/benefits/risks and deployment triggers.</expected_outcomes>
+</Task>
+</GeneratedTasks>
+</SINT_Execution_Output>

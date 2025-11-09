@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Balance reliability, lifecycle cost, and EJ constraints in grid-scale battery siting via conflict debates.</Objective>
+<Context>LMP signals; transformer limits; fire codes; land-use; community exposure; English-only; PCG; Dual Output.</Context>
+<Consultants><Agent id="A1" focus="Power Systems Reliability"/><Agent id="A2" focus="Energy Markets & Cost"/><Agent id="A3" focus="Environmental Justice"/></Consultants>
+<Methodology>Debates (N=3) with Step 3A; ≥2 rounds; Divergence Ratings; compromise synthesis.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval; strict XML; PCG + MSV; Dual Output + Verification; KPIs and guardrails.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis; 4) Dual Output + Verification; 5) MSV stop on contradictions.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Balance rapid wildfire detection and low false-alarm risk via conflict debates with numeric ratings and iterative convergence.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[Sensor fusion cadence; dispatch protocols; resources; safety messaging; PCG + Dual Output.]]></key_facts>
+<source_data><![CDATA[Incident reports, sensor specs, standard dispatch SOPs.]]></source_data>
+</Context>
+<Methodology>Debates (N=3) with Step 3A, ≥2 rounds, Divergence Ratings, compromise synthesis.</Methodology>
+<Consultants><Agent id="A1" focus="Fire Behavior Science"/><Agent id="A2" focus="Remote Sensing & Perception"/><Agent id="A3" focus="Emergency Dispatch & Public Safety"/></Consultants>
+<SynthesisEngine>0 MSV; 1 positions; 2 ratings; 3A criticism; 4 ≤2 rounds; 4.5 extract ≥7/10; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Conflict Scenario with PCG traceability.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

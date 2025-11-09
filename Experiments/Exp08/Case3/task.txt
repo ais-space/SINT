@@ -1,0 +1,10 @@
+Task ID: 2
+Title: Educational Reform for 21st Century Skills
+Type: Debates(N=3)+Consensus
+Description: Design an educational framework integrating technology, critical thinking, and emotional intelligence with experts working toward consensus on optimal approaches through structured rating and synthesis.
+
+Objective: Create a framework for K-12 education that prepares students for a technology-driven future while maintaining humanistic and social skills.
+Context: Traditional education systems struggle to adapt to rapidly changing workforce requirements and technological capabilities.
+Consultants: Technology Integration Specialist, Child Development Expert, Workforce Readiness Analyst
+Methodology: Expert Debates (N=3) with Consensus scenario to find integrative solutions
+Experts must provide structured ratings and engage in multi-round synthesis to achieve consensus.

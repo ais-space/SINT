@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Routing and safety gates for customer support LLMs with QoS/SLO guarantees.</one_line>
+<bullets>
+<item>Tiered routing, caching, and content filtering.</item>
+<item>Human escalation and safety overrides.</item>
+<item>Rollback on QoS regression or budget breach.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Gen+Critic">
+<KeyFinding source="fact_1" consultant="G">Route by intent/risk to model tiers with cache SLOs.</KeyFinding>
+<KeyFinding source="fact_2" consultant="C">Safety filters and human handoff thresholds codified.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="C">Rollback triggers and incident response hooks.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="PCG grounding present."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Protocol produced."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

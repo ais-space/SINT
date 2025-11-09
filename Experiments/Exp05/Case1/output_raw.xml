@@ -1,0 +1,62 @@
+<SINT_Execution_Output>
+<Summary>
+FD and SINT prompt synthesized via Debates (N=4) with Scenario 3B (Consensus). Four downstream tasks prepared for Cases 2–5.
+</Summary>
+<GeneratedTasks>
+<Task index="2" case="Case2">
+<title>Grid-Scale Battery Siting: Reliability, Cost, and Environmental Justice</title>
+<objective>Run a conflict debate to balance reliability gains, lifecycle cost, and EJ constraints when siting grid-scale batteries.</objective>
+<context>Locational marginal pricing, transformer limits, fire codes, land-use policy, community exposure.</context>
+<methodology>Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.</methodology>
+<experts>
+- Power Systems Reliability Engineer
+- Energy Markets and Cost Analyst
+- Environmental Justice Policy Advocate
+</experts>
+<constraints>PCG; numeric ratings each round; cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Prioritized siting principles and guardrails with KPIs.</expected_outcomes>
+</Task>
+
+<Task index="3" case="Case3">
+<title>University Micro-credential Framework</title>
+<objective>Integrate academic quality, employability, and accessibility into a consensus framework for micro-credentials.</objective>
+<context>Stackability, accreditation, employer partnerships, tuition models, student support.</context>
+<methodology>Debates (N=3) with Step 3B (Consensus); integrate and prioritize without criticism.</methodology>
+<experts>
+- Academic Quality Lead
+- Career Services and Employer Relations
+- Student Success and Accessibility Officer
+</experts>
+<constraints>PCG; ratings and cross-evaluation at Step 2; Dual Output + Verification.</constraints>
+<expected_outcomes>Policy set with measurable targets and review cadence.</expected_outcomes>
+</Task>
+
+<Task index="4" case="Case4">
+<title>Secure Prompt Management Protocol for Enterprise LLMs</title>
+<objective>Use Generator+Critic to create a secure prompt management protocol (versioning, access, redaction, audit) for enterprise LLMs.</objective>
+<context>Prompt libraries, secrets handling, access control, change control, auditability.</context>
+<methodology>Generator + External Critic (N=2) with corrections and rating gates.</methodology>
+<experts>
+- Secure Platform Architect (Generator)
+- Compliance and Risk Controller (Critic)
+</experts>
+<constraints>PCG; numeric ratings for risk/coverage; Dual Output + Verification.</constraints>
+<expected_outcomes>Gated protocol with metrics, test hooks, and rollback triggers.</expected_outcomes>
+</Task>
+
+<Task index="5" case="Case5">
+<title>Rural Telemedicine Rollout: Coverage vs. Continuity of Care</title>
+<objective>Conduct a conflict debate to design rollout strategies balancing coverage expansion with continuity and quality of care.</objective>
+<context>Bandwidth constraints, device access, licensure, referral networks, equity in outcomes.</context>
+<methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</methodology>
+<experts>
+- Rural Health Systems Planner
+- Clinical Quality and Safety Lead
+- Digital Infrastructure Engineer
+- Community Health Advocate
+</experts>
+<constraints>PCG; ratings and cross-evaluation; Dual Output + Verification.</constraints>
+<expected_outcomes>Ranked strategy portfolio with triggers and monitoring.</expected_outcomes>
+</Task>
+</GeneratedTasks>
+</SINT_Execution_Output>

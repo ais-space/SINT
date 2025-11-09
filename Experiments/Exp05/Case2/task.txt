@@ -1,0 +1,8 @@
+Title: Grid-Scale Battery Siting: Reliability, Cost, and Environmental Justice
+Objective: Run a conflict debate to balance reliability gains, lifecycle cost, and EJ constraints when siting grid-scale batteries.
+Context: Locational marginal pricing, transformer limits, fire codes, land-use policy, community exposure.
+Methodology: Debates (N=3) with Step 3A (Conflict), ≥2 rounds with Divergence Ratings and compromise synthesis.
+Experts: Power Systems Reliability Engineer; Energy Markets and Cost Analyst; Environmental Justice Policy Advocate.
+Constraints: PCG; numeric ratings each round; cross-evaluation; Dual Output with Verification.
+Expected Outcomes: Prioritized siting principles and guardrails with KPIs.
+Language: English only.

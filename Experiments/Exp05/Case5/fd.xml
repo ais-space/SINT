@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Design telemedicine rollout balancing coverage, continuity, and quality of care via conflict debates.</Objective>
+<Context>Bandwidth; device access; licensure; referrals; equity; English-only; PCG; Dual Output.</Context>
+<Consultants><Agent id="A1" focus="Rural Health Systems"/><Agent id="A2" focus="Clinical Quality"/><Agent id="A3" focus="Digital Infrastructure"/><Agent id="A4" focus="Community Health"/></Consultants>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</Methodology>
+<Finalization_Protocol>Ratings/cross-eval; strict XML; PCG + MSV; Dual Output + Verification; ranked strategies with triggers.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

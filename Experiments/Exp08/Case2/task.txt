@@ -1,0 +1,10 @@
+Task ID: 1
+Title: Global Economic Impact of Climate Change Policies
+Type: Debates(N=3)+Conflict
+Description: Analyze the economic implications of various climate change policies across different nations, with experts in environmental economics, industrial policy, and social impact assessment engaging in structured debate with numerical ratings and iterative convergence.
+
+Objective: Assess the economic trade-offs of carbon tax vs. cap-and-trade vs. regulatory approaches to climate change mitigation.
+Context: Climate change policies require balancing environmental benefits with economic costs across various sectors and populations.
+Consultants: Environmental Economist, Industrial Policy Expert, Social Impact Analyst
+Methodology: Expert Debates (N=3) with Conflict scenario due to fundamentally opposing stakeholder interests
+Experts must provide numerical ratings (1-10) for each policy approach, engage in cross-criticism, and work toward iterative convergence.

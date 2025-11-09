@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FormalDefinition xmlns="http://sint.example.com/fd/v2.2">
+  <Header>
+    <Title>Climate Change Mitigation Strategies: Economic vs Environmental vs Social Perspectives - Formal Definition</Title>
+    <Version>V2.2</Version>
+    <Date>2025-10-26</Date>
+    <ProjectName>Climate Change Mitigation Analysis</ProjectName>
+    <Customer>SINT Research Laboratory</Customer>
+  </Header>
+  <Objective>
+    <Description>Analysis of climate change mitigation strategies from three conflicting viewpoints: economic costs, environmental urgency, and social equity considerations.</Description>
+  </Objective>
+  <Context>
+    <Description>Evaluation of climate change mitigation strategies through a multi-perspective debate process with 3 experts representing different stakeholder interests.</Description>
+  </Context>
+  <TaskSpecification>
+    <Mode>Debates (N=3) + Conflict (Step 3A)</Mode>
+    <Requirements>With detailed expert positions, numerical ratings (1-10), cross-criticism, and iterative convergence</Requirements>
+  </TaskSpecification>
+  <Experts>
+    <Expert id="1" role="Economist">
+      <Position>Market-based solutions like carbon pricing are most effective</Position>
+      <Arguments>
+        <Argument>Carbon pricing provides efficient market incentives</Argument>
+        <Argument>Minimal government intervention required</Argument>
+        <Argument>Cost-effective implementation at scale</Argument>
+      </Arguments>
+      <Rating>7.5/10</Rating>
+    </Expert>
+    <Expert id="2" role="Environmental Scientist">
+      <Position>Immediate regulatory measures are necessary</Position>
+      <Arguments>
+        <Argument>Climate crisis requires urgent action</Argument>
+        <Argument>Market mechanisms are too slow</Argument>
+        <Argument>Need for binding emissions targets</Argument>
+      </Arguments>
+      <Rating>8.5/10</Rating>
+    </Expert>
+    <Expert id="3" role="Social Justice Advocate">
+      <Position>Equity-focused approaches must take precedence</Position>
+      <Arguments>
+        <Argument>Poor communities bear disproportionate costs</Argument>
+        <Argument>Climate policies must address social justice</Argument>
+        <Argument>Just transition for workers is essential</Argument>
+      </Arguments>
+      <Rating>8.0/10</Rating>
+    </Expert>
+  </Experts>
+  <CrossCriticismFramework>
+    <Critique from="Economist" to="Environmental Scientist">Regulation might be economically inefficient and lead to unintended consequences</Critique>
+    <Critique from="Economist" to="Social Justice Advocate">Economic growth is necessary to fund social programs</Critique>
+    <Critique from="Environmental Scientist" to="Economist">Market mechanisms have failed to address climate urgency</Critique>
+    <Critique from="Environmental Scientist" to="Social Justice Advocate">Environmental collapse would harm all communities</Critique>
+    <Critique from="Social Justice Advocate" to="Economist">Market failures require government intervention</Critique>
+    <Critique from="Social Justice Advocate" to="Environmental Scientist">Environment policy must consider vulnerable populations</Critique>
+  </CrossCriticismFramework>
+  <IterativeConvergenceProcess>
+    <Synthesis>A hybrid approach combining market mechanisms with regulatory requirements and social safeguards</Synthesis>
+    <AgreedElements>Need for urgent action, diverse approaches, protection of vulnerable populations</AgreedElements>
+    <CompromiseRating>8.0/10</CompromiseRating>
+  </IterativeConvergenceProcess>
+  <Methodology>
+    <Process>Multi-expert debate with conflict resolution</Process>
+    <RatingSystem>1-10 scale for expert positions</RatingSystem>
+    <EvaluationCriteria>Cross-criticism and synthesis</EvaluationCriteria>
+  </Methodology>
+  <LanguageConstraint>
+    <Requirement>Output must be in English</Requirement>
+  </LanguageConstraint>
+  <OutputFormat>
+    <Type>SINT Prompt</Type>
+    <Description>A prompt that will facilitate the debate process and generate detailed analysis</Description>
+  </OutputFormat>
+</FormalDefinition>

@@ -1,0 +1,6 @@
+Task Title: AI Development Ethics Framework
+Description: Develop an ethical framework for advanced AI development considering technical, social, and economic implications. Use the Generator + Critic (N=2) methodology with comprehensive feedback loops and detailed analysis.
+Experts:
+- AI Ethics Specialist
+- Technology Philosopher
+Methodology: Generator + Critic (N=2)

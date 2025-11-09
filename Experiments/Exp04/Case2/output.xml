@@ -1,0 +1,22 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Conflict-managed coastal defense portfolio balancing efficacy, ecology, and community impact.</one_line>
+<bullets>
+<item>Hybrid grey-green defenses phased by surge and erosion risk.</item>
+<item>Adaptive construction windows minimizing ecological disturbance.</item>
+<item>Community access and relocation support where needed.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Conflict">
+<KeyFinding source="fact_1" consultant="A1">Sea wall + surge barrier for hotspots, complemented by dune restoration.</KeyFinding>
+<KeyFinding source="fact_3" consultant="A2">Habitat buffers and living shorelines to preserve ecosystem services.</KeyFinding>
+<RiskAssessment source="fact_2" consultant="A3">Community disruption mitigation including access continuity and compensation.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="Context references present."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Balanced portfolio delivered."/>
+<check id="no_undeclared_assumptions" result="pass" note="Assumptions explicit."/>
+<meta><consensus_score>7</consensus_score><iterations_used>2</iterations_used><fallback_flag>false</fallback_flag></meta>
+</VerificationReport>
+</SINT_Output>

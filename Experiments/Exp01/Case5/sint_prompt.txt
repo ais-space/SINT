@@ -1,0 +1,22 @@
+<SINT_Prompt>
+<Configuration><Role>SINT Executor</Role>
+<Protocol>1) Line-by-line; 2) PCG with self-correction; 3) Synthesis; 4) Dual Output + Verification; 5) MSV.</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/></Configuration>
+<Objective><![CDATA[Balance search efficiency and airspace safety/comms reliability for multi-drone SAR via conflict debates.]]></Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[BVLOS; interference; terrain; battery/logistics; human coordination.]]></key_facts>
+<source_data><![CDATA[UAS standards, SAR protocols, spectrum rules.]]></source_data>
+</Context>
+<Methodology>Debates (N=4) with Step 3A (Conflict), ≥2 rounds with divergence ratings and compromise.</Methodology>
+<Consultants><Agent id="A1" focus="Aviation Safety"/><Agent id="A2" focus="UAS Mission Planning"/><Agent id="A3" focus="Comms & Networking"/><Agent id="A4" focus="Field Operations"/></Consultants>
+<SynthesisEngine>0 MSV; 1 positions; 2 ratings; 3A criticism; 4 ≤2 rounds; 4.5 extract; 5 Dual Output + Verification.</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Ranked tactics and control policies with triggers and fail-safes.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

@@ -1,0 +1,32 @@
+<SINT_Prompt_Task>
+<Objective>
+Evaluate the sustainability of various urban development models, considering environmental, social, and economic factors. Use the Debates (N=4) + Conflict (Step 3A) methodology with numerical ratings, cross-evaluation, and iterative synthesis.
+</Objective>
+<Context>
+Urban development models include suburban sprawl, compact city, transit-oriented development, and smart city approaches. Key sustainability factors include resource consumption, carbon emissions, social equity, economic viability, and quality of life.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Name>Urban Planner</Name>
+<Focus>Land use efficiency, transportation systems, infrastructure design</Focus>
+</Consultant>
+<Consultant id="2">
+<Name>Environmental Scientist</Name>
+<Focus>Resource consumption, carbon footprint, ecosystem impact</Focus>
+</Consultant>
+<Consultant id="3">
+<Name>Sociologist</Name>
+<Focus>Community formation, social equity, quality of life, cultural preservation</Focus>
+</Consultant>
+<Consultant id="4">
+<Name>Economist</Name>
+<Focus>Development costs, economic returns, affordability, market dynamics</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Expert Debates (N=4) + Conflict (Step 3A) with numerical ratings, cross-evaluation, and iterative synthesis
+</Methodology>
+<Finalization_Protocol>
+All expert positions must include detailed arguments with concrete examples, data points, and numerical ratings. The process must include iterative rounds of criticism and synthesis with detailed cross-evaluation between all experts. Output must include multiple rounds of criticism, iterative convergence, and comprehensive synthesis.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

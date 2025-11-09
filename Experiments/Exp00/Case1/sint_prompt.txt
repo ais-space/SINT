@@ -1,0 +1,80 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) Principle of Contextual Grounding (PCG): Any new thesis or conclusion must explicitly reference elements from <Objective> or <Context>.
+3) Direct use or citation of pre-existing heuristics is forbidden.
+4) Synthesis is prioritized over citation.
+5) PCG-Failure Action: If a thesis cannot be correlated with <Objective> or <Context>, mark it as INVALID and self-correct in the next message.
+6) Dual Output is mandatory: Executive Summary + Synthesized Conclusion (XML) + Verification Report.
+7) If MSV detects conflicts or impossibility, stop and request clarification.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Generate a single, detailed, and technically complete Formal Definition (FD) to be used by the SINT Code Generator to create a SINT prompt that will in turn generate 4 different complex analytical tasks. Each of the 4 tasks must require a unique interdisciplinary approach with detailed expert analysis, numerical ratings (1-10), iterative convergence, and comprehensive synthesis.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Tasks must be in fundamentally different domains. 2. Each task must enforce ratings, cross-evaluation, and multi-round synthesis. 3. All outputs must be in English. 4. Enforce PCG throughout. 5. Prescribe methodologies by case: C2=Debates(N=3)+3A, C3=Debates(N=3)+3B, C4=Gen+Critic(N=2), C5=Debates(N=4)+3A.]]></key_facts>
+<source_data><![CDATA[SINT v2.2 framework; Prompt_CLI_EN requirements; PCG and Dual Output constraints.]]></source_data>
+</Context>
+<Methodology>
+Debates (N=4) for the present synthesis. The produced 4 tasks must set their own methodologies as specified in <Context>.
+</Methodology>
+<Consultants>
+<Agent id="A1" focus="Experiment Design and Reproducibility"/>
+<Agent id="A2" focus="Multi-Agent Debate Dynamics"/>
+<Agent id="A3" focus="Evaluation & Metrics"/>
+<Agent id="A4" focus="Domain Coverage Strategy"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: Validation Phase (MSV).
+Validate <Objective> and <Methodology> for contradictions or impossibilities. If found, stop and request clarification.
+
+Step 1: Initialization Phase.
+Each Consultant provides an initial two-sentence position aligned with <Objective> and referencing <Context>.
+
+Step 2: Divergence and Conflict Assessment Phase.
+Each Consultant assigns Divergence Ratings (1-10) to all positions.
+If any rating < 3, proceed to Step 3A (Criticism). Otherwise, proceed to Step 3B (Integration).
+
+Step 3A: Criticism Phase (Conflict Scenario).
+All consultants collectively critique: select best thesis, highlight vulnerable thesis, propose a two-sentence compromise. All theses must comply with PCG.
+
+Step 3B: Integration Phase (Consensus Scenario).
+No criticism. Each Consultant integrates relevant theses (Rating >= 3), prioritized by importance to <Objective>, with strict PCG.
+
+Step 4: Iterative Convergence/Final Synthesis.
+If 3A: at most 2 rounds; include brief progress summaries; on failure to reach consensus >= 7/10, produce partial_consensus.
+If 3B: proceed to Step 5.
+
+Step 4.5: Extraction and Structuring.
+Extract only PCG-valid compromise theses with rating >= 7/10 and structure into <KeyFinding> and <RiskAssessment> groups with attributes source="fact_N" and consultant="Agent_ID".
+
+Step 5: Finalization Phase.
+Produce Dual Output: Executive Summary (one-line + 3 bullets) + Synthesized Conclusion (XML) + Verification Report (checks + meta).
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary>
+<one_line_conclusion max_chars="200"/>
+<three_bullets/>
+</ExecutiveSummary>
+<SynthesizedConclusion>
+Provide the full, structured technical output in XML form, indicating whether Scenario 3A (Conflict) or 3B (Consensus) was followed, and using source="..." attributes for PCG traceability.
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/>
+<check id="xml_validity" result="pass|fail" note=""/>
+<check id="objective_match" result="pass|fail" note=""/>
+<check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta>
+<consensus_score>0-10</consensus_score>
+<iterations_used>0-2</iterations_used>
+<fallback_flag>false|true</fallback_flag>
+</meta>
+</VerificationReport>
+<assumptions>
+</assumptions>
+</OutputFormat>
+</SINT_Prompt>

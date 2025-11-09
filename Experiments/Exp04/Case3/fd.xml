@@ -1,0 +1,8 @@
+<SINT_Prompt_Task>
+<Objective>Consensus roadmap for open data governance balancing privacy, utility, and interoperability.</Objective>
+<Context>PII handling; licensing; APIs/standards; civic innovation; vendor lock-in risks.</Context>
+<Consultants><Agent id="A1" focus="Data Policy"/><Agent id="A2" focus="Civic Tech"/><Agent id="A3" focus="Legal & Compliance"/></Consultants>
+<Methodology>Debates (N=3) with Step 3B (Consensus); integration and prioritization without criticism.</Methodology>
+<Finalization_Protocol>Ratings at Step 2; strict XML; PCG; MSV; Dual Output + Verification; measurable targets and review cadence.</Finalization_Protocol>
+<Verification>Standard checks + meta.</Verification>
+</SINT_Prompt_Task>

@@ -1,0 +1,56 @@
+<SINT_Prompt>
+<Configuration>
+<Role>SINT Executor</Role>
+<Protocol>
+1) Execute <SynthesisEngine> strictly line-by-line.
+2) PCG: each thesis must explicitly reference <Objective> or <Context>; otherwise mark INVALID and self-correct in the next message.
+3) Do not cite pre-existing heuristics; prioritize original synthesis.
+4) Dual Output is mandatory: Executive Summary + Synthesized Conclusion (XML) + Verification Report.
+5) On MSV failure (contradictions or impossibility), stop and request clarification.
+</Protocol>
+<Dynamics iterations_limit="2" consensus_threshold="7"/>
+</Configuration>
+<Objective>
+<![CDATA[Produce a fully specified Formal Definition (FD) that will enable a SINT Code Generator to compose a SINT prompt designed to yield 4 distinct complex analytical tasks. Each task must require a unique interdisciplinary configuration, include detailed expert reasoning with numeric ratings (1-10), cross-evaluation, iterative convergence, and a verifiable dual-output structure.]]>
+</Objective>
+<Context>
+<key_facts max_items="5"><![CDATA[1. Domain breadth is required; 2. Numeric ratings and cross-evaluation; 3. English-only output; 4. PCG grounding; 5. Methodologies per case: C2=Debates(N=3)+3A, C3=Debates(N=3)+3B, C4=Gen+Critic(N=2), C5=Debates(N=4)+3A.]]></key_facts>
+<source_data><![CDATA[SINT v2.2 rules; Prompt_CLI_EN meta; Dual Output + Verification constraints.]]></source_data>
+</Context>
+<Methodology>
+Debates (N=4) for the present synthesis; the 4 downstream tasks must carry their specific methods.
+</Methodology>
+<Consultants>
+<Agent id="A1" focus="Design for Variability"/>
+<Agent id="A2" focus="Method–Task Alignment"/>
+<Agent id="A3" focus="Metrics and Ratings"/>
+<Agent id="A4" focus="Domain Diversity Planning"/>
+</Consultants>
+<SynthesisEngine>
+Step 0: Validation Phase (MSV).
+Check for contradictions or impossible instructions; stop for clarification if found.
+Step 1: Initialization.
+Each Consultant states an initial two-sentence position tied to Context.
+Step 2: Divergence and Conflict Assessment.
+All positions receive Divergence Ratings (1-10). If any rating < 3 → Step 3A; otherwise → Step 3B.
+Step 3A: Criticism (Conflict).
+All consultants: pick best thesis, flag a vulnerable one, propose a two-sentence compromise; enforce PCG.
+Step 3B: Integration (Consensus).
+No criticism; integrate theses with rating ≥ 3, prioritized by relevance; enforce PCG.
+Step 4: Convergence/Final Synthesis.
+If 3A: at most 2 rounds with progress summaries; if consensus < 7/10, deliver partial_consensus. If 3B: go to Step 5.
+Step 4.5: Extraction and Structuring.
+Extract only PCG-valid items with rating ≥ 7/10 into <KeyFinding> and <RiskAssessment> with source="fact_N" and consultant="Agent_ID".
+Step 5: Finalization.
+Produce Dual Output + Verification Report.
+</SynthesisEngine>
+<OutputFormat>
+<ExecutiveSummary><one_line_conclusion max_chars="200"/><three_bullets/></ExecutiveSummary>
+<SynthesizedConclusion>Provide the structured technical output in XML; specify whether Scenario 3A or 3B was used; include source="..." attributes for PCG.</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass|fail" note=""/><check id="xml_validity" result="pass|fail" note=""/><check id="objective_match" result="pass|fail" note=""/><check id="no_undeclared_assumptions" result="pass|fail" note=""/>
+<meta><consensus_score>0-10</consensus_score><iterations_used>0-2</iterations_used><fallback_flag>false|true</fallback_flag></meta>
+</VerificationReport>
+<assumptions></assumptions>
+</OutputFormat>
+</SINT_Prompt>

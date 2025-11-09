@@ -1,0 +1,26 @@
+<SINT_Output>
+<ExecutiveSummary>
+<one_line>Consensus roadmap balancing contributors, funding, and stability.</one_line>
+<bullets>
+<item>Adopts LTS cadence with clear BC policy.</item>
+<item>Institutes RFC-lite for medium changes and full RFC for breaking ones.</item>
+<item>Sets funding tiers tied to SLA-like community support metrics.</item>
+</bullets>
+</ExecutiveSummary>
+<SynthesizedConclusion scenario="Consensus">
+<KeyFinding source="fact_4" consultant="A1">Introduce LTS branches with deprecation windows and BC policy.</KeyFinding>
+<KeyFinding source="fact_2" consultant="A2">Improve DX via templates, triage rotations, and mentorship.</KeyFinding>
+<RiskAssessment source="fact_3" consultant="A3">Funding diversification reduces volatility; publish budget and KPIs.</RiskAssessment>
+</SynthesizedConclusion>
+<VerificationReport>
+<check id="pcg_compliance" result="pass" note="PCG citations present."/>
+<check id="xml_validity" result="pass" note="Well-formed."/>
+<check id="objective_match" result="pass" note="Roadmap aligns with objectives."/>
+<check id="no_undeclared_assumptions" result="pass" note="Grounded in context."/>
+<meta>
+<consensus_score>8</consensus_score>
+<iterations_used>1</iterations_used>
+<fallback_flag>false</fallback_flag>
+</meta>
+</VerificationReport>
+</SINT_Output>

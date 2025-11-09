@@ -1,0 +1,24 @@
+<SINT_Prompt_Task>
+<Objective>
+A critical analysis of AI's impact on employment markets where a technology expert generates projections and scenarios while an economist provides comprehensive feedback and critique. The process includes feedback loops and detailed analysis from both perspectives.
+</Objective>
+<Context>
+Key areas: AI technological capabilities, employment market dynamics, economic implications of automation, job displacement projections, new job creation, market transitions. The analysis must include scenario generation by the technology expert, comprehensive feedback and critique by the economist, and multiple feedback loops for refinement.
+</Context>
+<Consultants>
+<Consultant id="1">
+<Role>AI/Technology Expert</Role>
+<Focus>Technical capabilities and development trends of AI systems, automation potential across industries, technological limitations and constraints.</Focus>
+</Consultant>
+<Consultant id="2">
+<Role>Labor Economist</Role>
+<Focus>Economic implications and market dynamics, job displacement and creation, labor market adjustments, policy responses.</Focus>
+</Consultant>
+</Consultants>
+<Methodology>
+Generator + External Critic (N=2) with comprehensive feedback loops to ensure detailed analysis from both technical and economic perspectives.
+</Methodology>
+<Finalization_Protocol>
+All output must be in English. The generator creates detailed scenarios and projections while the critic provides comprehensive feedback and alternative perspectives. Multiple feedback loops are used for refinement and detailed analysis from both expert viewpoints.
+</Finalization_Protocol>
+</SINT_Prompt_Task>

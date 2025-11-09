@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SINTOutput xmlns="http://sint.example.com/output/v2.2">
+  <Header>
+    <Title>Universal Basic Income Consensus-Building Analysis - Results</Title>
+    <Version>V2.2</Version>
+    <Date>2025-10-26</Date>
+    <Executor>SINT Executor Engine</Executor>
+  </Header>
+  <ConsensusProcess>
+    <Round number="1" title="Initial Position Sharing">
+      <Expert id="1" role="Economist">
+        <Position>Pilot programs with gradual implementation</Position>
+        <Arguments>
+          <Argument>Empirical data needed before full implementation</Argument>
+          <Argument>Gradual rollout reduces fiscal risk</Argument>
+          <Argument>Allows for policy adjustments based on results</Argument>
+        </Arguments>
+        <Rating>8.0/10</Rating>
+        <CriteriaRatings>
+          <Rating criterion="Fiscal Sustainability">7.5</Rating>
+          <Rating criterion="Social Impact">8.0</Rating>
+          <Rating criterion="Political Feasibility">7.0</Rating>
+          <Rating criterion="Administrative Efficiency">8.5</Rating>
+        </CriteriaRatings>
+      </Expert>
+      <Expert id="2" role="Social Policy Expert">
+        <Position>Targeted implementation for specific demographics</Position>
+        <Arguments>
+          <Argument>Focus on groups most in need</Argument>
+          <Argument>Reduces overall cost while providing benefit</Argument>
+          <Argument>Addresses specific social issues</Argument>
+        </Arguments>
+        <Rating>7.5/10</Rating>
+        <CriteriaRatings>
+          <Rating criterion="Fiscal Sustainability">8.0</Rating>
+          <Rating criterion="Social Impact">8.5</Rating>
+          <Rating criterion="Political Feasibility">7.5</Rating>
+          <Rating criterion="Administrative Efficiency">7.0</Rating>
+        </CriteriaRatings>
+      </Expert>
+      <Expert id="3" role="Political Scientist">
+        <Position>Broad-based implementation with political support</Position>
+        <Arguments>
+          <Argument>Universal programs build stronger public support</Argument>
+          <Argument>Reduces political opposition over time</Argument>
+          <Argument>More efficient administrative structure</Argument>
+        </Arguments>
+        <Rating>7.0/10</Rating>
+        <CriteriaRatings>
+          <Rating criterion="Fiscal Sustainability">6.5</Rating>
+          <Rating criterion="Social Impact">7.5</Rating>
+          <Rating criterion="Political Feasibility">8.5</Rating>
+          <Rating criterion="Administrative Efficiency">8.0</Rating>
+        </CriteriaRatings>
+      </Expert>
+    </Round>
+    <Round number="2" title="Cross-Evaluation">
+      <Expert id="1" role="Economist">
+        <EvaluationOfOthers>
+          <Evaluation target="Social Policy Expert">
+            <Strength>Strong focus on social impact</Strength>
+            <Weakness>May have administrative complexity</Weakness>
+            <RevisedRating>7.8/10</RevisedRating>
+          </Evaluation>
+          <Evaluation target="Political Scientist">
+            <Strength>Good political viability perspective</Strength>
+            <Weakness>Lower fiscal sustainability rating</Weakness>
+            <RevisedRating>7.2/10</RevisedRating>
+          </Evaluation>
+        </EvaluationOfOthers>
+        <Adjustments>
+          <Adjustment>Recognize importance of targeted approach in pilots</Adjustment>
+        </Adjustments>
+      </Expert>
+      <Expert id="2" role="Social Policy Expert">
+        <EvaluationOfOthers>
+          <Evaluation target="Economist">
+            <Strength>Sound fiscal approach with risk management</Strength>
+            <Weakness>May delay benefits to those in need</Weakness>
+            <RevisedRating>8.2/10</RevisedRating>
+          </Evaluation>
+          <Evaluation target="Political Scientist">
+            <Strength>Addresses political sustainability</Strength>
+            <Weakness>Higher fiscal risk</Weakness>
+            <RevisedRating>7.3/10</RevisedRating>
+          </Evaluation>
+        </EvaluationOfOthers>
+        <Adjustments>
+          <Adjustment>Consider pilot approach for targeted programs</Adjustment>
+        </Adjustments>
+      </Expert>
+      <Expert id="3" role="Political Scientist">
+        <EvaluationOfOthers>
+          <Evaluation target="Economist">
+            <Strength>Prudent fiscal management approach</Strength>
+            <Weakness>Lower political feasibility</Weakness>
+            <RevisedRating>7.8/10</RevisedRating>
+          </Evaluation>
+          <Evaluation target="Social Policy Expert">
+            <Strength>Strong social impact focus</Strength>
+            <Weakness>May face stigmatization issues</Weakness>
+            <RevisedRating>7.7/10</RevisedRating>
+          </Evaluation>
+        </EvaluationOfOthers>
+        <Adjustments>
+          <Adjustment>Consider hybrid approach combining elements</Adjustment>
+        </Adjustments>
+      </Expert>
+    </Round>
+    <Round number="3" title="Synthesis Identification">
+      <Expert id="1" role="Economist">
+        <SynthesisProposal>
+          <Concept>Phased implementation starting with targeted pilot programs</Concept>
+          <Rationale>Combines fiscal prudence with social impact focus</Rationale>
+        </SynthesisProposal>
+      </Expert>
+      <Expert id="2" role="Social Policy Expert">
+        <SynthesisProposal>
+          <Concept>Begin with targeted programs, expand based on evidence</Concept>
+          <Rationale>Addresses immediate needs while allowing for scaling</Rationale>
+        </SynthesisProposal>
+      </Expert>
+      <Expert id="3" role="Political Scientist">
+        <SynthesisProposal>
+          <Concept>Proof-of-concept programs building toward broader support</Concept>
+          <Rationale>Creates success stories to build political momentum</Rationale>
+        </SynthesisProposal>
+      </Expert>
+      <CommonGround>
+        <Agreement>Phased approach starting with pilot programs</Agreement>
+        <Agreement>Evidence-based expansion</Agreement>
+        <Agreement>Combination of targeted and universal elements</Agreement>
+      </CommonGround>
+    </Round>
+    <Round number="4" title="Consensus Finalization">
+      <ConsensusRecommendation>
+        <Approach>Phased implementation of UBI beginning with targeted pilot programs, followed by broader implementation based on data</Approach>
+        <ImplementationPathway>Start with pilots targeting specific demographics, expand based on results and political feasibility</ImplementationPathway>
+        <ExpectedOutcomes>
+          <Outcome>Reduced poverty and economic insecurity</Outcome>
+          <Outcome>Better understanding of UBI impacts</Outcome>
+          <Outcome>Political validation of approach</Outcome>
+        </ExpectedOutcomes>
+      </ConsensusRecommendation>
+      <FinalRating>7.8/10</FinalRating>
+      <ImplementationPrinciples>
+        <Principle>Evidence-based decision making</Principle>
+        <Principle>Gradual implementation</Principle>
+        <Principle>Combination of targeted and universal elements</Principle>
+        <Principle>Regular evaluation and adjustment</Principle>
+      </ImplementationPrinciples>
+    </Round>
+  </ConsensusProcess>
+  <AnalysisSummary>
+    <Strengths>
+      <Strength>Structured approach to consensus building</Strength>
+      <Strength>Comprehensive evaluation across multiple criteria</Strength>
+      <Strength>Pragmatic compromise solution</Strength>
+    </Strengths>
+    <Challenges>
+      <Challenge>Reconciling different implementation philosophies</Challenge>
+      <Challenge>Long-term fiscal sustainability</Challenge>
+      <Challenge>Political feasibility across different contexts</Challenge>
+    </Challenges>
+    <KeyInsights>
+      <Insight>Phased implementation reduces risk while building evidence</Insight>
+      <Insight>Targeted pilots can provide benefits while building support</Insight>
+      <Insight>Political sustainability requires evidence of effectiveness</Insight>
+    </KeyInsights>
+  </AnalysisSummary>
+  <FinalOutcome>
+    <ConvergedSolution>Phased UBI implementation starting with targeted pilot programs</ConvergedSolution>
+    <ImplementationPathway>Begin with pilot programs targeting specific demographics, expand based on data and political feasibility</ImplementationPathway>
+    <SuccessMetrics>Reduction in poverty, fiscal sustainability, political support</SuccessMetrics>
+  </FinalOutcome>
+</SINTOutput>
